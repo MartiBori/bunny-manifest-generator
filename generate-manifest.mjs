@@ -1,79 +1,117 @@
-import 'dotenv/config';
-import axios from 'axios';
-import path from 'path';
+import axios from "axios";
+import * as fs from "fs";
+import * as path from "path";
+import "dotenv/config";
 
-const ZONE = process.env.BUNNY_STORAGE_ZONE;
-const KEY  = process.env.BUNNY_STORAGE_API_KEY;
-const CDN  = process.env.BUNNY_CDN_BASE;
-const ROOT = (process.env.ROOT_PREFIX || 'Test').replace(/^\/+|\/+$/g, '');
+/**
+ * Recorre TOTES les carpetes i fitxers a partir de ROOT_PREFIX
+ * i genera un JSON en format:
+ * { children: [ { name, children: [...], files: [...] } ], files: [...] }
+ */
 
-if (!ZONE || !KEY || !CDN) { console.error('Falten BUNNY_STORAGE_ZONE, BUNNY_STORAGE_API_KEY, BUNNY_CDN_BASE'); process.exit(1); }
+const STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;   // ex: foto360
+const API_KEY = process.env.BUNNY_STORAGE_API_KEY; // Storage API (write)
+const CDN_BASE = process.env.BUNNY_CDN_BASE;        // ex: https://foto360.b-cdn.net
+const ROOT_PREFIX = process.env.ROOT_PREFIX;           // ex: Vila_Viatges
 
-const storage = axios.create({
-  baseURL: `https://storage.bunnycdn.com/${ZONE}/`,
-  headers: { AccessKey: KEY },
-  responseType: 'json',
-  validateStatus: () => true
-});
-
-function isAssetFile(name) {
-  const ext = path.extname(name).toLowerCase();
-  const IMG = ['.jpg','.jpeg','.png','.webp','.avif','.gif'];
-  const AUD = ['.mp3','.wav','.ogg'];
-  const VID = ['.mp4','.m4v','.mov','.webm','.m3u8'];
-  return IMG.includes(ext) || AUD.includes(ext) || VID.includes(ext);
-}
-
-async function listDir(relPath = '') {
-  const clean = relPath.replace(/^\/+|\/+$/g, '');
-  const url = clean ? `${clean}/` : '';
-  const res = await storage.get(encodeURI(url));
-  if (res.status >= 400) throw new Error(`List error ${res.status} @ ${url}: ${res.data?.Message || res.statusText}`);
-  return res.data;
-}
-
-async function crawlTestStructure(rootPrefix) {
-  const itineraries = [];
-  const firstLevel = await listDir(rootPrefix);
-  for (const it of firstLevel) {
-    if (it.IsDirectory !== true) continue;
-    const itineraryName = it.ObjectName;
-    const days = [];
-    const daysList = await listDir(`${rootPrefix}/${itineraryName}`);
-    for (const d of daysList) {
-      if (d.IsDirectory !== true) continue;
-      const dayName = d.ObjectName;
-      const assets = [];
-      const files = await listDir(`${rootPrefix}/${itineraryName}/${dayName}`);
-      for (const f of files) {
-        if (f.IsDirectory === true) continue;
-        if (!isAssetFile(f.ObjectName)) continue;
-        const rel = `${rootPrefix}/${itineraryName}/${dayName}/${f.ObjectName}`;
-        assets.push({ url: `${CDN}/${encodeURI(rel)}`, name: f.ObjectName });
-      }
-      days.push({ name: dayName, assets });
-    }
-    itineraries.push({ name: itineraryName, days });
-  }
-  return { itineraries };
-}
-
-async function uploadJson(jsonText, targetPath) {
-  const res = await storage.put(encodeURI(targetPath), jsonText, { headers: { 'Content-Type': 'application/json' } });
-  if (res.status < 200 || res.status >= 300) throw new Error(`Upload error ${res.status}: ${res.data?.Message || res.statusText}`);
-  return true;
-}
-
-(async () => {
-  try {
-    const manifest = await crawlTestStructure(ROOT);
-    const json = JSON.stringify(manifest, null, 2);
-    const target = `${ROOT}/manifest.json`;
-    await uploadJson(json, target);
-    console.log(`Manifest generat i pujat: ${target}`);
-    console.log(`URL pública: ${CDN}/${target}`);
-  } catch (err) {
-    console.error('FALLA:', err.message || err);
+if (!STORAGE_ZONE || !API_KEY || !CDN_BASE || !ROOT_PREFIX) {
+    console.error("Falten secrets: BUNNY_STORAGE_ZONE / BUNNY_STORAGE_API_KEY / BUNNY_CDN_BASE / ROOT_PREFIX");
     process.exit(1);
-  }
-})();
+}
+
+const STORAGE_API = "https://storage.bunnycdn.com";
+
+// util robust per camps
+const isDir = (it) => it?.IsDirectory === true || it?.isDirectory === true || it?.Type === "Directory";
+const objName = (it) => it?.ObjectName || it?.Name || it?.name || "";
+
+/** Llista una carpeta de Storage (retorna array d'items) */
+async function listFolder(prefix) {
+    // IMPORTANT: encodeURI (no encodeURIComponent) per conservar les barres
+    const url = `${STORAGE_API}/${encodeURIComponent(STORAGE_ZONE)}/${encodeURI(prefix)}`;
+    const res = await axios.get(url, { headers: { AccessKey: API_KEY } });
+    // segons versió d'API pot venir com a array o com { Items: [...] }
+    const items = Array.isArray(res.data) ? res.data : (res.data.Items || []);
+    return items;
+}
+
+/** Construeix node recursiu {name, children[], files[]} per a un prefix */
+async function buildNode(prefix, nodeName) {
+    const items = await listFolder(prefix);
+    const node = { name: nodeName, children: [], files: [] };
+
+    // Ordena: carpetes primer, després fitxers, alfabètic
+    items.sort((a, b) => {
+        const da = isDir(a), db = isDir(b);
+        if (da !== db) return da ? -1 : 1;
+        return objName(a).localeCompare(objName(b), "ca", { sensitivity: "base" });
+    });
+
+    for (const it of items) {
+        const name = objName(it);
+        if (!name) continue;
+
+        if (isDir(it)) {
+            const childPrefix = prefix.endsWith("/") ? `${prefix}${name}` : `${prefix}/${name}`;
+            const child = await buildNode(childPrefix, name);
+            node.children.push(child);
+        } else {
+            node.files.push(name); // Nom de fitxer (si vols URL absoluta, aquí pots construir-la)
+            // Ex d'URL absoluta:
+            // const url = `${CDN_BASE.replace(/\/$/, "")}/${encodeURI(prefix)}/${encodeURIComponent(name)}`;
+            // node.files.push(url);
+        }
+    }
+    return node;
+}
+
+async function run() {
+    console.log(`[generator] Inici -> /${ROOT_PREFIX}`);
+
+    // Llista l'arrel del projecte (Vila_Viatges) i construeix RBTree
+    const rootItems = await listFolder(ROOT_PREFIX);
+    const tree = { children: [], files: [] };
+
+    // Ordena items de l'arrel (carpetes primer)
+    rootItems.sort((a, b) => {
+        const da = isDir(a), db = isDir(b);
+        if (da !== db) return da ? -1 : 1;
+        return objName(a).localeCompare(objName(b), "ca", { sensitivity: "base" });
+    });
+
+    for (const it of rootItems) {
+        const name = objName(it);
+        if (!name) continue;
+
+        if (isDir(it)) {
+            const prefix = `${ROOT_PREFIX}/${name}`;
+            const node = await buildNode(prefix, name);
+            tree.children.push(node);
+        } else {
+            tree.files.push(name);
+        }
+    }
+
+    // Escriu localment i puja a Bunny
+    const json = JSON.stringify(tree, null, 2);
+    const outLocal = path.join(process.cwd(), "manifest.json");
+    fs.writeFileSync(outLocal, json);
+    console.log(`[generator] Manifest local -> ${outLocal}`);
+
+    const remotePath = `${STORAGE_API}/${encodeURIComponent(STORAGE_ZONE)}/${encodeURI(ROOT_PREFIX)}/manifest.json`;
+    await axios.put(remotePath, json, {
+        headers: {
+            AccessKey: API_KEY,
+            "Content-Type": "application/json"
+        }
+    });
+
+    const cdnUrl = `${CDN_BASE.replace(/\/$/, "")}/${ROOT_PREFIX}/manifest.json`;
+    console.log(`[generator] Pujat a Storage -> /${ROOT_PREFIX}/manifest.json`);
+    console.log(`[generator] URL CDN -> ${cdnUrl}`);
+}
+
+run().catch(err => {
+    console.error("[generator] ERROR:", err?.response?.data || err.message || err);
+    process.exit(1);
+});
