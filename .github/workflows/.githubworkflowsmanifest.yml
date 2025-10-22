@@ -1,0 +1,24 @@
+name: Build & Upload Bunny Manifest
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "*/10 * * * *"  # cada 10 minuts
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install deps
+        run: npm ci
+      - name: Run generator
+        env:
+          BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
+          BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
+          BUNNY_CDN_BASE: ${{ secrets.BUNNY_CDN_BASE }}
+          ROOT_PREFIX: ${{ secrets.ROOT_PREFIX }}
+        run: npm run build
