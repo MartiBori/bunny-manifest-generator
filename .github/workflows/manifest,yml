@@ -28,3 +28,4 @@ jobs:
           BUNNY_CDN_BASE: ${{ secrets.BUNNY_CDN_BASE }}
           ROOT_PREFIX: ${{ secrets.ROOT_PREFIX }}
         run: npm run build
+        # ping
