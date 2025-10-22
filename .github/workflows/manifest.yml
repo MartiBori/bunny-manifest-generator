@@ -1,9 +1,9 @@
 name: Build & Upload Bunny Manifest
 
 on:
-  workflow_dispatch: {}          # Botó "Run workflow"
+  workflow_dispatch: {}
   schedule:
-    - cron: "*/10 * * * *"       # Cada 10 minuts
+    - cron: "*/10 * * * *"
 
 jobs:
   build:
@@ -13,19 +13,38 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Show workspace (pwd, ls)
+        run: |
+          pwd
+          ls -la
+          echo "---- .github ----"
+          ls -la .github || true
+          echo "---- workflows ----"
+          ls -la .github/workflows || true
+
+      - name: Show package.json (if present)
+        run: |
+          if [ -f package.json ]; then
+            cat package.json
+          else
+            echo "package.json NOT FOUND in workspace"
+            exit 1
+          fi
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install deps
+        working-directory: ${{ github.workspace }}
         run: npm install
 
       - name: Run generator
+        working-directory: ${{ github.workspace }}
         env:
           BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
           BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
           BUNNY_CDN_BASE: ${{ secrets.BUNNY_CDN_BASE }}
           ROOT_PREFIX: ${{ secrets.ROOT_PREFIX }}
         run: npm run build
-        # ping
