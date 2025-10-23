@@ -8,21 +8,21 @@ import "dotenv/config";
 /**
  * Manifest generat:
  * {
- *   "children":[ { "name":"Carpeta", "children":[...], "files":[ "a.png", "b.mp3" ] } ],
- *   "files":[ ... ]
+ *   "children":[
+ *     { "name":"Carpeta",
+ *       "children":[ ... ],
+ *       "files":[ { "name":"a.png", "url":"https://.../a.png" }, ... ]
+ *     }
+ *   ],
+ *   "files":[ { "name":"arrel.png", "url":"https://.../arrel.png" } ]
  * }
- *
- * - Recorre totes les carpetes i fitxers sota ROOT_PREFIX (? nivells).
- * - PUT sempre a /<ZONE>/<ROOT_PREFIX>/manifest.json.
- * - Verifica pel CONTINGUT (claus ordenades) per evitar falsos negatius.
- * - Purge del CDN opcional (BUNNY_ACCOUNT_API_KEY).
  */
 
-const STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;        // p.ex. foto360
-const API_KEY = process.env.BUNNY_STORAGE_API_KEY;     // Storage API (RW)
-const CDN_BASE = process.env.BUNNY_CDN_BASE || "";      // p.ex. https://foto360.b-cdn.net
-const ROOT_PREFIX = process.env.ROOT_PREFIX;               // p.ex. Vila_Viatges (sense / inicial)
-const ACCOUNT_KEY = process.env.BUNNY_ACCOUNT_API_KEY || "";// opcional (purge)
+const STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;          // p.ex. foto360
+const API_KEY = process.env.BUNNY_STORAGE_API_KEY;       // Storage API (RW)
+const CDN_BASE = process.env.BUNNY_CDN_BASE || "";        // p.ex. https://foto360.b-cdn.net
+const ROOT_PREFIX = process.env.ROOT_PREFIX;                 // p.ex. Vila_Viatges (sense / inicial)
+const ACCOUNT_KEY = process.env.BUNNY_ACCOUNT_API_KEY || ""; // opcional (purge)
 
 if (!STORAGE_ZONE || !API_KEY || !ROOT_PREFIX) {
     console.error("[generator] Falten BUNNY_STORAGE_ZONE / BUNNY_STORAGE_API_KEY / ROOT_PREFIX");
@@ -30,15 +30,10 @@ if (!STORAGE_ZONE || !API_KEY || !ROOT_PREFIX) {
 }
 
 const STORAGE_API = "https://storage.bunnycdn.com";
-
-// Helpers lectura Storage
 const isDir = (it) => it?.IsDirectory === true || it?.isDirectory === true || it?.Type === "Directory";
 const oName = (it) => it?.ObjectName || it?.Name || it?.name || "";
-
-// Hash
 const sha1 = (s) => crypto.createHash("sha1").update(s).digest("hex");
 
-// Stats
 let folderCount = 0;
 let fileCount = 0;
 
@@ -57,7 +52,7 @@ async function listFolder(prefix) {
     return items;
 }
 
-/** Construeix node recursiu {name, children[], files[]} */
+/** Construeix node recursiu {name, children[], files:[{name,url}]} */
 async function buildNode(prefix, nodeName) {
     const items = await listFolder(prefix);
     const node = { name: nodeName, children: [], files: [] };
@@ -80,10 +75,9 @@ async function buildNode(prefix, nodeName) {
             node.children.push(child);
         } else {
             fileCount++;
-            node.files.push(name);
-            // Si vols URL completa en lloc de nom:
-            // const url = `${CDN_BASE.replace(/\/$/, "")}/${encodeURI(prefix)}/${encodeURIComponent(name)}`;
-            // node.files.push(url);
+            const relPath = prefix.endsWith("/") ? `${prefix}${name}` : `${prefix}/${name}`;
+            const url = CDN_BASE ? `${CDN_BASE.replace(/\/$/, "")}/${encodeURI(relPath)}` : null;
+            node.files.push({ name, url });
         }
     }
     return node;
@@ -130,11 +124,13 @@ async function run() {
             tree.children.push(child);
         } else {
             fileCount++;
-            tree.files.push(name);
+            const relPath = `${ROOT_PREFIX}/${name}`;
+            const url = CDN_BASE ? `${CDN_BASE.replace(/\/$/, "")}/${encodeURI(relPath)}` : null;
+            tree.files.push({ name, url });
         }
     }
 
-    // 2) Escriu localment
+    // 2) Escriu local i stats
     const json = JSON.stringify(tree, null, 2);
     const outLocal = path.join(process.cwd(), "manifest.json");
     fs.writeFileSync(outLocal, json);
@@ -150,11 +146,10 @@ async function run() {
     });
     console.log(`[generator] Pujat a Storage -> /${ROOT_PREFIX}/manifest.json`);
 
-    // 4) Verificació per CONTINGUT (claus ordenades)
+    // 4) Verificació pel CONTINGUT (claus ordenades)
     const verifyRes = await axios.get(remotePath, {
         headers: { AccessKey: API_KEY, Accept: "application/json" }
     });
-
     const localObj = JSON.parse(json);
     const remoteObj = (typeof verifyRes.data === "string")
         ? JSON.parse(verifyRes.data)
@@ -168,14 +163,13 @@ async function run() {
         throw new Error("Storage content does not match the uploaded manifest (revisa Zona/Prefix/API key).");
     }
 
-    // 5) Purge CDN (opcional)
+    // 5) Purge CDN (opcional) — format correcte: { Urls: [ ... ] }
     if (ACCOUNT_KEY && CDN_BASE) {
         const purgeUrl = `${CDN_BASE.replace(/\/$/, "")}/${ROOT_PREFIX}/manifest.json`;
         try {
-            // Bunny requereix "Urls" com a array
             await axios.post(
                 "https://api.bunny.net/purge",
-                { Urls: [purgeUrl] }, // <-- IMPORTANT: camp plural i array
+                { Urls: [purgeUrl] },
                 {
                     headers: {
                         AccessKey: ACCOUNT_KEY,
