@@ -1,9 +1,9 @@
 name: Build & Upload Bunny Manifest
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch: {}           # Botó "Run workflow"
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"        # Cada 10 minuts (UTC)
 
 jobs:
   build:
@@ -17,19 +17,6 @@ jobs:
         run: |
           pwd
           ls -la
-          echo "---- .github ----"
-          ls -la .github || true
-          echo "---- workflows ----"
-          ls -la .github/workflows || true
-
-      - name: Show package.json (if present)
-        run: |
-          if [ -f package.json ]; then
-            cat package.json
-          else
-            echo "package.json NOT FOUND in workspace"
-            exit 1
-          fi
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -37,14 +24,15 @@ jobs:
           node-version: 20
 
       - name: Install deps
-        working-directory: ${{ github.workspace }}
-        run: npm install
+        run: npm ci || npm i
 
       - name: Run generator
-        working-directory: ${{ github.workspace }}
         env:
-          BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
+          # Si prefereixes veure'ls al log, passa aquests com VARS en comptes de secrets
+          BUNNY_STORAGE_ZONE:    ${{ vars.BUNNY_STORAGE_ZONE }}
+          ROOT_PREFIX:           ${{ vars.ROOT_PREFIX }}
+          BUNNY_CDN_BASE:        ${{ vars.BUNNY_CDN_BASE }}
           BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
-          BUNNY_CDN_BASE: ${{ secrets.BUNNY_CDN_BASE }}
-          ROOT_PREFIX: ${{ secrets.ROOT_PREFIX }}
-        run: npm run build
+          # Opcional (només si vols purge automàtic al final):
+          BUNNY_ACCOUNT_API_KEY: ${{ secrets.BUNNY_ACCOUNT_API_KEY }}
+        run: node generate-manifest.mjs
