@@ -172,9 +172,17 @@ async function run() {
     if (ACCOUNT_KEY && CDN_BASE) {
         const purgeUrl = `${CDN_BASE.replace(/\/$/, "")}/${ROOT_PREFIX}/manifest.json`;
         try {
-            await axios.post("https://api.bunny.net/purge", { url: purgeUrl }, {
-                headers: { AccessKey: ACCOUNT_KEY }
-            });
+            // Bunny requereix "Urls" com a array
+            await axios.post(
+                "https://api.bunny.net/purge",
+                { Urls: [purgeUrl] }, // <-- IMPORTANT: camp plural i array
+                {
+                    headers: {
+                        AccessKey: ACCOUNT_KEY,
+                        "Content-Type": "application/json",
+                    },
+                }
+            );
             console.log(`[generator] Purge CDN -> ${purgeUrl}`);
         } catch (e) {
             console.warn("[generator] Purge CDN ERROR:", e?.response?.data || e.message);
