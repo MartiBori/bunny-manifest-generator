@@ -26,13 +26,27 @@ jobs:
       - name: Install deps
         run: npm ci || npm i
 
-      - name: Run generator
+      # 1) Manifest de STORAGE (com fins ara)
+      - name: Run storage manifest generator
         env:
-          # Si prefereixes veure'ls al log, passa aquests com VARS en comptes de secrets
           BUNNY_STORAGE_ZONE:    ${{ vars.BUNNY_STORAGE_ZONE }}
           ROOT_PREFIX:           ${{ vars.ROOT_PREFIX }}
           BUNNY_CDN_BASE:        ${{ vars.BUNNY_CDN_BASE }}
           BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
-          # Opcional (només si vols purge automàtic al final):
           BUNNY_ACCOUNT_API_KEY: ${{ secrets.BUNNY_ACCOUNT_API_KEY }}
         run: node generate-manifest.mjs
+
+      # 2) Manifest de STREAM (nou)
+      - name: Run stream manifest generator
+        env:
+          # Mateixos valors de Storage per pujar el manifest al mateix lloc
+          BUNNY_STORAGE_ZONE:    ${{ vars.BUNNY_STORAGE_ZONE }}
+          ROOT_PREFIX:           ${{ vars.ROOT_PREFIX }}
+          BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
+
+          # Envs propis de Stream
+          BUNNY_STREAM_LIBRARY_ID: ${{ vars.BUNNY_STREAM_LIBRARY_ID }}
+          BUNNY_STREAM_API_KEY:    ${{ secrets.BUNNY_STREAM_API_KEY }}
+          # Opcional: si vols sobreescriure la base de play
+          BUNNY_STREAM_PLAY_BASE:  ${{ vars.BUNNY_STREAM_PLAY_BASE }}
+        run: node generate-stream-manifest.mjs
