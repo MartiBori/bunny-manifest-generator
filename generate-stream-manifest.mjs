@@ -86,7 +86,11 @@ async function listAllStreamVideos() {
  * Exemple: https://video.bunnycdn.com/play/{libraryId}/{videoGuid}/playlist.m3u8
  */
 function buildPlaybackUrl(videoGuid) {
-    return `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${videoGuid}/playlist.m3u8`;
+    // Direct Play URL
+    // Docs: https://video.bunnycdn.com/play/{video_library_id}/{video_id}
+    // o, si configures BUNNY_STREAM_PLAY_BASE amb iframe.mediadelivery.net/play:
+    //     https://iframe.mediadelivery.net/play/{video_library_id}/{video_id}
+    return `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${videoGuid}`;
 }
 
 /**
