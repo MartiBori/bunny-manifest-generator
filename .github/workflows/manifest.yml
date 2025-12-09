@@ -49,4 +49,7 @@ jobs:
           BUNNY_STREAM_API_KEY:    ${{ secrets.BUNNY_STREAM_API_KEY }}
           # Opcional: si vols sobreescriure la base de play
           BUNNY_STREAM_PLAY_BASE:  ${{ vars.BUNNY_STREAM_PLAY_BASE }}
+          # ?? AFEGIT: base de l'HLS
+          BUNNY_STREAM_HLS_BASE:   ${{ vars.BUNNY_STREAM_HLS_BASE }}
         run: node generate-stream-manifest.mjs
+
