@@ -20,6 +20,8 @@ const STREAM_PLAY_BASE =
         /\/$/,
         ""
     );
+const STREAM_HLS_BASE = process.env.BUNNY_STREAM_HLS_BASE; // ex: https://vz-f7f1c890-6a0.b-cdn.net
+
 
 // Validacions mínimes
 if (!STORAGE_ZONE) throw new Error("Falta BUNNY_STORAGE_ZONE");
@@ -81,17 +83,19 @@ async function listAllStreamVideos() {
     return all;
 }
 
-/**
- * Construeix la URL de playback (HLS) a partir del GUID del vídeo.
- * Exemple: https://video.bunnycdn.com/play/{libraryId}/{videoGuid}/playlist.m3u8
- */
-function buildPlaybackUrl(videoGuid) {
-    // Direct Play URL
-    // Docs: https://video.bunnycdn.com/play/{video_library_id}/{video_id}
-    // o, si configures BUNNY_STREAM_PLAY_BASE amb iframe.mediadelivery.net/play:
-    //     https://iframe.mediadelivery.net/play/{video_library_id}/{video_id}
-    return `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${videoGuid}`;
+function buildHlsUrl(videoGuid) {
+    if (!STREAM_HLS_BASE) return null;
+    // https://vz-xxxx.b-cdn.net/<guid>/playlist.m3u8
+    const base = STREAM_HLS_BASE.replace(/\/$/, "");
+    return `${base}/${videoGuid}/playlist.m3u8`;
 }
+
+function buildDirectUrl(videoGuid) {
+    // https://iframe.mediadelivery.net/play/<libraryId>/<guid>
+    const base = STREAM_PLAY_BASE.replace(/\/$/, "");
+    return `${base}/${STREAM_LIBRARY_ID}/${videoGuid}`;
+}
+
 
 /**
  * Genera un manifest molt simple:
@@ -130,13 +134,25 @@ async function run() {
             continue;
         }
 
-        const playbackUrl = buildPlaybackUrl(guid);
+        // Construïm les dues URLs possibles:
+        // - HLS: usa STREAM_HLS_BASE (ex: https://vz-xxxxx.b-cdn.net)
+        // - Direct: usa STREAM_PLAY_BASE (ex: https://iframe.mediadelivery.net/play)
+        const hlsBase = (STREAM_HLS_BASE || "").replace(/\/$/, "");
+        const hlsUrl = hlsBase ? `${hlsBase}/${guid}/playlist.m3u8` : null;
+
+        const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
+
+        // Per compatibilitat, "url" serà HLS si existeix, sinó Direct
+        const playbackUrl = hlsUrl || directUrl;
 
         files.push({
             name: title, // clau de ruta virtual (ha de coincidir amb la que calcularàs a Unity)
             url: playbackUrl,
+            hlsUrl,
+            directUrl,
             mime: "video/hls",
         });
+
     }
 
     const manifest = { files };
