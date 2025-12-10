@@ -134,25 +134,14 @@ async function run() {
             continue;
         }
 
-        // Construïm les dues URLs possibles:
-        // - HLS: usa STREAM_HLS_BASE (ex: https://vz-xxxxx.b-cdn.net)
-        // - Direct: usa STREAM_PLAY_BASE (ex: https://iframe.mediadelivery.net/play)
-        const hlsBase = (STREAM_HLS_BASE || "").replace(/\/$/, "");
-        const hlsUrl = hlsBase ? `${hlsBase}/${guid}/playlist.m3u8` : null;
-
-        const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
-
-        // title = Title del vídeo a Bunny Stream, p.ex.:
-        // "Asia/Japon/.../Japon_Iti_001_Dia_008_Activity_001/Video_Lago_Ashi.mp4"
-        const title = video.title || "";
+        // Separem ruta (folder) i arxiu (file) a partir del title
         const lastSlash = title.lastIndexOf("/");
-
         let folder = "";
         let rawFile = title;
 
         if (lastSlash >= 0) {
             folder = title.substring(0, lastSlash);      // ex: Asia/.../Activity_001
-            rawFile = title.substring(lastSlash + 1);    // ex: Video_Lago_Ashi.mp4
+            rawFile = title.substring(lastSlash + 1);    // ex: Video_Monte_Komagakate.mp4
         }
 
         // Sanitzar nom d’arxiu: elimina '.', '-' i '/' del NOM, però manté l’extensió
@@ -176,15 +165,22 @@ async function run() {
 
         const sanitizedFile = sanitizeFileName(rawFile);
 
-        const hlsUrl = `${STREAM_HLS_BASE}/${guid}/playlist.m3u8`;
+        // Construïm les dues URLs possibles:
+        // - HLS: usa STREAM_HLS_BASE (ex: https://vz-xxxxx.b-cdn.net)
+        // - Direct: usa STREAM_PLAY_BASE (ex: https://iframe.mediadelivery.net/play)
+        const hlsBase = (STREAM_HLS_BASE || "").replace(/\/$/, "");
+        const hlsUrl = hlsBase ? `${hlsBase}/${guid}/playlist.m3u8` : null;
+
         const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
 
+        // Nova estructura del manifest de stream
         files.push({
-            folder,          // ruta de l’activity
-            file: sanitizedFile, // nom d’arxiu sanititzat
+            folder,
+            file: sanitizedFile,
             hlsUrl,
             directUrl,
         });
+
 
 
     }
