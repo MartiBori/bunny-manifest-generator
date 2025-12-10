@@ -142,16 +142,50 @@ async function run() {
 
         const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
 
-        // Per compatibilitat, "url" serà HLS si existeix, sinó Direct
-        const playbackUrl = hlsUrl || directUrl;
+        // title = Title del vídeo a Bunny Stream, p.ex.:
+        // "Asia/Japon/.../Japon_Iti_001_Dia_008_Activity_001/Video_Lago_Ashi.mp4"
+        const title = video.title || "";
+        const lastSlash = title.lastIndexOf("/");
+
+        let folder = "";
+        let rawFile = title;
+
+        if (lastSlash >= 0) {
+            folder = title.substring(0, lastSlash);      // ex: Asia/.../Activity_001
+            rawFile = title.substring(lastSlash + 1);    // ex: Video_Lago_Ashi.mp4
+        }
+
+        // Sanitzar nom d’arxiu: elimina '.', '-' i '/' del NOM, però manté l’extensió
+        function sanitizeFileName(fileName) {
+            if (!fileName) return "";
+
+            const lastDot = fileName.lastIndexOf(".");
+            let namePart = fileName;
+            let extPart = "";
+
+            if (lastDot >= 0) {
+                namePart = fileName.substring(0, lastDot);
+                extPart = fileName.substring(lastDot);   // ".mp4", ".mov", etc.
+            }
+
+            // Eliminem '.', '-' i '/' del nom (NO de l’extensió)
+            const cleanedName = namePart.replace(/[.\-\/]/g, "");
+
+            return cleanedName + extPart;
+        }
+
+        const sanitizedFile = sanitizeFileName(rawFile);
+
+        const hlsUrl = `${STREAM_HLS_BASE}/${guid}/playlist.m3u8`;
+        const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
 
         files.push({
-            name: title, // clau de ruta virtual (ha de coincidir amb la que calcularàs a Unity)
-            url: playbackUrl,
+            folder,          // ruta de l’activity
+            file: sanitizedFile, // nom d’arxiu sanititzat
             hlsUrl,
             directUrl,
-            mime: "video/hls",
         });
+
 
     }
 
