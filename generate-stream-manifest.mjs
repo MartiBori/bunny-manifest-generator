@@ -195,7 +195,7 @@ async function run() {
     );
 
     // 2) PUT a Storage, al mateix ROOT_PREFIX que l'altre manifest
-    const subPath = ROOT_PREFIX ? `${ROOT_PREFIX}/stream-manifest.json` : "stream-manifest.json";
+    const subPath = ROOT_PREFIX ? `${ROOT_PREFIX}/stream-manifest-v2.json` : "stream-manifest-v2.json";
     const remotePath = `${STORAGE_API}/${encodeURIComponent(
         STORAGE_ZONE
     )}/${encodeURI(subPath)}`;
