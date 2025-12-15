@@ -1,193 +1,143 @@
-import express from "express";
-import bodyParser from "body-parser";
-import fetch from "node-fetch"; // si uses Node 18+ pots fer servir global fetch
+// bunnybackend-manifest.mjs
+// Backend molt simple per rebre posicions de pins des de Unity
+// i escriure-les al manifest.json del repo de GitHub.
 
-// ----------- CONFIG per ENV -----------
-// IMPORTANT: posa això al sistema (Vercel, Railway, etc.), NO hardcodejat.
-const {
-    GITHUB_TOKEN,     // token amb perms de repo (contents:write)
-    GITHUB_OWNER,     // ex: "MetamaxVR"
-    GITHUB_REPO,      // ex: "villa-viatges-manifests"
-    MANIFEST_PATH,    // ex: "manifest.json" o "Vila_Viatges/manifest.json"
-    API_KEY           // clau PROPIA per Unity -> backend (opcional però recomanable)
-} = process.env;
+import http from 'http';
+import axios from 'axios';
 
-if (!GITHUB_TOKEN || !GITHUB_OWNER || !GITHUB_REPO || !MANIFEST_PATH) {
-    console.error("Falten variables d'entorn GITHUB_*/MANIFEST_PATH");
+// ---- Config via variables d'entorn (Render) ----
+const OWNER = process.env.GITHUB_OWNER;   // ex: "MartiBori"
+const REPO = process.env.GITHUB_REPO;    // ex: "bunny-manifest-generator"
+const PATH = process.env.MANIFEST_PATH;  // ex: "manifest.json"
+const TOKEN = process.env.GITHUB_TOKEN;   // personal access token
+const PORT = process.env.PORT || 10000;
+
+if (!OWNER || !REPO || !PATH || !TOKEN) {
+    console.error('[BunnyBackend] Falten variables d\'entorn GITHUB_OWNER/REPO/PATH/TOKEN');
     process.exit(1);
 }
 
-const app = express();
-app.use(bodyParser.json());
+const GH_BASE = 'https://api.github.com';
 
-// ---------- helper GitHub ----------
+// --- helpers GitHub ---
 
-async function fetchManifestFromGitHub() {
-    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${MANIFEST_PATH}`;
-
-    const res = await fetch(url, {
+async function loadManifest() {
+    const url = `${GH_BASE}/repos/${OWNER}/${REPO}/contents/${encodeURIComponent(PATH)}`;
+    const res = await axios.get(url, {
         headers: {
-            Authorization: `Bearer ${GITHUB_TOKEN}`,
-            Accept: "application/vnd.github+json"
+            'Authorization': `Bearer ${TOKEN}`,
+            'Accept': 'application/vnd.github+json',
+            'User-Agent': 'bunny-pin-backend'
         }
     });
 
-    if (!res.ok) {
-        const txt = await res.text();
-        throw new Error(`Error GET manifest: ${res.status} ${txt}`);
-    }
+    const { content, sha } = res.data; // content en base64
+    const jsonText = Buffer.from(content, 'base64').toString('utf8');
+    const manifest = JSON.parse(jsonText || '{"children":[],"files":[]}');
 
-    const data = await res.json();
-    const { content, sha } = data; // content és base64
+    // Assegurem estructura mínima
+    if (!manifest.children) manifest.children = [];
+    if (!manifest.files) manifest.files = [];
 
-    const jsonText = Buffer.from(content, "base64").toString("utf8");
-    return { jsonText, sha };
+    return { manifest, sha };
 }
 
-async function updateManifestInGitHub(newJsonText, oldSha) {
-    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${MANIFEST_PATH}`;
+async function saveManifest(manifest, sha) {
+    const url = `${GH_BASE}/repos/${OWNER}/${REPO}/contents/${encodeURIComponent(PATH)}`;
+    const newText = JSON.stringify(manifest, null, 2);
+    const newContent = Buffer.from(newText, 'utf8').toString('base64');
 
-    const payload = {
-        message: "Update pinPos from Unity",
-        content: Buffer.from(newJsonText, "utf8").toString("base64"),
-        sha: oldSha
-    };
-
-    const res = await fetch(url, {
-        method: "PUT",
+    await axios.put(url, {
+        message: 'Update pinPos from Unity',
+        content: newContent,
+        sha
+    }, {
         headers: {
-            Authorization: `Bearer ${GITHUB_TOKEN}`,
-            Accept: "application/vnd.github+json"
-        },
-        body: JSON.stringify(payload)
+            'Authorization': `Bearer ${TOKEN}`,
+            'Accept': 'application/vnd.github+json',
+            'User-Agent': 'bunny-pin-backend'
+        }
     });
-
-    if (!res.ok) {
-        const txt = await res.text();
-        throw new Error(`Error PUT manifest: ${res.status} ${txt}`);
-    }
-
-    return await res.json();
 }
 
-// ---------- helper per aplicar pinPos ----------
+// Troba (o crea) un node dins l'arbre seguint un path "A/B/C"
+function ensureNodeForPath(root, pathStr) {
+    const parts = pathStr.split('/').filter(p => p && p !== '.');
+    let node = root;
 
-/**
- * pinsByPath: { [path:string]: { x:number,y:number,z:number } }
- * manifestRoot: object (RBTree o variant)
- */
-function applyPinsToManifest(manifestRoot, pinsByPath) {
-    // El manifest pot tenir diverses formes (RBTree, diccionari amb "Vila_Viatges", etc.).
-    // Ens basem en BunnyRuntimeCatalog: hi ha un RBTree amb children/files.
-    // Pensem que la part interessant està sota .children.
+    for (const part of parts) {
+        if (!node.children) node.children = [];
+        let child = node.children.find(c => c && c.name === part);
+        if (!child) {
+            child = { name: part, children: [], files: [] };
+            node.children.push(child);
+        }
+        node = child;
+    }
+    return node;
+}
 
-    if (!manifestRoot) return manifestRoot;
+// --- HTTP server ---
 
-    // Normalitzem el cas: busquem un array de nodes de primer nivell
-    let rootNodes = [];
+function sendJson(res, status, obj) {
+    const body = JSON.stringify(obj);
+    res.writeHead(status, {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Access-Control-Allow-Origin': '*'
+    });
+    res.end(body);
+}
 
-    if (manifestRoot.children && Array.isArray(manifestRoot.children)) {
-        rootNodes = manifestRoot.children;
-    } else if (Array.isArray(manifestRoot)) {
-        rootNodes = manifestRoot;
+const server = http.createServer(async (req, res) => {
+    // CORS preflight
+    if (req.method === 'OPTIONS') {
+        res.writeHead(204, {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type'
+        });
+        return res.end();
+    }
+
+    if (req.method === 'POST' && req.url.startsWith('/syncPins')) {
+        let body = '';
+        req.on('data', chunk => { body += chunk; });
+        req.on('end', async () => {
+            try {
+                const data = JSON.parse(body || '{}');
+                const pins = Array.isArray(data.pins) ? data.pins : [];
+
+                console.log(`[BunnyBackend] Rebut syncPins amb ${pins.length} pins`);
+
+                if (pins.length === 0) {
+                    return sendJson(res, 400, { ok: false, error: 'No pins' });
+                }
+
+                const { manifest, sha } = await loadManifest();
+
+                // Apliquem posicions
+                let updated = 0;
+                for (const p of pins) {
+                    if (!p || !p.path) continue;
+                    const node = ensureNodeForPath(manifest, p.path);
+                    node.pinPos = { x: p.x || 0, y: p.y || 0, z: p.z || 0 };
+                    updated++;
+                }
+
+                await saveManifest(manifest, sha);
+
+                console.log(`[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats`);
+                return sendJson(res, 200, { ok: true, updated });
+            } catch (err) {
+                console.error('[BunnyBackend] Error a /syncPins:', err.message);
+                return sendJson(res, 500, { ok: false, error: err.message });
+            }
+        });
     } else {
-        // Podria ser un diccionari de continents, etc.
-        // Busquem qualsevol value que sigui un node amb children.
-        for (const k of Object.keys(manifestRoot)) {
-            const val = manifestRoot[k];
-            if (val && typeof val === "object" && val.children && Array.isArray(val.children)) {
-                rootNodes.push(val);
-            }
-        }
-    }
-
-    // recorrem recursivament tots els nodes
-    for (const node of rootNodes) {
-        traverseNode(node, "", pinsByPath);
-    }
-
-    return manifestRoot;
-}
-
-/**
- * node: { name, children, files, ... }
- * curPath: path acumulat fins ara (sense incloure node.name)
- */
-function traverseNode(node, curPath, pinsByPath) {
-    if (!node || typeof node !== "object") return;
-
-    const nodeName = node.name || "";
-    const pathHere = curPath ? `${curPath}/${nodeName}` : nodeName;
-
-    // Si tenim entrada per aquest path, afegim/actualitzem pinPos
-    const pin = pinsByPath[pathHere];
-    if (pin) {
-        node.pinPos = { x: pin.x, y: pin.y, z: pin.z };
-    }
-
-    // Recorrem fills
-    if (Array.isArray(node.children)) {
-        for (const child of node.children) {
-            traverseNode(child, pathHere, pinsByPath);
-        }
-    }
-}
-
-// ---------- ruta principal /syncPins ----------
-
-app.post("/syncPins", async (req, res) => {
-    try {
-        // auth molt simple opcional
-        if (API_KEY) {
-            const sent = req.headers["x-api-key"];
-            if (!sent || sent !== API_KEY) {
-                return res.status(401).json({ ok: false, error: "Unauthorized" });
-            }
-        }
-
-        const body = req.body || {};
-        const pins = Array.isArray(body.pins) ? body.pins : [];
-
-        if (pins.length === 0) {
-            return res.status(400).json({ ok: false, error: "No pins array in body" });
-        }
-
-        // 1) Convertir a diccionari path -> pos
-        const pinsByPath = {};
-        for (const p of pins) {
-            if (!p || !p.path) continue;
-            pinsByPath[p.path] = { x: p.x || 0, y: p.y || 0, z: p.z || 0 };
-        }
-
-        // 2) Llegir manifest actual de GitHub
-        const { jsonText, sha } = await fetchManifestFromGitHub();
-
-        let manifestObj;
-        try {
-            manifestObj = JSON.parse(jsonText);
-        } catch (e) {
-            throw new Error("Manifest JSON invàlid: " + e.message);
-        }
-
-        // 3) Aplicar pinPos al manifest
-        applyPinsToManifest(manifestObj, pinsByPath);
-
-        const newJsonText = JSON.stringify(manifestObj, null, 2);
-
-        // 4) Pujar manifest actualitzat a GitHub (nou commit)
-        await updateManifestInGitHub(newJsonText, sha);
-
-        // 5) Resposta a Unity
-        return res.json({ ok: true });
-    } catch (err) {
-        console.error("Error /syncPins:", err);
-        return res.status(500).json({ ok: false, error: String(err) });
+        sendJson(res, 404, { ok: false, error: 'Not found' });
     }
 });
 
-// ---------- arrencar servidor ----------
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Bunny pin sync backend escoltant al port ${PORT}`);
+server.listen(PORT, () => {
+    console.log(`[BunnyBackend] Escoltant al port ${PORT}`);
 });
