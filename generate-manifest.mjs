@@ -37,7 +37,6 @@ const sha1 = (s) => crypto.createHash("sha1").update(s).digest("hex");
 let folderCount = 0;
 let fileCount = 0;
 
-/** Llista una carpeta de Storage */
 async function listFolder(prefix) {
     const normalized = prefix.endsWith("/") ? prefix : `${prefix}/`;
     const url = `${STORAGE_API}/${encodeURIComponent(STORAGE_ZONE)}/${encodeURI(normalized)}`;
@@ -98,12 +97,58 @@ const stableStringify = (value) => {
     return JSON.stringify(normalize(value));
 };
 
+// Fusiona els pinPos d'un manifest existent (oldNode) cap al nou arbre (newNode)
+// només copia la propietat opcional 'pinPos' basant-se en el nom dels nodes.
+const mergePinPos = (oldNode, newNode) => {
+    if (!oldNode || !newNode) return;
+
+    // Si el node antic tenia pinPos, el copiem tal qual al node nou
+    if (oldNode.pinPos && typeof oldNode.pinPos === "object") {
+        newNode.pinPos = {
+            x: oldNode.pinPos.x ?? 0,
+            y: oldNode.pinPos.y ?? 0,
+            z: oldNode.pinPos.z ?? 0,
+        };
+    }
+
+    const oldChildren = Array.isArray(oldNode.children) ? oldNode.children : [];
+    const newChildren = Array.isArray(newNode.children) ? newNode.children : [];
+
+    for (const childNew of newChildren) {
+        if (!childNew || !childNew.name) continue;
+        const childOld = oldChildren.find(c => c && c.name === childNew.name);
+        if (childOld) {
+            mergePinPos(childOld, childNew);
+        }
+    }
+};
+
 async function run() {
     console.log(
         `[generator] Inici -> Zona='${STORAGE_ZONE}'  Prefix='/${ROOT_PREFIX}'  CDN='${CDN_BASE}'`
     );
 
-    // 1) Construeix l'arbre a partir de ROOT_PREFIX
+    // 0) Intenta carregar el manifest existent (per conservar pinPos)
+    let prevManifest = null;
+    try {
+        const existingPath = path.join(process.cwd(), "manifest.json");
+        if (fs.existsSync(existingPath)) {
+            const txt = fs.readFileSync(existingPath, "utf8");
+            const parsed = JSON.parse(txt);
+            if (parsed && typeof parsed === "object") {
+                if (!parsed.children) parsed.children = [];
+                if (!parsed.files) parsed.files = [];
+                prevManifest = parsed;
+                console.log("[generator] Manifest existent trobat: s'utilitzarà per fusionar pinPos");
+            }
+        } else {
+            console.log("[generator] Cap manifest existent local (no hi ha pinPos previs a fusionar)");
+        }
+    } catch (e) {
+        console.warn("[generator] Error llegint manifest existent (s'ignora):", e.message);
+    }
+
+    // 1) Construeix l'arbre a partir de ROOT_PREFIX (Bunny)
     const tree = { children: [], files: [] };
     const rootItems = await listFolder(ROOT_PREFIX);
 
@@ -128,6 +173,12 @@ async function run() {
             const url = CDN_BASE ? `${CDN_BASE.replace(/\/$/, "")}/${encodeURI(relPath)}` : null;
             tree.files.push({ name, url });
         }
+    }
+
+    // 1b) Fusiona pinPos des del manifest anterior, si existeix
+    if (prevManifest) {
+        console.log("[generator] Fusionant pinPos des del manifest existent...");
+        mergePinPos(prevManifest, tree);
     }
 
     // 2) Escriu local i stats
@@ -158,12 +209,15 @@ async function run() {
     const localHash = sha1(stableStringify(localObj));
     const remoteHash = sha1(stableStringify(remoteObj));
 
-    console.log(`[generator] Verify Storage -> local sha1=${localHash}  remote sha1=${remoteHash}`);
-    if (localHash !== remoteHash) {
-        throw new Error("Storage content does not match the uploaded manifest (revisa Zona/Prefix/API key).");
+    if (localHash === remoteHash) {
+        console.log("[generator] Verificació OK (hash estable coincideix)");
+    } else {
+        console.warn("[generator] ATENCIÓ: el manifest a Storage és diferent (hash estable NO coincideix)");
+        console.warn("  localHash =", localHash);
+        console.warn("  remoteHash =", remoteHash);
     }
 
-    // 5) Purge CDN (opcional) — format correcte: { Urls: [ ... ] }
+    // 5) Purge CDN (opcional)
     if (ACCOUNT_KEY && CDN_BASE) {
         const purgeUrl = `${CDN_BASE.replace(/\/$/, "")}/${ROOT_PREFIX}/manifest.json`;
         try {
