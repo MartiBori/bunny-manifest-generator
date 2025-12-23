@@ -8,7 +8,7 @@ on:
       - 'manifest.json'
   workflow_dispatch: {}           # Botó "Run workflow"
   schedule:
-    - cron: "0 */3 * * *"        # Cada 3 h (UTC)
+    - cron: "0 */6 * * *"        # Cada 6 h (UTC)
 
 jobs:
   build:
