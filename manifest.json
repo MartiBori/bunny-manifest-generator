@@ -727,6 +727,36 @@
                         "y": -0.019999999552965164,
                         "z": 0.019999999552965164
                       }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_005_Activity_004",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_005_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_005_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -853,6 +883,16 @@
                         "y": -0.019999999552965164,
                         "z": 0.019999999552965164
                       }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_002_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -886,9 +926,19 @@
               ],
               "files": [],
               "pinPos": {
-                "x": 0,
-                "y": -0.019999999552965164,
-                "z": 0.019999999552965164
+                "x": 0.039000000804662704,
+                "y": 0.20399999618530273,
+                "z": 0.2460000067949295
+              }
+            },
+            {
+              "name": "Hoteles",
+              "children": [],
+              "files": [],
+              "pinPos": {
+                "x": 0.5649999976158142,
+                "y": 0,
+                "z": 0
               }
             }
           ],
@@ -1658,6 +1708,16 @@
             "x": 0.27300000190734863,
             "y": -0.17599999904632568,
             "z": -0.14000000059604645
+          }
+        },
+        {
+          "name": "Kenia",
+          "children": [],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         }
       ],
