@@ -76,6 +76,56 @@ function ensureNodeForPath(root, pathStr) {
     }
     return node;
 }
+// Aplica un conjunt de pins al manifest amb reintents per evitar conflictes 409
+async function applyPinsWithRetry(pins, maxRetries = 3) {
+    let lastError;
+
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            // 1) Llegim sempre l'última versió del manifest de GitHub
+            const { manifest, sha } = await loadManifest();
+
+            // 2) Apliquem els canvis d'aquest sync sobre el manifest actual
+            let updated = 0;
+            for (const p of pins) {
+                if (!p || !p.path) continue;
+                const node = ensureNodeForPath(manifest, p.path);
+                node.pinPos = {
+                    x: p.x || 0,
+                    y: p.y || 0,
+                    z: p.z || 0
+                };
+                updated++;
+            }
+
+            // 3) Intentem guardar: si algú més l'ha guardat abans, GitHub pot tornar 409
+            await saveManifest(manifest, sha);
+
+            console.log(
+                `[BunnyBackend] Guardat manifest (intento ${attempt}) amb ${updated} pins actualitzats`
+            );
+            return updated;
+        } catch (err) {
+            const status = err && err.response && err.response.status;
+
+            // 409 = conflicte de versió: reintentem amb un manifest nou
+            if (status === 409 && attempt < maxRetries) {
+                console.warn(
+                    `[BunnyBackend] Conflicte 409 al guardar (intento ${attempt}), reintentant...`
+                );
+                lastError = err;
+                continue;
+            }
+
+            // Qualsevol altre error (o ja hem esgotat reintents) es propaga
+            lastError = err;
+            break;
+        }
+    }
+
+    throw lastError;
+}
+
 
 // --- HTTP server ---
 
@@ -113,21 +163,11 @@ const server = http.createServer(async (req, res) => {
                     return sendJson(res, 400, { ok: false, error: 'No pins' });
                 }
 
-                const { manifest, sha } = await loadManifest();
+                // Nova lògica: merge + reintents per si hi ha altres apps fent sync alhora
+                const updated = await applyPinsWithRetry(pins);
 
-                // Apliquem posicions
-                let updated = 0;
-                for (const p of pins) {
-                    if (!p || !p.path) continue;
-                    const node = ensureNodeForPath(manifest, p.path);
-                    node.pinPos = { x: p.x || 0, y: p.y || 0, z: p.z || 0 };
-                    updated++;
-                }
-
-                await saveManifest(manifest, sha);
-
-                console.log(`[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats`);
                 return sendJson(res, 200, { ok: true, updated });
+
             } catch (err) {
                 console.error('[BunnyBackend] Error a /syncPins:', err.message);
                 return sendJson(res, 500, { ok: false, error: err.message });
