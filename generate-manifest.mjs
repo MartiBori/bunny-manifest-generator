@@ -180,10 +180,14 @@ async function run() {
         console.log("[generator] Fusionant pinPos des del manifest existent...");
         mergePinPos(prevManifest, tree);
     }
-    // 1c) Copia també la versió si existeix al manifest anterior
+    // 1c) Copia també la versió, si existeix al manifest anterior
     if (prevManifest && typeof prevManifest.version === "number") {
         tree.version = prevManifest.version;
         console.log(`[generator] Versió de manifest preservada -> ${tree.version}`);
+    } else if (typeof tree.version !== "number") {
+        // Per si de cas, assegurem que sempre hi ha algun valor
+        tree.version = 0;
+        console.log("[generator] Manifest sense versió prèvia, establint version=0");
     }
 
     // 2) Escriu local i stats

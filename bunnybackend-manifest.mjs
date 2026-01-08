@@ -174,15 +174,34 @@ const server = http.createServer(async (req, res) => {
                     return sendJson(res, 400, { ok: false, error: 'No pins' });
                 }
 
-                // Nova lògica: merge + reintents + increment de 'version'
-                const updated = await applyPinsWithRetry(pins);
+                const { manifest, sha } = await loadManifest();
 
+                // Apliquem posicions
+                let updated = 0;
+                for (const p of pins) {
+                    if (!p || !p.path) continue;
+                    const node = ensureNodeForPath(manifest, p.path);
+                    node.pinPos = { x: p.x || 0, y: p.y || 0, z: p.z || 0 };
+                    updated++;
+                }
+                // Incrementem la versió del manifest
+                if (typeof manifest.version !== "number") {
+                    manifest.version = 0;
+                }
+                manifest.version += 1;
+
+                console.log(`[BunnyBackend] Nova versió de manifest: ${manifest.version}`);
+
+                await saveManifest(manifest, sha);
+
+                console.log(`[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats`);
                 return sendJson(res, 200, { ok: true, updated });
             } catch (err) {
                 console.error('[BunnyBackend] Error a /syncPins:', err.message);
                 return sendJson(res, 500, { ok: false, error: err.message });
             }
         });
+
     } else {
         sendJson(res, 404, { ok: false, error: 'Not found' });
     }
