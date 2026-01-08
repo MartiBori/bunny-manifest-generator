@@ -77,13 +77,18 @@ function ensureNodeForPath(root, pathStr) {
     return node;
 }
 // Aplica un conjunt de pins al manifest amb reintents per evitar conflictes 409
+// i incrementa un camp 'version' cada cop que es guarda.
 async function applyPinsWithRetry(pins, maxRetries = 3) {
     let lastError;
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
-            // 1) Llegim sempre l'última versió del manifest de GitHub
+            // 1) Carreguem sempre l'última versió del manifest del repo
             const { manifest, sha } = await loadManifest();
+
+            // Assegurem estructura bàsica
+            if (!manifest.children) manifest.children = [];
+            if (!manifest.files) manifest.files = [];
 
             // 2) Apliquem els canvis d'aquest sync sobre el manifest actual
             let updated = 0;
@@ -98,17 +103,23 @@ async function applyPinsWithRetry(pins, maxRetries = 3) {
                 updated++;
             }
 
-            // 3) Intentem guardar: si algú més l'ha guardat abans, GitHub pot tornar 409
+            // 3) Incrementem la versió del manifest (perquè Unity la pugui detectar)
+            if (typeof manifest.version !== "number") {
+                manifest.version = 0;
+            }
+            manifest.version++;
+
+            // 4) Intentem guardar al repo
             await saveManifest(manifest, sha);
 
             console.log(
-                `[BunnyBackend] Guardat manifest (intento ${attempt}) amb ${updated} pins actualitzats`
+                `[BunnyBackend] Guardat manifest (intento ${attempt}) amb ${updated} pins actualitzats. Nova versió=${manifest.version}`
             );
             return updated;
         } catch (err) {
             const status = err && err.response && err.response.status;
 
-            // 409 = conflicte de versió: reintentem amb un manifest nou
+            // 409 = conflicte de versió a GitHub: reintentem amb un manifest nou
             if (status === 409 && attempt < maxRetries) {
                 console.warn(
                     `[BunnyBackend] Conflicte 409 al guardar (intento ${attempt}), reintentant...`
@@ -163,11 +174,10 @@ const server = http.createServer(async (req, res) => {
                     return sendJson(res, 400, { ok: false, error: 'No pins' });
                 }
 
-                // Nova lògica: merge + reintents per si hi ha altres apps fent sync alhora
+                // Nova lògica: merge + reintents + increment de 'version'
                 const updated = await applyPinsWithRetry(pins);
 
                 return sendJson(res, 200, { ok: true, updated });
-
             } catch (err) {
                 console.error('[BunnyBackend] Error a /syncPins:', err.message);
                 return sendJson(res, 500, { ok: false, error: err.message });
@@ -177,6 +187,7 @@ const server = http.createServer(async (req, res) => {
         sendJson(res, 404, { ok: false, error: 'Not found' });
     }
 });
+
 
 server.listen(PORT, () => {
     console.log(`[BunnyBackend] Escoltant al port ${PORT}`);
