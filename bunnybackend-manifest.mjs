@@ -203,7 +203,8 @@ const server = http.createServer(async (req, res) => {
                 await saveManifest(manifest, sha);
 
                 console.log(
-                    `[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats. Nova versió=${manifest.version}`
+                   // `[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats. Nova versió=${manifest.version}` //vs antiga del log
+                    `[BunnyBackend] >>> TEST VERSIONS <<< pins=${updated}, versio=${manifest.version}`
                 );
                 return sendJson(res, 200, { ok: true, updated });
 
