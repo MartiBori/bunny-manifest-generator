@@ -176,26 +176,37 @@ const server = http.createServer(async (req, res) => {
 
                 const { manifest, sha } = await loadManifest();
 
+                // Assegurem estructura bàsica (per si algun cop ve buit)
+                if (!manifest.children) manifest.children = [];
+                if (!manifest.files) manifest.files = [];
+
                 // Apliquem posicions
                 let updated = 0;
                 for (const p of pins) {
                     if (!p || !p.path) continue;
+
                     const node = ensureNodeForPath(manifest, p.path);
-                    node.pinPos = { x: p.x || 0, y: p.y || 0, z: p.z || 0 };
+                    node.pinPos = {
+                        x: p.x || 0,
+                        y: p.y || 0,
+                        z: p.z || 0
+                    };
                     updated++;
                 }
-                // Incrementem la versió del manifest
-                if (typeof manifest.version !== "number") {
-                    manifest.version = 0;
-                }
-                manifest.version += 1;
 
-                console.log(`[BunnyBackend] Nova versió de manifest: ${manifest.version}`);
+                // ?? Control de versions del manifest
+                if (typeof manifest.version !== "number") {
+                    manifest.version = 0;   // si no existeix, comencem a 0
+                }
+                manifest.version++;          // incrementem per aquest sync
 
                 await saveManifest(manifest, sha);
 
-                console.log(`[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats`);
+                console.log(
+                    `[BunnyBackend] Guardat manifest amb ${updated} pins actualitzats. Nova versió=${manifest.version}`
+                );
                 return sendJson(res, 200, { ok: true, updated });
+
             } catch (err) {
                 console.error('[BunnyBackend] Error a /syncPins:', err.message);
                 return sendJson(res, 500, { ok: false, error: err.message });
