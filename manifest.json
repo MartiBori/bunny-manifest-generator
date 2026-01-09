@@ -429,9 +429,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": -0.03200000151991844,
-                    "y": 0,
-                    "z": 0
+                    "x": -0.009999999776482582,
+                    "y": 0.23399999737739563,
+                    "z": 0.2750000059604645
                   }
                 },
                 {
@@ -2346,7 +2346,18 @@
               "children": [
                 {
                   "name": "Estados_Unidos_CostaOeste_Dia_014",
-                  "children": [],
+                  "children": [
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_014_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
                   "files": [],
                   "pinPos": {
                     "x": 0.2919999957084656,
@@ -2359,6 +2370,16 @@
                   "children": [
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_013_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2390,6 +2411,26 @@
                     },
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_012_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_012_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2431,6 +2472,36 @@
                     },
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_011_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_011_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_011_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2492,6 +2563,56 @@
                     },
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_010_Activity_005",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_010_Activity_004",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_010_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_010_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_010_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2580,6 +2701,76 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_007",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_006",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_005",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_004",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_009_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -2604,6 +2795,26 @@
                     },
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_008_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_008_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2642,6 +2853,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_007_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_007_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -2666,6 +2897,26 @@
                     },
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_006_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_006_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2714,6 +2965,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_005_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_005_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -2728,6 +2999,16 @@
                   "children": [
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_004_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2769,6 +3050,36 @@
                     },
                     {
                       "name": "Estados_Unidos_CostaOeste_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_003_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_003_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_003_Activity_001",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -2827,13 +3138,53 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_002_Activity_004",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_002_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_002_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Estados_Unidos_CostaOeste_Dia_002_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0.3199999928474426,
-                    "y": 0.04399999976158142,
-                    "z": 0.08500000089406967
+                    "x": 0.7149999737739563,
+                    "y": 0.2549999952316284,
+                    "z": 0.29499998688697815
                   }
                 },
                 {
