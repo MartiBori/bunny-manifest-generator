@@ -1148,9 +1148,29 @@
                       "children": [],
                       "files": [],
                       "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
+                        "x": 0.2750000059604645,
+                        "y": 0.09600000083446503,
+                        "z": 0.13699999451637268
+                      }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0.12399999797344208,
+                        "y": -0.20600000023841858,
+                        "z": -0.16500000655651093
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.17000000178813934,
+                        "y": 0.1589999943971634,
+                        "z": 0.20000000298023224
                       }
                     }
                   ],
@@ -1279,6 +1299,26 @@
                   "children": [
                     {
                       "name": "Argentina_ArgentinaEspectacular_Dia_007_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegamos",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -3385,5 +3425,5 @@
     }
   ],
   "files": [],
-  "version": 20
+  "version": 21
 }
