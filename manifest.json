@@ -1580,6 +1580,543 @@
                     "y": 0,
                     "z": 0
                   }
+                },
+                {
+                  "name": "013_Libre Calafate",
+                  "children": [
+                    {
+                      "name": "001_El Calafate",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.04500000178813934,
+                    "y": -0.03799999877810478,
+                    "z": 0.003000000026077032
+                  }
+                },
+                {
+                  "name": "005_Buenos Aires",
+                  "children": [
+                    {
+                      "name": "004_Calle Florida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Av Mayo",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Catedral",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Plaza de Mayo",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.20999999344348907,
+                    "y": 0.07199999690055847,
+                    "z": 0.11299999803304672
+                  }
+                },
+                {
+                  "name": "002_Llegada a Iguazú",
+                  "children": [
+                    {
+                      "name": "001_Aeropuerto Iguazu",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_002_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_002_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.14000000059604645,
+                    "y": 0.12399999797344208,
+                    "z": 0.16500000655651093
+                  }
+                },
+                {
+                  "name": "017_Llegada a Barcelona",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.010999999940395355,
+                    "y": -0.2840000092983246,
+                    "z": -0.24300000071525574
+                  }
+                },
+                {
+                  "name": "016_Salida de Bariloche",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.008999999612569809,
+                    "y": 0.10300000011920929,
+                    "z": 0.14399999380111694
+                  }
+                },
+                {
+                  "name": "015_Bariloche",
+                  "children": [
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_015_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_015_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_015_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.06800000369548798,
+                    "y": -0.032999999821186066,
+                    "z": 0.00800000037997961
+                  }
+                },
+                {
+                  "name": "014_Vuelo a Bariloche",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.009999999776482582,
+                    "y": -0.20399999618530273,
+                    "z": -0.16300000250339508
+                  }
+                },
+                {
+                  "name": "012_El Calafate",
+                  "children": [
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_012_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.027000000700354576,
+                    "y": -0.10899999737739563,
+                    "z": -0.0689999982714653
+                  }
+                },
+                {
+                  "name": "011_Vuelo Calafate",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.05400000140070915,
+                    "y": -0.15199999511241913,
+                    "z": -0.1120000034570694
+                  }
+                },
+                {
+                  "name": "010_Tierra de Fuego",
+                  "children": [
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_010_Activity_004",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_010_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_010_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_010_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.02500000037252903,
+                    "y": -0.15700000524520874,
+                    "z": -0.11599999666213989
+                  }
+                },
+                {
+                  "name": "009_Vuelo Ushuaia",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.0010000000474974513,
+                    "y": -0.007000000216066837,
+                    "z": 0.03400000184774399
+                  }
+                },
+                {
+                  "name": "008_Puerto Madryn",
+                  "children": [
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_008_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.07599999755620956,
+                    "y": -0.00800000037997961,
+                    "z": 0.032999999821186066
+                  }
+                },
+                {
+                  "name": "007_Vuelo Puerto Madryn",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.04600000008940697,
+                    "y": 0.10100000351667404,
+                    "z": 0.1420000046491623
+                  }
+                },
+                {
+                  "name": "006_Libre Buenos Aires",
+                  "children": [
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_006_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.006000000052154064,
+                    "y": 0.05999999865889549,
+                    "z": 0.10100000351667404
+                  }
+                },
+                {
+                  "name": "004_Vuelo Buenos Aires",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.08100000023841858,
+                    "y": -0.006000000052154064,
+                    "z": 0.03400000184774399
+                  }
+                },
+                {
+                  "name": "003_Cataratas Iguazú",
+                  "children": [
+                    {
+                      "name": "Argentina_ArgentinaEspectacular_Dia_003_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.057999998331069946,
+                    "y": 0.05700000002980232,
+                    "z": 0.09799999743700027
+                  }
+                },
+                {
+                  "name": "001_Salida de Barcelona",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.27000001072883606,
+                    "y": 0.23199999332427979,
+                    "z": 0.27300000190734863
+                  }
                 }
               ],
               "files": [],
@@ -3435,5 +3972,5 @@
     }
   ],
   "files": [],
-  "version": 27
+  "version": 28
 }
