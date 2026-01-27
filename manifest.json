@@ -4838,8 +4838,1025 @@
         "y": -0.08699999749660492,
         "z": -0.04600000008940697
       }
+    },
+    {
+      "name": "América Sur",
+      "children": [
+        {
+          "name": "Colombia",
+          "children": [
+            {
+              "name": "Colombia_Itinerario_001",
+              "children": [
+                {
+                  "name": "Colombia_Iti_001_Dia_015",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_015_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_014",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_014_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_013",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_013_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_012",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_012_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_011",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_011_Activity_004",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_011_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_011_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_011_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_010",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_010_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_009",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_009_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_008",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_008_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_008_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_008_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_007",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_007_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_006",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_006_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_006_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_006_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_005",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_005_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_004",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_004_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_003",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_003_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_003_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_002",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_002_Activity_003",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_002_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_002_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Colombia_Iti_001_Dia_001",
+                  "children": [
+                    {
+                      "name": "Colombia_Iti_001_Dia_001_Activity_002",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Colombia_Iti_001_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Chile",
+          "children": [],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Brasil",
+          "children": [],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Argentina",
+          "children": [
+            {
+              "name": "Argentina Espectacular",
+              "children": [
+                {
+                  "name": "017_Llegada a Barcelona",
+                  "children": [
+                    {
+                      "name": "001_LLegada a Barcelona",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "016_Salida de Bariloche",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "015_Bariloche",
+                  "children": [
+                    {
+                      "name": "003_Bahía López",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Lago el Trébol",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Telesilla",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "014_Vuelo a Bariloche",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "013_Libre Calafate",
+                  "children": [
+                    {
+                      "name": "001_El Calafate",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "012_El Calafate",
+                  "children": [
+                    {
+                      "name": "001_Glaciar Perito Moreno",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "011_Vuelo Calafate",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "010_Tierra de Fuego",
+                  "children": [
+                    {
+                      "name": "004_Canal de Beagle",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Bahía Lapataia",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Larga Roca",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Parque Nacional",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "009_Vuelo Ushuaia",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "008_Puerto Madryn",
+                  "children": [
+                    {
+                      "name": "001_Caleta Valdes",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "007_Vuelo Puerto Madryn",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "006_Libre Buenos Aires",
+                  "children": [
+                    {
+                      "name": "001_Buenos Aires",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Buenos Aires",
+                  "children": [
+                    {
+                      "name": "004_Calle Florida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Av Mayo",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Catedral",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Plaza de Mayo",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Vuelo Buenos Aires",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Cataratas Iguazú",
+                  "children": [
+                    {
+                      "name": "001_Cataratas lado Argentino",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Llegada a Iguazú",
+                  "children": [
+                    {
+                      "name": "002_Cataratas lado Brasil",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Aeropuerto Iguazú",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Salida de Barcelona",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "files": [],
+      "pinPos": {
+        "x": -0.34599998593330383,
+        "y": -0.14399999380111694,
+        "z": -0.10300000011920929
+      }
     }
   ],
   "files": [],
-  "version": 39
+  "version": 40
 }
