@@ -2385,6 +2385,68 @@
                     "y": -0.2930000126361847,
                     "z": -0.2529999911785126
                   }
+                },
+                {
+                  "name": "Finlandia_Iti_001_Dia_006",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": -0.019999999552965164,
+                    "z": 0.019999999552965164
+                  }
+                },
+                {
+                  "name": "Finlandia_Iti_001_Dia_000",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": -0.019999999552965164,
+                        "z": 0.019999999552965164
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": -0.019999999552965164,
+                    "z": 0.019999999552965164
+                  }
                 }
               ],
               "files": [],
@@ -4943,6 +5005,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -5008,6 +5090,26 @@
                   "children": [
                     {
                       "name": "Colombia_Iti_001_Dia_010_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -5201,6 +5303,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -5297,6 +5419,26 @@
                     },
                     {
                       "name": "Colombia_Iti_001_Dia_001_Activity_001",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -5883,9 +6025,9 @@
           ],
           "files": [],
           "pinPos": {
-            "x": -0.02800000086426735,
-            "y": -0.10499999672174454,
-            "z": -0.06400000303983688
+            "x": -0.028999999165534973,
+            "y": -0.11400000005960464,
+            "z": -0.0729999989271164
           }
         }
       ],
@@ -5898,5 +6040,5 @@
     }
   ],
   "files": [],
-  "version": 45
+  "version": 46
 }
