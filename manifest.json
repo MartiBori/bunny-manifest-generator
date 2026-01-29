@@ -2474,9 +2474,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": -0.7749999761581421,
+                    "y": 0.0020000000949949026,
+                    "z": 0.0430000014603138
                   }
                 },
                 {
@@ -2495,9 +2495,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": -0.5960000157356262,
+                    "y": 0.13899999856948853,
+                    "z": 0.18000000715255737
                   }
                 },
                 {
@@ -2516,9 +2516,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 0.5260000228881836,
+                    "y": -0.07000000029802322,
+                    "z": -0.028999999165534973
                   }
                 },
                 {
@@ -2547,9 +2547,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 0.46000000834465027,
+                    "y": 0.03200000151991844,
+                    "z": 0.0729999989271164
                   }
                 },
                 {
@@ -2568,9 +2568,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 0.30000001192092896,
+                    "y": -0.08299999684095383,
+                    "z": -0.041999999433755875
                   }
                 },
                 {
@@ -2619,9 +2619,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": -0.7540000081062317,
+                    "y": 0.07500000298023224,
+                    "z": 0.11599999666213989
                   }
                 }
               ],
@@ -6957,6 +6957,562 @@
                     "y": 0,
                     "z": 0
                   }
+                },
+                {
+                  "name": "016_Regreso a Barcelona",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "015_Cartagena Libre",
+                  "children": [
+                    {
+                      "name": "015_Día libre",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "014_ Barú Libre",
+                  "children": [
+                    {
+                      "name": "001_Playas de Barú",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "013_Isla Barú",
+                  "children": [
+                    {
+                      "name": "001_Isla Barú",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "012_Llegada a Isla Barú",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Sofitel Barú Calablanca",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "011_Cartagena de Indias",
+                  "children": [
+                    {
+                      "name": "004_Centro Colonial",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Castillo San Felipe",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Manga",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Bocagrande",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "010_Llegada a Cartagena",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Hotel Charleston St.Teresa",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "009_Comuna 13",
+                  "children": [
+                    {
+                      "name": "001_Comuna 13",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "008_Medellín",
+                  "children": [
+                    {
+                      "name": "003_Jardín Botánico",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Plaza Botero",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Pueblito Paisa",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "007_Llegada a Medellín",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_York Luxury Suites",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "006_Salento",
+                  "children": [
+                    {
+                      "name": "003_Valle del Cocora",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Salento",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Filandia",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Eje Cafetero",
+                  "children": [
+                    {
+                      "name": "001_Fincas cafeteras",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Llegada a Pereira",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Boutique Sazagua",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Zipaquirá",
+                  "children": [
+                    {
+                      "name": "002_Catedral de Sal",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Día libre Bogotá",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Bogotá",
+                  "children": [
+                    {
+                      "name": "003_Cerro Monserrate",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Museo del oro",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Centro Histórico",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Llegada a Bogotá",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Sofitel Victoria Regia",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Aeropuerto El Dorado",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
                 }
               ],
               "files": [],
@@ -7543,5 +8099,5 @@
     }
   ],
   "files": [],
-  "version": 48
+  "version": 49
 }
