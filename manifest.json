@@ -3705,6 +3705,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -3792,6 +3812,448 @@
                 "x": 0.017999999225139618,
                 "y": -0.09799999743700027,
                 "z": -0.05700000002980232
+              }
+            },
+            {
+              "name": "Japón Feudal",
+              "children": [
+                {
+                  "name": "011_Regreso a Barcelona",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.4620000123977661,
+                    "y": -0.1979999989271164,
+                    "z": -0.15700000524520874
+                  }
+                },
+                {
+                  "name": "010_Excursión a Nikko",
+                  "children": [
+                    {
+                      "name": "002_Nikko",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Tokio",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.5920000076293945,
+                    "y": -0.004999999888241291,
+                    "z": 0.03500000014901161
+                  }
+                },
+                {
+                  "name": "009_Tokio",
+                  "children": [
+                    {
+                      "name": "003_Templo Asakusa",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Santuario Meiji",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Ginza",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.5019999742507935,
+                    "y": -0.16699999570846558,
+                    "z": -0.12600000202655792
+                  }
+                },
+                {
+                  "name": "008_Camino a Tokio",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Torre de Tokio",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Monte Komagatake",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Lago Ashi",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.42800000309944153,
+                    "y": -0.10100000351667404,
+                    "z": -0.061000000685453415
+                  }
+                },
+                {
+                  "name": "007_Shirakawago",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Casas Gassho Zukuri",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.04399999976158142,
+                    "y": 0.07999999821186066,
+                    "z": 0.12099999934434891
+                  }
+                },
+                {
+                  "name": "006_Ruta Nakasendo",
+                  "children": [
+                    {
+                      "name": "002_Magome",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Tsumago",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0.18000000715255737,
+                    "y": -0.05999999865889549,
+                    "z": -0.019999999552965164
+                  }
+                },
+                {
+                  "name": "005_Hiroshima",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Hiroshima",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Kioto",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.5699999928474426,
+                    "y": 0.10000000149011612,
+                    "z": 0.14100000262260437
+                  }
+                },
+                {
+                  "name": "004_Kioto",
+                  "children": [
+                    {
+                      "name": "002_Pabellón Dorado",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Castillo Nijo",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.10199999809265137,
+                    "y": -0.04899999871850014,
+                    "z": -0.00800000037997961
+                  }
+                },
+                {
+                  "name": "003_Osaka-Nara-Kioto",
+                  "children": [
+                    {
+                      "name": "Salida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "LLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Kioto Fushimi Inari Taisha",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Nara Todaiji",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Castillo Osaka",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.12300000339746475,
+                    "y": -0.09799999743700027,
+                    "z": -0.057999998331069946
+                  }
+                },
+                {
+                  "name": "002_Osaka",
+                  "children": [
+                    {
+                      "name": "002_Ryokan",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Osaka",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.15800000727176666,
+                    "y": -0.07999999821186066,
+                    "z": -0.039000000804662704
+                  }
+                },
+                {
+                  "name": "001_Llegada a Osaka",
+                  "children": [
+                    {
+                      "name": "001_Aeropuerto de Osaka",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0.414000004529953,
+                        "y": 0.019999999552965164,
+                        "z": 0.061000000685453415
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": -0.2160000056028366,
+                    "y": -0.07999999821186066,
+                    "z": -0.039000000804662704
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": -0.18199999630451202,
+                "y": -0.17800000309944153,
+                "z": -0.13699999451637268
               }
             }
           ],
@@ -8099,5 +8561,5 @@
     }
   ],
   "files": [],
-  "version": 54
+  "version": 55
 }
