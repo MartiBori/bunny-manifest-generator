@@ -134,55 +134,23 @@ async function run() {
             continue;
         }
 
-        // Separem ruta (folder) i arxiu (file) a partir del title
-        const lastSlash = title.lastIndexOf("/");
-        let folder = "";
-        let rawFile = title;
+        // --- MODEL NOU: la "key" és el title complet (ruta Activity + .mp4/.mov) ---
+        const key = title.replace(/\\/g, "/").trim();
 
-        if (lastSlash >= 0) {
-            folder = title.substring(0, lastSlash);      // ex: Asia/.../Activity_001
-            rawFile = title.substring(lastSlash + 1);    // ex: Video_Monte_Komagakate.mp4
-        }
+        // IMPORTANT: netegem bases (hi ha casos que l'env porta salts de línia)
+        const hlsBase = (STREAM_HLS_BASE || "").replace(/\r?\n/g, "").trim().replace(/\/$/, "");
+        const playBase = (STREAM_PLAY_BASE || "").replace(/\r?\n/g, "").trim().replace(/\/$/, "");
 
-        // Sanitzar nom d’arxiu: elimina '.', '-' i '/' del NOM, però manté l’extensió
-        function sanitizeFileName(fileName) {
-            if (!fileName) return "";
-
-            const lastDot = fileName.lastIndexOf(".");
-            let namePart = fileName;
-            let extPart = "";
-
-            if (lastDot >= 0) {
-                namePart = fileName.substring(0, lastDot);
-                extPart = fileName.substring(lastDot);   // ".mp4", ".mov", etc.
-            }
-
-            // Eliminem '.', '-' i '/' del nom (NO de l’extensió)
-            const cleanedName = namePart.replace(/[.\-\/]/g, "");
-
-            return cleanedName + extPart;
-        }
-
-        const sanitizedFile = sanitizeFileName(rawFile);
-
-        // Construïm les dues URLs possibles:
-        // - HLS: usa STREAM_HLS_BASE (ex: https://vz-xxxxx.b-cdn.net)
-        // - Direct: usa STREAM_PLAY_BASE (ex: https://iframe.mediadelivery.net/play)
-        const hlsBase = (STREAM_HLS_BASE || "").replace(/\/$/, "");
+        // URLs
         const hlsUrl = hlsBase ? `${hlsBase}/${guid}/playlist.m3u8` : null;
+        const directUrl = `${playBase}/${STREAM_LIBRARY_ID}/${guid}`;
 
-        const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
-
-        // Nova estructura del manifest de stream
+        // Guardem només la key (i urls). No folder/file.
         files.push({
-            folder,
-            file: sanitizedFile,
+            key,
             hlsUrl,
             directUrl,
         });
-
-
-
     }
 
     const manifest = { files };
