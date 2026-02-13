@@ -125,17 +125,17 @@ async function run() {
         if (!guid) continue;
 
         // Clau de ruta virtual -> fem servir el title
-        const title = (v.title || v.name || "").trim();
-        if (!title) {
-            // Si el vídeo no té títol, no podem fer match amb la ruta de Storage
+        const rawTitle = (v.title ?? v.name ?? "");
+        if (!rawTitle) {
             console.warn(
                 `[stream] Vídeo sense title, s'ignora. guid=${guid} (posa-li un title amb la ruta virtual si vols override)`
             );
             continue;
         }
 
-        // --- MODEL NOU: la "key" és el title complet (ruta Activity + .mp4/.mov) ---
-        const key = title.replace(/\\/g, "/").trim();
+        // Key EXACTA: no modifiquem espais, "_" ni accents. Només normalitzem "\" -> "/" per seguretat.
+        const key = String(rawTitle).replace(/\\/g, "/");
+
 
         // IMPORTANT: netegem bases (hi ha casos que l'env porta salts de línia)
         const hlsBase = (STREAM_HLS_BASE || "").replace(/\r?\n/g, "").trim().replace(/\/$/, "");
