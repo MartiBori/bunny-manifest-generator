@@ -16,12 +16,8 @@ const STORAGE_API_KEY = process.env.BUNNY_STORAGE_API_KEY;
 const STREAM_LIBRARY_ID = process.env.BUNNY_STREAM_LIBRARY_ID;
 const STREAM_API_KEY = process.env.BUNNY_STREAM_API_KEY;
 const STREAM_PLAY_BASE =
-    (process.env.BUNNY_STREAM_PLAY_BASE || "https://video.bunnycdn.com/play").replace(
-        /\/$/,
-        ""
-    );
-const STREAM_HLS_BASE = process.env.BUNNY_STREAM_HLS_BASE; // ex: https://vz-f7f1c890-6a0.b-cdn.net
-
+    (process.env.BUNNY_STREAM_PLAY_BASE || "https://video.bunnycdn.com/play").replace(/\/$/, "");
+const STREAM_HLS_BASE = process.env.BUNNY_STREAM_HLS_BASE; // ex: https://vz-xxxx.b-cdn.net
 
 // Validacions mínimes
 if (!STORAGE_ZONE) throw new Error("Falta BUNNY_STORAGE_ZONE");
@@ -42,7 +38,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
  * Llista tots els vídeos de Bunny Stream per a una Video Library
  * utilitzant l'endpoint "List Videos" (paginat).
  *
- * Docs: https://docs.bunny.net/reference/video_list :contentReference[oaicite:1]{index=1}
+ * Docs: https://docs.bunny.net/reference/video_list
  */
 async function listAllStreamVideos() {
     const all = [];
@@ -53,6 +49,7 @@ async function listAllStreamVideos() {
     for (let i = 0; i < 100; i++) {
         const url = `${STREAM_API}/library/${STREAM_LIBRARY_ID}/videos?page=${page}&itemsPerPage=${itemsPerPage}`;
         console.log(`[stream] GET ${url}`);
+
         const res = await axios.get(url, {
             headers: {
                 AccessKey: STREAM_API_KEY,
@@ -76,7 +73,7 @@ async function listAllStreamVideos() {
         if (currentPage >= totalPages) break;
 
         page++;
-        await sleep(200); // petit pause per no spamejar l'API
+        await sleep(200);
     }
 
     console.log(`[stream] Total vídeos trobats: ${all.length}`);
@@ -85,30 +82,21 @@ async function listAllStreamVideos() {
 
 function buildHlsUrl(videoGuid) {
     if (!STREAM_HLS_BASE) return null;
-    // https://vz-xxxx.b-cdn.net/<guid>/playlist.m3u8
-    const base = STREAM_HLS_BASE.replace(/\/$/, "");
+    const base = STREAM_HLS_BASE.replace(/\r?\n/g, "").trim().replace(/\/$/, "");
     return `${base}/${videoGuid}/playlist.m3u8`;
 }
 
 function buildDirectUrl(videoGuid) {
-    // https://iframe.mediadelivery.net/play/<libraryId>/<guid>
-    const base = STREAM_PLAY_BASE.replace(/\/$/, "");
+    const base = STREAM_PLAY_BASE.replace(/\r?\n/g, "").trim().replace(/\/$/, "");
     return `${base}/${STREAM_LIBRARY_ID}/${videoGuid}`;
 }
 
-
 /**
- * Genera un manifest molt simple:
- * {
- *   "files": [
- *     { "name": "Asia/Japon/.../Activity_001/Osaka", "url": "https://video.bunnycdn.com/...", "mime": "video/hls" }
- *   ]
- * }
- *
- * IMPORTANT:
- *  - El camp "name" és la nostra "clau de ruta virtual".
- *    Tu hauràs de posar aquest valor com a TÍTOL del vídeo a Stream, per exemple:
- *    "Asia/Japon/Japon_Itinerario_001/Japon_Iti_001_Dia_002/Japon_Iti_001_Dia_002_Activity_001/Osaka"
+ * MODEL NOU (clau única):
+ * - El manifest porta: { key, hlsUrl, directUrl }
+ * - "key" és EXACTAMENT el títol (title) del vídeo a Bunny Stream.
+ * - Aquest title ha de ser la ruta virtual completa (incloent .mp4/.mov), per exemple:
+ *   "América Sur/Argentina/Argentina Espectacular/006_Libre Buenos Aires/001_Buenos Aires/001_Buenos Aires.mp4"
  */
 async function run() {
     console.log(
@@ -120,69 +108,25 @@ async function run() {
     const files = [];
 
     for (const v of videos) {
-        // A l'API oficial el GUID del vídeo és a v.guid
         const guid = v.guid || v.videoGuid || v.id;
         if (!guid) continue;
 
-        // Clau de ruta virtual -> fem servir el title
-        const title = (v.title || v.name || "").trim();
+        // IMPORTANT: només fem servir el title, sense fallbacks a v.name
+        const title = (v.title || "").trim();
         if (!title) {
-            // Si el vídeo no té títol, no podem fer match amb la ruta de Storage
             console.warn(
-                `[stream] Vídeo sense title, s'ignora. guid=${guid} (posa-li un title amb la ruta virtual si vols override)`
+                `[stream] Vídeo sense title, s\'ignora. guid=${guid} (posa-li un title amb la ruta virtual completa si vols override)`
             );
             continue;
         }
 
-        // Separem ruta (folder) i arxiu (file) a partir del title
-        const lastSlash = title.lastIndexOf("/");
-        let folder = "";
-        let rawFile = title;
+        const key = title.replace(/\\/g, "/").trim();
 
-        if (lastSlash >= 0) {
-            folder = title.substring(0, lastSlash);      // ex: Asia/.../Activity_001
-            rawFile = title.substring(lastSlash + 1);    // ex: Video_Monte_Komagakate.mp4
-        }
-
-        // Sanitzar nom d’arxiu: elimina '.', '-' i '/' del NOM, però manté l’extensió
-        function sanitizeFileName(fileName) {
-            if (!fileName) return "";
-
-            const lastDot = fileName.lastIndexOf(".");
-            let namePart = fileName;
-            let extPart = "";
-
-            if (lastDot >= 0) {
-                namePart = fileName.substring(0, lastDot);
-                extPart = fileName.substring(lastDot);   // ".mp4", ".mov", etc.
-            }
-
-            // Eliminem '.', '-' i '/' del nom (NO de l’extensió)
-            const cleanedName = namePart.replace(/[.\-\/]/g, "");
-
-            return cleanedName + extPart;
-        }
-
-        const sanitizedFile = sanitizeFileName(rawFile);
-
-        // Construïm les dues URLs possibles:
-        // - HLS: usa STREAM_HLS_BASE (ex: https://vz-xxxxx.b-cdn.net)
-        // - Direct: usa STREAM_PLAY_BASE (ex: https://iframe.mediadelivery.net/play)
-        const hlsBase = (STREAM_HLS_BASE || "").replace(/\/$/, "");
-        const hlsUrl = hlsBase ? `${hlsBase}/${guid}/playlist.m3u8` : null;
-
-        const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
-
-        // Nova estructura del manifest de stream
         files.push({
-            folder,
-            file: sanitizedFile,
-            hlsUrl,
-            directUrl,
+            key,
+            hlsUrl: buildHlsUrl(guid),
+            directUrl: buildDirectUrl(guid),
         });
-
-
-
     }
 
     const manifest = { files };
@@ -190,15 +134,14 @@ async function run() {
     // 1) Escriu localment
     const outLocal = path.join(process.cwd(), "stream-manifest.json");
     fs.writeFileSync(outLocal, JSON.stringify(manifest, null, 2));
-    console.log(
-        `[stream-generator] Manifest local -> ${outLocal} (files=${files.length})`
-    );
+    console.log(`[stream-generator] Manifest local -> ${outLocal} (files=${files.length})`);
 
     // 2) PUT a Storage, al mateix ROOT_PREFIX que l'altre manifest
-    const subPath = ROOT_PREFIX ? `${ROOT_PREFIX}/stream-manifest-v2.json` : "stream-manifest-v2.json";
-    const remotePath = `${STORAGE_API}/${encodeURIComponent(
-        STORAGE_ZONE
-    )}/${encodeURI(subPath)}`;
+    const subPath = ROOT_PREFIX
+        ? `${ROOT_PREFIX}/stream-manifest-v2.json`
+        : "stream-manifest-v2.json";
+
+    const remotePath = `${STORAGE_API}/${encodeURIComponent(STORAGE_ZONE)}/${encodeURI(subPath)}`;
 
     console.log(`[stream-generator] Upload -> ${remotePath}`);
 
@@ -214,9 +157,6 @@ async function run() {
 }
 
 run().catch((err) => {
-    console.error(
-        "[stream-generator] ERROR:",
-        err?.response?.data || err.message || err
-    );
+    console.error("[stream-generator] ERROR:", err?.response?.data || err.message || err);
     process.exit(1);
 });
