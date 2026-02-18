@@ -28,8 +28,19 @@ const LIBRARY_ID = process.env.BUNNY_STREAM_LIBRARY_ID;
 const API_KEY = process.env.BUNNY_STREAM_API_KEY;
 const OUTPUT_PATH = process.env.OUTPUT_PATH || "./generate-stream-manifest.json";
 
+const HLS_BASE = (process.env.BUNNY_STREAM_HLS_BASE || "").replace(/\/+$/, "");
+
+// Nou nom (clar): DIRECT_BASE
+// Mantinc fallback a l'antic BUNNY_STREAM_PLAY_BASE per no trencar res mentre canvies el workflow/variables
+const DIRECT_BASE = (process.env.BUNNY_STREAM_DIRECT_BASE || process.env.BUNNY_STREAM_PLAY_BASE || "").replace(/\/+$/, "");
+
+
 if (!LIBRARY_ID || !API_KEY) {
     console.error("Faltan ENV: BUNNY_STREAM_LIBRARY_ID y/o BUNNY_STREAM_API_KEY");
+    process.exit(1);
+}
+if (!HLS_BASE || !DIRECT_BASE) {
+    console.error("Falten ENV: BUNNY_STREAM_HLS_BASE i/o BUNNY_STREAM_DIRECT_BASE (o fallback BUNNY_STREAM_PLAY_BASE)");
     process.exit(1);
 }
 
@@ -53,14 +64,15 @@ async function listVideos() {
 // - HLS suele ser algo tipo: https://vz-xxxx.b-cdn.net/{VIDEO_ID}/playlist.m3u8
 // - Direct play puede ser: https://vz-xxxx.b-cdn.net/{VIDEO_ID}/play_720p.mp4 (depende)
 function buildUrls(video) {
-    // ?? Ajusta a tu CDN/zone real y a lo que Bunny te devuelve.
-    // Si tu API ya te devuelve hlsUrl/directUrl, usa eso y elimina este builder.
     const videoId = video.guid || video.videoGuid || video.id;
-    const base = video.cdnBaseUrl || video.cdnUrl || video.cdn || ""; // si lo tienes
-    const hlsUrl = video.hlsUrl || (base ? `${base}/${videoId}/playlist.m3u8` : "");
-    const directUrl = video.directUrl || (base ? `${base}/${videoId}/play.mp4` : "");
+    if (!videoId) return { hlsUrl: "", directUrl: "" };
+
+    const hlsUrl = `${HLS_BASE}/${videoId}/playlist.m3u8`;
+    const directUrl = `${DIRECT_BASE}/${LIBRARY_ID}/${videoId}`;
+
     return { hlsUrl, directUrl };
 }
+
 
 async function main() {
     const data = await listVideos();
