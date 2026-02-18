@@ -39,7 +39,6 @@ jobs:
           BUNNY_CDN_BASE:        ${{ vars.BUNNY_CDN_BASE }}
           BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
           BUNNY_ACCOUNT_API_KEY: ${{ secrets.BUNNY_ACCOUNT_API_KEY }}
-          BUNNY_STREAM_PULL_ZONE_HOST: ${{ secrets.BUNNY_STREAM_PULL_ZONE_HOST }}
         run: node generate-manifest.mjs
 
       # 2) Manifest de STREAM (nou)
