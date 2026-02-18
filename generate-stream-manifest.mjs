@@ -1,4 +1,13 @@
-// generate-stream-manifest.mjs
+// generate-stream-
+// Opcional: filtrar per prefix de title (per limitar a una "carpeta" concreta dins Stream)
+if (STREAM_TITLE_PREFIX_FILTER) {
+    const pref = STREAM_TITLE_PREFIX_FILTER.trim().replace(/\\/g, "/");
+    if (!title.replace(/\\/g, "/").startsWith(pref)) {
+        continue;
+    }
+}
+
+manifest.mjs
 import axios from "axios";
 import * as fs from "fs";
 import * as path from "path";
@@ -12,7 +21,7 @@ const STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;
 const ROOT_PREFIX_RAW = process.env.ROOT_PREFIX || "";
 const STORAGE_API_KEY = process.env.BUNNY_STORAGE_API_KEY;
 
-// --- ENV STREAM (per llegir vídeos de Bunny Stream) ---
+// --- ENV STREAM (per llegir v?deos de Bunny Stream) ---
 const STREAM_LIBRARY_ID = process.env.BUNNY_STREAM_LIBRARY_ID;
 const STREAM_API_KEY = process.env.BUNNY_STREAM_API_KEY;
 const STREAM_PLAY_BASE =
@@ -22,8 +31,10 @@ const STREAM_PLAY_BASE =
     );
 const STREAM_HLS_BASE = process.env.BUNNY_STREAM_HLS_BASE; // ex: https://vz-f7f1c890-6a0.b-cdn.net
 
+const STREAM_TITLE_PREFIX_FILTER = process.env.BUNNY_STREAM_TITLE_PREFIX_FILTER || ""; // ex: 'VillaViatgesStream/'
 
-// Validacions mínimes
+
+// Validacions m?nimes
 if (!STORAGE_ZONE) throw new Error("Falta BUNNY_STORAGE_ZONE");
 if (typeof STORAGE_API_KEY !== "string" || !STORAGE_API_KEY.length) {
     throw new Error("Falta BUNNY_STORAGE_API_KEY");
@@ -39,7 +50,7 @@ const ROOT_PREFIX = ROOT_PREFIX_RAW.replace(/^\/+|\/+$/g, "");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /**
- * Llista tots els vídeos de Bunny Stream per a una Video Library
+ * Llista tots els v?deos de Bunny Stream per a una Video Library
  * utilitzant l'endpoint "List Videos" (paginat).
  *
  * Docs: https://docs.bunny.net/reference/video_list :contentReference[oaicite:1]{index=1}
@@ -49,7 +60,7 @@ async function listAllStreamVideos() {
     let page = 1;
     const itemsPerPage = 100;
 
-    // Com a màxim 100 pàgines per no entrar en bucle infinit
+    // Com a m?xim 100 p?gines per no entrar en bucle infinit
     for (let i = 0; i < 100; i++) {
         const url = `${STREAM_API}/library/${STREAM_LIBRARY_ID}/videos?page=${page}&itemsPerPage=${itemsPerPage}`;
         console.log(`[stream] GET ${url}`);
@@ -79,7 +90,7 @@ async function listAllStreamVideos() {
         await sleep(200); // petit pause per no spamejar l'API
     }
 
-    console.log(`[stream] Total vídeos trobats: ${all.length}`);
+    console.log(`[stream] Total v?deos trobats: ${all.length}`);
     return all;
 }
 
@@ -106,8 +117,8 @@ function buildDirectUrl(videoGuid) {
  * }
  *
  * IMPORTANT:
- *  - El camp "name" és la nostra "clau de ruta virtual".
- *    Tu hauràs de posar aquest valor com a TÍTOL del vídeo a Stream, per exemple:
+ *  - El camp "name" ?s la nostra "clau de ruta virtual".
+ *    Tu haur?s de posar aquest valor com a T?TOL del v?deo a Stream, per exemple:
  *    "Asia/Japon/Japon_Itinerario_001/Japon_Iti_001_Dia_002/Japon_Iti_001_Dia_002_Activity_001/Osaka"
  */
 async function run() {
@@ -120,66 +131,50 @@ async function run() {
     const files = [];
 
     for (const v of videos) {
-        // A l'API oficial el GUID del vídeo és a v.guid
+        // A l'API oficial el GUID del v?deo ?s a v.guid
         const guid = v.guid || v.videoGuid || v.id;
         if (!guid) continue;
 
         // Clau de ruta virtual -> fem servir el title
-        const title = (v.title || v.name || "").trim();
+        const title = (v.title || "").trim();
         if (!title) {
-            // Si el vídeo no té títol, no podem fer match amb la ruta de Storage
+            // Si el v?deo no t? t?tol, no podem fer match amb la ruta de Storage
             console.warn(
-                `[stream] Vídeo sense title, s'ignora. guid=${guid} (posa-li un title amb la ruta virtual si vols override)`
+                `[stream] V?deo sense title, s'ignora. guid=${guid} (posa-li un title amb la ruta virtual si vols override)`
             );
             continue;
         }
 
-        // Separem ruta (folder) i arxiu (file) a partir del title
-        const lastSlash = title.lastIndexOf("/");
+        // Key: fem servir el title tal qual (ruta completa amb el nom del fitxer)
+        const key = title.replace(/\\/g, "/").trim();
+
+        // (Opcional) derivem folder/file només per compatibilitat i lectura humana
+        const lastSlash = key.lastIndexOf("/");
         let folder = "";
-        let rawFile = title;
+        let file = key;
 
         if (lastSlash >= 0) {
-            folder = title.substring(0, lastSlash);      // ex: Asia/.../Activity_001
-            rawFile = title.substring(lastSlash + 1);    // ex: Video_Monte_Komagakate.mp4
+            folder = key.substring(0, lastSlash);
+            file = key.substring(lastSlash + 1);
         }
-
-        // Sanitzar nom d’arxiu: elimina '.', '-' i '/' del NOM, però manté l’extensió
-        function sanitizeFileName(fileName) {
-            if (!fileName) return "";
-
-            const lastDot = fileName.lastIndexOf(".");
-            let namePart = fileName;
-            let extPart = "";
-
-            if (lastDot >= 0) {
-                namePart = fileName.substring(0, lastDot);
-                extPart = fileName.substring(lastDot);   // ".mp4", ".mov", etc.
-            }
-
-            // Eliminem '.', '-' i '/' del nom (NO de l’extensió)
-            const cleanedName = namePart.replace(/[.\-\/]/g, "");
-
-            return cleanedName + extPart;
-        }
-
-        const sanitizedFile = sanitizeFileName(rawFile);
 
         // Construïm les dues URLs possibles:
         // - HLS: usa STREAM_HLS_BASE (ex: https://vz-xxxxx.b-cdn.net)
         // - Direct: usa STREAM_PLAY_BASE (ex: https://iframe.mediadelivery.net/play)
-        const hlsBase = (STREAM_HLS_BASE || "").replace(/\/$/, "");
+        const hlsBase = (STREAM_HLS_BASE || "").replace(/\r?\n/g, "").trim().replace(/\/$/, "");
         const hlsUrl = hlsBase ? `${hlsBase}/${guid}/playlist.m3u8` : null;
 
-        const directUrl = `${STREAM_PLAY_BASE}/${STREAM_LIBRARY_ID}/${guid}`;
+        const playBase = (STREAM_PLAY_BASE || "").replace(/\r?\n/g, "").trim().replace(/\/$/, "");
+        const directUrl = `${playBase}/${STREAM_LIBRARY_ID}/${guid}`;
 
-        // Nova estructura del manifest de stream
         files.push({
+            key,
             folder,
-            file: sanitizedFile,
+            file,
             hlsUrl,
             directUrl,
         });
+
 
 
 
