@@ -13,6 +13,16 @@
  */
 
 import fs from "node:fs";
+import axios from "axios";
+
+const STORAGE_ZONE = process.env.BUNNY_STORAGE_ZONE;        // p.ex. foto360
+const STORAGE_KEY = process.env.BUNNY_STORAGE_API_KEY;      // Storage API (RW)
+const ROOT_PREFIX = process.env.ROOT_PREFIX;                // p.ex. Vila_Viatges (sense / inicial)
+
+const STORAGE_API = "https://storage.bunnycdn.com";
+
+// Nom final del fitxer a Bunny Storage (això és el que miraràs després)
+const REMOTE_STREAM_MANIFEST_NAME = "generate-stream-manifest.json";
 
 const LIBRARY_ID = process.env.BUNNY_STREAM_LIBRARY_ID;
 const API_KEY = process.env.BUNNY_STREAM_API_KEY;
@@ -86,6 +96,36 @@ async function main() {
     };
 
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(manifest, null, 2), "utf8");
+    // --- PUJAR A BUNNY STORAGE ---
+    if (!STORAGE_ZONE || !STORAGE_KEY || !ROOT_PREFIX) {
+        console.error("[stream-generator] Falten ENV: BUNNY_STORAGE_ZONE / BUNNY_STORAGE_API_KEY / ROOT_PREFIX");
+        process.exit(1);
+    }
+
+    const remotePath = `${ROOT_PREFIX}/${REMOTE_STREAM_MANIFEST_NAME}`;
+    const putUrl = `${STORAGE_API}/${encodeURIComponent(STORAGE_ZONE)}/${encodeURI(remotePath)}`;
+
+    const jsonBody = fs.readFileSync(OUTPUT_PATH);
+
+    try {
+        const putRes = await axios.put(putUrl, jsonBody, {
+            headers: {
+                AccessKey: STORAGE_KEY,
+                "Content-Type": "application/json",
+            },
+            maxContentLength: Infinity,
+            maxBodyLength: Infinity,
+            validateStatus: (s) => s >= 200 && s < 300,
+        });
+
+        console.log(`[stream-generator] Upload OK -> /${remotePath} (HTTP ${putRes.status})`);
+    } catch (err) {
+        const status = err?.response?.status;
+        const data = err?.response?.data;
+        console.error(`[stream-generator] Upload ERROR status=${status} data=${data || err.message}`);
+        process.exit(1);
+    }
+
     console.log(`OK: escrito ${OUTPUT_PATH} routes=${manifest.items.length}`);
 }
 
