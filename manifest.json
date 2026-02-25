@@ -2948,7 +2948,29 @@
             },
             {
               "name": "Itinerario_1",
-              "children": [],
+              "children": [
+                {
+                  "name": "Dia_1",
+                  "children": [
+                    {
+                      "name": "Actividad_1",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
               "files": [],
               "pinPos": {
                 "x": 0.14000000059604645,
@@ -9415,5 +9437,5 @@
     }
   ],
   "files": [],
-  "version": 63
+  "version": 64
 }
