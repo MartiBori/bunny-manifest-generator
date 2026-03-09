@@ -4140,6 +4140,36 @@
                         "y": -0.26899999380111694,
                         "z": -0.2280000001192093
                       }
+                    },
+                    {
+                      "name": "005_Ginza",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "004_Nakamise",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Torre de Tokio",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -4187,9 +4217,9 @@
                       "children": [],
                       "files": [],
                       "pinPos": {
-                        "x": 0.07999999821186066,
-                        "y": -0.1979999989271164,
-                        "z": -0.15700000524520874
+                        "x": 0.07400000095367432,
+                        "y": -0.20100000500679016,
+                        "z": -0.1599999964237213
                       }
                     },
                     {
@@ -4200,6 +4230,26 @@
                         "x": 0.04899999871850014,
                         "y": -0.23499999940395355,
                         "z": -0.19499999284744263
+                      }
+                    },
+                    {
+                      "name": "003_Parque Nacional Hakone",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.08100000023841858,
+                        "y": -0.11900000274181366,
+                        "z": -0.07800000160932541
+                      }
+                    },
+                    {
+                      "name": "002_Monte Fuji",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.04600000008940697,
+                        "y": -0.18199999630451202,
+                        "z": -0.14100000262260437
                       }
                     }
                   ],
@@ -4241,6 +4291,16 @@
                         "x": -0.15600000321865082,
                         "y": -0.017000000923871994,
                         "z": 0.024000000208616257
+                      }
+                    },
+                    {
+                      "name": "002_Ryokan",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
                       }
                     }
                   ],
@@ -4293,6 +4353,26 @@
                         "y": 0.0689999982714653,
                         "z": 0.10999999940395355
                       }
+                    },
+                    {
+                      "name": "004_Calle Kami sannomachi",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Waki Honjin",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -4344,6 +4424,16 @@
                         "y": 0.004000000189989805,
                         "z": 0.04500000178813934
                       }
+                    },
+                    {
+                      "name": "001_Santuario Itsukusima",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -4374,6 +4464,16 @@
                         "x": -0.26600000262260437,
                         "y": -0.10199999809265137,
                         "z": -0.061000000685453415
+                      }
+                    },
+                    {
+                      "name": "003_Santuario Heian",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
                       }
                     }
                   ],
@@ -4467,6 +4567,26 @@
                         "y": -0.010999999940395355,
                         "z": 0.028999999165534973
                       }
+                    },
+                    {
+                      "name": "002_Universal Studios",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Castillo Osaka",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -4551,6 +4671,556 @@
             "x": 0.11900000274181366,
             "y": -0.06700000166893005,
             "z": -0.026000000536441803
+          }
+        },
+        {
+          "name": "Uzbekistan",
+          "children": [
+            {
+              "name": "009_Regreso a Barcelona",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "008_Tashkent",
+              "children": [
+                {
+                  "name": "005_Palacio Romanov",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Plaza Independencia",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Mezquita Tilla Sheykh",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Madraza Kafal Shohi",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Madraza Barak Kan",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "007_Samarcanda a Tashkent",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Observatorio Ulugbek",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Shakhi-Zinda",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Fabrica de papel antigua",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "006_Samarcanda",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "006_Mausoleo Guri Emir",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Mezquita Bibi-Khanum",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Madraza Tilla-Kori",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Madraza Shir-Dor",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Madraza Ulugbek",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Plaza Registán",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "005_Bukhara a Samarcanda",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "006_Madraza Kukeldash",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Madraza Nodir Devon",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "004_Bukhara",
+              "children": [
+                {
+                  "name": "007_Madraza Miri Arab",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "006_Mezquita Poi-Kalon",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Complejo Poi-Kalon",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Madraza Abdulaziz-Khan",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Tim Abdulla- Khan",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Madraza Ulugbek",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Mercados",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "003_Khiva a Bukhara",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Desierto Kyzyl Kum",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "002_Urgench a Khiva",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "006_Madraza Caravanserai Allakuli",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Mezquita Minarete Islom",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Madraza Mohammed Rakhim",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Castillo Kunya Ark",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Madraza Mohamed Amin",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Minarete Kalta Minor",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "001_Llegada a Urgench",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         }
       ],
@@ -8566,6 +9236,16 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "001_El Poblado",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -8840,6 +9520,79 @@
                     "x": 0.3659999966621399,
                     "y": 0.10999999940395355,
                     "z": 0.1509999930858612
+                  }
+                },
+                {
+                  "name": "006_Zona Cafetera día libre",
+                  "children": [
+                    {
+                      "name": "001_Zona Cafetera día libre",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Zona Cafetera",
+                  "children": [
+                    {
+                      "name": "002_Fincas cafeteras",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Paisaje Cafetero",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Bogotá día libre",
+                  "children": [
+                    {
+                      "name": "001_Día libre Bogotá",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 }
               ],
@@ -9437,5 +10190,5 @@
     }
   ],
   "files": [],
-  "version": 65
+  "version": 66
 }
