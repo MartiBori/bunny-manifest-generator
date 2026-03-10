@@ -4430,9 +4430,9 @@
                       "children": [],
                       "files": [],
                       "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
+                        "x": -0.2070000022649765,
+                        "y": -0.15299999713897705,
+                        "z": -0.1120000034570694
                       }
                     }
                   ],
@@ -4655,7 +4655,906 @@
         },
         {
           "name": "China",
-          "children": [],
+          "children": [
+            {
+              "name": "018_Regreso a Barcelona",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "017_Shanghai",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "016_Suzhou a Shanghai",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Casco Antiguo",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Templo Buda Jade",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Malecón",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Torre Jinmao",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Tren Shanghai",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "015_Hangzhou a Suzhou",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Jardín Pescador",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Colina Tigre",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Jardines Clásicos",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Tren Suzhou",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "014_Hangzhou",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Pagoda Seis Armonías",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Templo Alma Escondida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Crucero Lago Oeste",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "013_Guilin a Hangzhou",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Hangzhou",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Gruta Flauta Caña",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "012_Guilin",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Yangshuo",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Crucero Río Li Jiang",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "011_Furong a Guilin",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Ruta carretera",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "010_Zhangjiajie a Furong",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Cascada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Furong Zhen",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "009_Zhangjiajie",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Gran Cañón",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Montaña Tianmen",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "008_Zhangjiajie",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "005_Montaña Tianzi",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Aleluya Mountain",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Reserva Natural Yuanjiajie",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Elevador Bailong",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Parque Zhangjiajie",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "007_Xian a Zhangjiajie",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "006_Xian",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Barrio Musulmán",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Gran Pagoda Oca Silvestre",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Museo Terracota",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "005_Pekín a Xian",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Templo del Cielo",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "004_Pekín",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Restaurante Pato Laqueado",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Gran Muralla China",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "003_Pekín",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Palacio Verano",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Ciudad Prohibida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "002_Pekín día libre",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "001_Llegada a Pekín",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
           "files": [],
           "pinPos": {
             "x": -0.03999999910593033,
@@ -4962,6 +5861,26 @@
                     "y": 0,
                     "z": 0
                   }
+                },
+                {
+                  "name": "002_Madraza Kukeldash",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Madraza Nodir Devon",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
                 }
               ],
               "files": [],
@@ -5199,6 +6118,498 @@
                 },
                 {
                   "name": "LLegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "Sri lanka",
+          "children": [
+            {
+              "name": "011_Regreso a Barcelona",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "010_Negombo",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "009_Galle a Negombo",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Ministry Crab",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Torre Lotus",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Colombo",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "008_Parque Yala a Galle",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Galle",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "007_Nuwara Eliya a Parque Yala",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Yala",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "006_Nuwara Eliya",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Ella",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "005_Kandy a Nuwara Eliya",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Tren Azul",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Nuwara Eliya",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "004_Dambulla a Kandy",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Templo del Diente",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Kandy",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Sigiriya Rock",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "003_Dambulla",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Safari Dambulla",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Polonnaruwa",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "002_Colombo a Dambulla",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Project Pinnawela",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "001_Llegada a Colombo",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
                   "children": [],
                   "files": [],
                   "pinPos": {
@@ -7785,6 +9196,590 @@
             "y": -0.02500000037252903,
             "z": 0.014999999664723873
           }
+        },
+        {
+          "name": "Namibia",
+          "children": [
+            {
+              "name": "013_Regreso a Barcelona",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "012_Waterberg a Windhoek",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "011_Etosha a Otjiwarongo",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Rinoceronte blanco",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Springbok",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "010_Etosha",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Parque Etosha",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "009_Twyfelfontein a Etosha",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "008_Swakopmund a Twyfelfontein",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "004_Grabados rupestres Twyfelfontein",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Tribu Herero",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Aldea Himba Uis",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Naufragio Zeila",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "007_Swakopmund",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Swakopmund",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "006_Desierto Namib a Swakopmund",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "005_Desierto Namib",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Parque Namib-Naukluft",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Dunas Sossusvlei Deadvlei",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "004_Kalahari a Desierto Namib",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Ruta carretera",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Cañón Sesriem",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Duna Elim",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "003_Windhoek a Kalahari",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "003_Tribu SAN Bosquimanos",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "002_Dunas",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Desierto Kalahari",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "002_Windhoek",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "001_Llegada Windhoek",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "name": "001_Llegada a Windhoek",
+              "children": [
+                {
+                  "name": "Salida",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "name": "Llegada",
+                  "children": [],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "files": [],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
         }
       ],
       "files": [],
@@ -10190,5 +12185,5 @@
     }
   ],
   "files": [],
-  "version": 67
+  "version": 68
 }
