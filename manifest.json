@@ -4687,6 +4687,37 @@
                     "y": -0.15299999713897705,
                     "z": -0.1120000034570694
                   }
+                },
+                {
+                  "name": "005_BORRAR TEST",
+                  "children": [
+                    {
+                      "name": "002_Hiroshima",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Santuario Itsukushima",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [],
+                  "pinPos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
                 }
               ],
               "files": [],
@@ -15615,5 +15646,5 @@
     }
   ],
   "files": [],
-  "version": 79
+  "version": 80
 }
