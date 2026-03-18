@@ -4048,6 +4048,26 @@
                         "y": 0.057999998331069946,
                         "z": 0.09799999743700027
                       }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -4251,6 +4271,26 @@
                         "y": -0.18199999630451202,
                         "z": -0.14100000262260437
                       }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.09000000357627869,
+                        "y": -0.12700000405311584,
+                        "z": -0.08699999749660492
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0.3149999976158142,
+                        "y": -0.07999999821186066,
+                        "z": -0.039000000804662704
+                      }
                     }
                   ],
                   "files": [],
@@ -4306,9 +4346,9 @@
                   ],
                   "files": [],
                   "pinPos": {
-                    "x": 0.014999999664723873,
-                    "y": 0.08500000089406967,
-                    "z": 0.125
+                    "x": 0.14399999380111694,
+                    "y": 0.08799999952316284,
+                    "z": 0.1289999932050705
                   }
                 },
                 {
@@ -4372,6 +4412,26 @@
                         "x": 0.39800000190734863,
                         "y": -0.04500000178813934,
                         "z": -0.004000000189989805
+                      }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.38100001215934753,
+                        "y": -0.2070000022649765,
+                        "z": -0.16699999570846558
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0.34599998593330383,
+                        "y": -0.08900000154972076,
+                        "z": -0.04800000041723251
                       }
                     }
                   ],
@@ -4443,6 +4503,26 @@
                         "x": -0.578000009059906,
                         "y": -0.02500000037252903,
                         "z": 0.014999999664723873
+                      }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0.3779999911785126,
+                        "y": -0.061000000685453415,
+                        "z": -0.019999999552965164
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.5210000276565552,
+                        "y": -0.008999999612569809,
+                        "z": 0.03200000151991844
                       }
                     }
                   ],
@@ -4634,9 +4714,9 @@
                       "children": [],
                       "files": [],
                       "pinPos": {
-                        "x": 0.414000004529953,
-                        "y": 0.019999999552965164,
-                        "z": 0.061000000685453415
+                        "x": 0.4129999876022339,
+                        "y": 0.014999999664723873,
+                        "z": 0.0560000017285347
                       }
                     },
                     {
@@ -4657,6 +4737,26 @@
                         "x": 0.4440000057220459,
                         "y": 0.02800000086426735,
                         "z": 0.06800000369548798
+                      }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": -0.5899999737739563,
+                        "y": 0.061000000685453415,
+                        "z": 0.10199999809265137
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0.40799999237060547,
+                        "y": 0.014000000432133675,
+                        "z": 0.05400000140070915
                       }
                     }
                   ],
@@ -12005,6 +12105,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "002_Hotel Sarova Lion Hill",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Hotel Cliff",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -12087,6 +12207,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "002_Hotel Saruni",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "001_Hotel Sasaab",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -12141,6 +12281,16 @@
                     },
                     {
                       "name": "001_Reserva Samburu",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Reserva Shaba",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -12846,6 +12996,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -12870,6 +13040,26 @@
                     },
                     {
                       "name": "Llegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -12928,6 +13118,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -12973,6 +13183,26 @@
                     },
                     {
                       "name": "Llegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -13051,6 +13281,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -13096,6 +13346,26 @@
                     },
                     {
                       "name": "Llegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -13185,6 +13455,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -13246,6 +13536,26 @@
                         "y": 0,
                         "z": 0
                       }
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [],
@@ -13291,6 +13601,26 @@
                     },
                     {
                       "name": "Llegada",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "AvioLLegada",
                       "children": [],
                       "files": [],
                       "pinPos": {
@@ -15777,5 +16107,5 @@
     }
   ],
   "files": [],
-  "version": 95
+  "version": 96
 }
