@@ -9,9 +9,14 @@ on:
   workflow_dispatch: {}           # Botó "Run workflow"
   schedule:
     - cron: "0 */6 * * *"        # Cada 6 h (UTC)
+  
+permissions:
+    contents: write
 
 jobs:
+
   build:
+
     runs-on: ubuntu-latest
 
     steps:
@@ -39,6 +44,11 @@ jobs:
           BUNNY_CDN_BASE:        ${{ vars.BUNNY_CDN_BASE }}
           BUNNY_STORAGE_API_KEY: ${{ secrets.BUNNY_STORAGE_API_KEY }}
           BUNNY_ACCOUNT_API_KEY: ${{ secrets.BUNNY_ACCOUNT_API_KEY }}
+
+          # NOU
+          GITHUB_EVENT_NAME:     ${{ github.event_name }}
+          PINPOS_RETENTION_FILE: pinpos-retention.json
+          PINPOS_RETENTION_AUTOMATIC_REFRESHES: "2"
         run: node generate-manifest.mjs
 
       # 2) Manifest de STREAM (nou)
@@ -57,4 +67,11 @@ jobs:
           # ?? AFEGIT: base de l'HLS
           BUNNY_STREAM_HLS_BASE:   ${{ vars.BUNNY_STREAM_HLS_BASE }}
         run: node generate-stream-manifest.mjs
+      - name: Commit updated manifest and retention
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          git add manifest.json pinpos-retention.json
+          git diff --cached --quiet || git commit -m "Update manifest and pin retention"
+          git push

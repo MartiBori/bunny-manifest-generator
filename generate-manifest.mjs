@@ -24,6 +24,16 @@ const CDN_BASE = process.env.BUNNY_CDN_BASE || "";        // p.ex. https://foto3
 const ROOT_PREFIX = process.env.ROOT_PREFIX;                 // p.ex. Vila_Viatges (sense / inicial)
 const ACCOUNT_KEY = process.env.BUNNY_ACCOUNT_API_KEY || ""; // opcional (purge)
 
+const PINPOS_RETENTION_FILE =
+    process.env.PINPOS_RETENTION_FILE || "pinpos-retention.json";
+
+const PINPOS_RETENTION_AUTOMATIC_REFRESHES = Math.max(
+    1,
+    Number(process.env.PINPOS_RETENTION_AUTOMATIC_REFRESHES || 2)
+);
+
+const IS_AUTOMATIC_REFRESH = process.env.GITHUB_EVENT_NAME === "schedule";
+
 if (!STORAGE_ZONE || !API_KEY || !ROOT_PREFIX) {
     console.error("[generator] Falten BUNNY_STORAGE_ZONE / BUNNY_STORAGE_API_KEY / ROOT_PREFIX");
     process.exit(1);
@@ -49,6 +59,133 @@ async function listFolder(prefix) {
     if (res.status === 404) return [];
     const items = Array.isArray(res.data) ? res.data : (res.data.Items || []);
     return items;
+}
+
+function loadJsonFileSafe(path, fallback) {
+    try {
+        if (!fs.existsSync(path)) return fallback;
+        const txt = fs.readFileSync(path, "utf8");
+        if (!txt || !txt.trim()) return fallback;
+        return JSON.parse(txt);
+    } catch {
+        return fallback;
+    }
+}
+
+function saveJsonFilePretty(path, data) {
+    fs.writeFileSync(path, JSON.stringify(data, null, 2), "utf8");
+}
+
+function normalizeRetentionStore(raw) {
+    if (!raw || typeof raw !== "object") return { entries: [] };
+    if (!Array.isArray(raw.entries)) return { entries: [] };
+    return { entries: raw.entries };
+}
+
+function clonePinPos(pinPos) {
+    if (!pinPos) return null;
+    return {
+        x: Number(pinPos.x || 0),
+        y: Number(pinPos.y || 0),
+        z: Number(pinPos.z || 0),
+    };
+}
+
+function walkNodes(nodeOrTree, currentPath = "", outMap = new Map()) {
+    if (!nodeOrTree) return outMap;
+
+    const children = Array.isArray(nodeOrTree.children) ? nodeOrTree.children : [];
+
+    for (const child of children) {
+        if (!child || !child.name) continue;
+
+        const fullPath = currentPath ? `${currentPath}/${child.name}` : child.name;
+
+        outMap.set(fullPath, child);
+        walkNodes(child, fullPath, outMap);
+    }
+
+    return outMap;
+}
+
+function buildPathNodeMap(tree) {
+    return walkNodes(tree, "", new Map());
+}
+
+function ensureRetentionEntryMap(retentionStore) {
+    const map = new Map();
+    for (const entry of retentionStore.entries) {
+        if (!entry || !entry.path) continue;
+        map.set(entry.path, entry);
+    }
+    return map;
+}
+
+function pruneExpiredRetentionEntries(retentionStore) {
+    retentionStore.entries = retentionStore.entries.filter((entry) => {
+        return entry &&
+            entry.path &&
+            entry.pinPos &&
+            Number(entry.remainingAutoRefreshes) > 0;
+    });
+}
+
+function collectDeletedPinPosIntoRetention(previousTree, newTree, retentionStore) {
+    const previousMap = buildPathNodeMap(previousTree);
+    const newMap = buildPathNodeMap(newTree);
+    const retentionMap = ensureRetentionEntryMap(retentionStore);
+
+    const newlyAddedPaths = new Set();
+
+    for (const [path, prevNode] of previousMap.entries()) {
+        if (newMap.has(path)) continue;
+        if (!prevNode || !prevNode.pinPos) continue;
+
+        if (!retentionMap.has(path)) {
+            retentionMap.set(path, {
+                path,
+                pinPos: clonePinPos(prevNode.pinPos),
+                remainingAutoRefreshes: PINPOS_RETENTION_AUTOMATIC_REFRESHES,
+            });
+
+            newlyAddedPaths.add(path);
+        }
+    }
+
+    retentionStore.entries = Array.from(retentionMap.values());
+    return newlyAddedPaths;
+}
+
+function restorePinPosFromRetention(newTree, retentionStore) {
+    const newMap = buildPathNodeMap(newTree);
+    const keptEntries = [];
+
+    for (const entry of retentionStore.entries) {
+        if (!entry || !entry.path || !entry.pinPos) continue;
+
+        const node = newMap.get(entry.path);
+        if (node) {
+            node.pinPos = clonePinPos(entry.pinPos);
+            continue;
+        }
+
+        keptEntries.push(entry);
+    }
+
+    retentionStore.entries = keptEntries;
+}
+
+function decrementRetentionOnlyOnAutomaticRefresh(retentionStore, skipPaths = new Set()) {
+    if (!IS_AUTOMATIC_REFRESH) return;
+
+    for (const entry of retentionStore.entries) {
+        if (!entry) continue;
+        if (skipPaths.has(entry.path)) continue;
+
+        entry.remainingAutoRefreshes = Number(entry.remainingAutoRefreshes || 0) - 1;
+    }
+
+    pruneExpiredRetentionEntries(retentionStore);
 }
 
 /** Construeix node recursiu {name, children[], files:[{name,url}]} */
@@ -147,6 +284,9 @@ async function run() {
     } catch (e) {
         console.warn("[generator] Error llegint manifest existent (s'ignora):", e.message);
     }
+    const retentionStore = normalizeRetentionStore(
+        loadJsonFileSafe(PINPOS_RETENTION_FILE, { entries: [] })
+    );
 
     // 1) Construeix l'arbre a partir de ROOT_PREFIX (Bunny)
     const tree = { children: [], files: [] };
@@ -180,6 +320,22 @@ async function run() {
         console.log("[generator] Fusionant pinPos des del manifest existent...");
         mergePinPos(prevManifest, tree);
     }
+    let newlyRetainedPaths = new Set();
+
+    if (prevManifest) {
+        newlyRetainedPaths = collectDeletedPinPosIntoRetention(prevManifest, tree, retentionStore);
+    }
+
+    restorePinPosFromRetention(tree, retentionStore);
+    decrementRetentionOnlyOnAutomaticRefresh(retentionStore, newlyRetainedPaths);
+
+    // 1g) Guardem l'estat de retenció a disc
+    saveJsonFilePretty(path.join(process.cwd(), PINPOS_RETENTION_FILE), retentionStore);
+
+    console.log(
+        `[generator] Retenció pinPos -> entries=${retentionStore.entries.length} automatic=${IS_AUTOMATIC_REFRESH}`
+    );
+
     // 1c) Copia també la versió, si existeix al manifest anterior
     if (prevManifest && typeof prevManifest.version === "number") {
         tree.version = prevManifest.version;
