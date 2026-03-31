@@ -1,3 +1,148 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "path": "Europa/España",
+      "pinPos": {
+        "x": -0.32100000977516174,
+        "y": -0.23800000548362732,
+        "z": -0.19699999690055847
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001",
+      "pinPos": {
+        "x": -0.15299999713897705,
+        "y": -0.014000000432133675,
+        "z": 0.027000000700354576
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_001",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_001/España_Iti_001_Dia_001_Activity_001",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_002",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_002/España_Iti_001_Dia_002_Activity_001",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_003",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_003/España_Iti_001_Dia_003_Activity_001",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_004",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_004/España_Iti_001_Dia_004_Activity_001",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_005",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_005/España_Iti_001_Dia_005_Activity_001",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/Itinerario_1",
+      "pinPos": {
+        "x": 0.14000000059604645,
+        "y": 0.04899999871850014,
+        "z": 0.09000000357627869
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/Itinerario_1/Dia_1",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/Itinerario_1/Dia_1/Actividad_1",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/Portugal",
+      "pinPos": {
+        "x": -0.41600000858306885,
+        "y": -0.23100000619888306,
+        "z": -0.1899999976158142
+      },
+      "remainingAutoRefreshes": 2
+    }
+  ]
 }
