@@ -274,6 +274,10 @@
                         {
                           "name": "003_Reserva Shaba_05.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/003_Nairobi%20a%20Samburu/003_Reserva%20Shaba/003_Reserva%20Shaba_05.jpg"
+                        },
+                        {
+                          "name": "003_RESERVASHABA.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/003_Nairobi%20a%20Samburu/003_Reserva%20Shaba/003_RESERVASHABA.png"
                         }
                       ],
                       "pinPos": {
@@ -303,7 +307,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "003_NAIROBIaSAMBURU.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/003_Nairobi%20a%20Samburu/003_NAIROBIaSAMBURU.jpg"
+                    },
+                    {
+                      "name": "003_RESERVASHABA (1).png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/003_Nairobi%20a%20Samburu/003_RESERVASHABA%20(1).png"
+                    }
+                  ],
                   "pinPos": {
                     "x": -0.2199999988079071,
                     "y": 0.07199999690055847,
@@ -385,10 +398,6 @@
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/004_Samburu/002_Hotel%20Saruni/004_Saruni%20Samburu_003.png"
                         },
                         {
-                          "name": "004_Saruni Samburu_004.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/004_Samburu/002_Hotel%20Saruni/004_Saruni%20Samburu_004.jpg"
-                        },
-                        {
                           "name": "004_Saruni Samburu.mp4",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/004_Samburu/002_Hotel%20Saruni/004_Saruni%20Samburu.mp4"
                         }
@@ -400,7 +409,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "004_SAMBURU.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/004_Samburu/004_SAMBURU.jpg"
+                    },
+                    {
+                      "name": "D4_Hotel Sasaab2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/004_Samburu/D4_Hotel%20Sasaab2.png"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.03700000047683716,
                     "y": -0.0689999982714653,
@@ -466,7 +484,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "005_SAMBURUaLAGONAKURU.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/005_Samburu%20a%20Lago%20Nakuru/005_SAMBURUaLAGONAKURU.jpg"
+                    },
+                    {
+                      "name": "D5_LagoNakuru3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/005_Samburu%20a%20Lago%20Nakuru/D5_LagoNakuru3.png"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.07900000363588333,
                     "y": 0.09399999678134918,
@@ -499,6 +526,10 @@
                         {
                           "name": "006_HotelCliff_04.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/006_Lago%20Nakuru/001_Hotel%20Cliff/006_HotelCliff_04.jpg"
+                        },
+                        {
+                          "name": "006_Hotelcliff.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/006_Lago%20Nakuru/001_Hotel%20Cliff/006_Hotelcliff.png"
                         }
                       ],
                       "pinPos": {
@@ -609,6 +640,14 @@
                       "children": [],
                       "files": [
                         {
+                          "name": "007_MigracionÑus_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/007_Lago%20Nakuru%20a%20Masai%20Mara/002_Migraci%C3%B3n%20%C3%B1us/007_Migracion%C3%91us_2.png"
+                        },
+                        {
+                          "name": "007_MigracionÑus.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/007_Lago%20Nakuru%20a%20Masai%20Mara/002_Migraci%C3%B3n%20%C3%B1us/007_Migracion%C3%91us.png"
+                        },
+                        {
                           "name": "D7_MigracionNus_01.mp4",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/007_Lago%20Nakuru%20a%20Masai%20Mara/002_Migraci%C3%B3n%20%C3%B1us/D7_MigracionNus_01.mp4"
                         },
@@ -654,8 +693,12 @@
                   ],
                   "files": [
                     {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/007_Lago%20Nakuru%20a%20Masai%20Mara/KK.txt"
+                      "name": "007_LagoNakuru a Masi Mara.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/007_Lago%20Nakuru%20a%20Masai%20Mara/007_LagoNakuru%20a%20Masi%20Mara.jpg"
+                    },
+                    {
+                      "name": "007_MigracionÑus_2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/007_Lago%20Nakuru%20a%20Masai%20Mara/007_Migracion%C3%91us_2.png"
                     }
                   ],
                   "pinPos": {
@@ -16130,7 +16173,40 @@
                     {
                       "name": "004_Mercado Ben Thanh",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "003_MercadoBenThanh_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_01.jpg"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_01.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_01.png"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_02.jpg"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_02.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_02.png"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_03.jpg"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_03.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_03.png"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_04.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_04.jpg"
+                        },
+                        {
+                          "name": "003_MercadoBenThanh_04.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_04.png"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
@@ -16140,12 +16216,7 @@
                     {
                       "name": "005_Túneles Cu Chi",
                       "children": [],
-                      "files": [
-                        {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/005_T%C3%BAneles%20Cu%20Chi/KK.txt"
-                        }
-                      ],
+                      "files": [],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
