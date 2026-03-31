@@ -16276,7 +16276,20 @@
                     {
                       "name": "001_Delta Mekong",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "004_delta mekong_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/004_Ho%20Chi%20Minh%20a%20Mekong%20Delta/001_Delta%20Mekong/004_delta%20mekong_01.jpg"
+                        },
+                        {
+                          "name": "004_delta mekong_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/004_Ho%20Chi%20Minh%20a%20Mekong%20Delta/001_Delta%20Mekong/004_delta%20mekong_02.jpg"
+                        },
+                        {
+                          "name": "004_delta mekong_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/004_Ho%20Chi%20Minh%20a%20Mekong%20Delta/001_Delta%20Mekong/004_delta%20mekong_03.jpg"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
