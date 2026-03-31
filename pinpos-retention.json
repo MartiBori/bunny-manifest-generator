@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "path": "Europa/España",
-      "pinPos": {
-        "x": -0.32100000977516174,
-        "y": -0.23800000548362732,
-        "z": -0.19699999690055847
-      },
-      "remainingAutoRefreshes": 2
-    },
-    {
       "path": "Europa/España/España_Itinerario_001",
       "pinPos": {
         "x": -0.15299999713897705,
@@ -132,15 +123,6 @@
         "x": 0,
         "y": 0,
         "z": 0
-      },
-      "remainingAutoRefreshes": 2
-    },
-    {
-      "path": "Europa/Portugal",
-      "pinPos": {
-        "x": -0.41600000858306885,
-        "y": -0.23100000619888306,
-        "z": -0.1899999976158142
       },
       "remainingAutoRefreshes": 2
     }
