@@ -7,7 +7,7 @@
         "y": -0.014000000432133675,
         "z": 0.027000000700354576
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_001",
@@ -16,7 +16,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_001/España_Iti_001_Dia_001_Activity_001",
@@ -25,7 +25,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_002",
@@ -34,7 +34,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_002/España_Iti_001_Dia_002_Activity_001",
@@ -43,7 +43,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_003",
@@ -52,7 +52,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_003/España_Iti_001_Dia_003_Activity_001",
@@ -61,7 +61,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_004",
@@ -70,7 +70,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_004/España_Iti_001_Dia_004_Activity_001",
@@ -79,7 +79,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_005",
@@ -88,7 +88,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/España_Itinerario_001/España_Iti_001_Dia_005/España_Iti_001_Dia_005_Activity_001",
@@ -97,7 +97,7 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/Itinerario_1",
@@ -106,7 +106,7 @@
         "y": 0.04899999871850014,
         "z": 0.09000000357627869
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/Itinerario_1/Dia_1",
@@ -115,10 +115,28 @@
         "y": 0,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Europa/España/Itinerario_1/Dia_1/Actividad_1",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 1
+    },
+    {
+      "path": "Asia/China/China/002_Pekín día libre",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/China/China/002_Pekín día libre/Día libre",
       "pinPos": {
         "x": 0,
         "y": 0,
