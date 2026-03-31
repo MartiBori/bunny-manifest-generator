@@ -326,7 +326,10 @@ async function run() {
         newlyRetainedPaths = collectDeletedPinPosIntoRetention(prevManifest, tree, retentionStore);
     }
 
+    // 1e) Si algun path ha reaparegut, restaurem el pinPos des de retenció
     restorePinPosFromRetention(tree, retentionStore);
+
+    // 1f) Només els refresh automàtics consumeixen intents
     decrementRetentionOnlyOnAutomaticRefresh(retentionStore, newlyRetainedPaths);
 
     // 1g) Guardem l'estat de retenció a disc
@@ -402,6 +405,110 @@ async function run() {
         }
     } else {
         console.log("[generator] Purge CDN omès (sense BUNNY_ACCOUNT_API_KEY o sense BUNNY_CDN_BASE)");
+    }
+    function getPathParts(pathStr) {
+        return String(pathStr || "")
+            .split("/")
+            .map(s => s.trim())
+            .filter(Boolean);
+    }
+
+    function getLastSegment(pathStr) {
+        const parts = getPathParts(pathStr);
+        return parts.length ? parts[parts.length - 1] : "";
+    }
+
+    function getGrandParentPrefix(pathStr) {
+        const parts = getPathParts(pathStr);
+        if (parts.length <= 2) return "";
+        return parts.slice(0, parts.length - 2).join("/");
+    }
+
+    function getParentPath(pathStr) {
+        const parts = getPathParts(pathStr);
+        if (parts.length <= 1) return "";
+        return parts.slice(0, parts.length - 1).join("/");
+    }
+
+    function getDepth(pathStr) {
+        return getPathParts(pathStr).length;
+    }
+
+    function isGenericNodeName(name) {
+        const n = String(name || "").trim().toLowerCase();
+
+        const genericNames = new Set([
+            "salida",
+            "llegada",
+            "llegamos",
+            "hoteles",
+            "zz_hoteles",
+            "zz_restaurantes",
+            "aviosalida",
+            "aviollegada",
+            "trensalida",
+            "trenllegada",
+            "cochesalida",
+            "cochellegada"
+        ]);
+
+        return genericNames.has(n);
+    }
+
+    function findSingleEquivalentPathByRenamedParent(oldPath, newTree) {
+        const oldName = getLastSegment(oldPath);
+        if (!oldName) return null;
+
+        // Per evitar restauracions errònies amb noms massa genèrics
+        if (isGenericNodeName(oldName)) return null;
+
+        const oldDepth = getDepth(oldPath);
+        const oldGrandParentPrefix = getGrandParentPrefix(oldPath);
+
+        const newMap = buildPathNodeMap(newTree);
+        const candidates = [];
+
+        for (const [candidatePath] of newMap.entries()) {
+            if (candidatePath === oldPath) continue;
+            if (getDepth(candidatePath) !== oldDepth) continue;
+            if (getLastSegment(candidatePath) !== oldName) continue;
+            if (getGrandParentPrefix(candidatePath) !== oldGrandParentPrefix) continue;
+
+            candidates.push(candidatePath);
+        }
+
+        return candidates.length === 1 ? candidates[0] : null;
+    }
+    function restorePinPosFromRetentionByRenamedParent(newTree, retentionStore) {
+        const newMap = buildPathNodeMap(newTree);
+        const keptEntries = [];
+
+        for (const entry of retentionStore.entries) {
+            if (!entry || !entry.path || !entry.pinPos) {
+                continue;
+            }
+
+            // Si ja existeix exactament, aquesta entrada la gestiona
+            // restorePinPosFromRetention(...) i aquí no cal tocar-la.
+            if (newMap.has(entry.path)) {
+                keptEntries.push(entry);
+                continue;
+            }
+
+            const candidatePath = findSingleEquivalentPathByRenamedParent(entry.path, newTree);
+
+            if (candidatePath) {
+                const node = newMap.get(candidatePath);
+                if (node) {
+                    node.pinPos = clonePinPos(entry.pinPos);
+                    continue; // consumim la retenció
+                }
+            }
+
+            keptEntries.push(entry);
+        }
+
+        retentionStore.entries = keptEntries;
     }
 }
 
