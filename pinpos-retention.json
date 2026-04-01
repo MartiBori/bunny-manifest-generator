@@ -1,22 +1,3 @@
 {
-  "entries": [
-    {
-      "path": "Asia/China/China/002_Pekín día libre",
-      "pinPos": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "remainingAutoRefreshes": 1
-    },
-    {
-      "path": "Asia/China/China/002_Pekín día libre/Día libre",
-      "pinPos": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "remainingAutoRefreshes": 1
-    }
-  ]
+  "entries": []
 }
