@@ -1,3 +1,166 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi/AvioSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi/AvioLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi/004_Barrio Antiguo Hanoi",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi/003_Lago Hoa Kiem",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi/002_Pagoda un solo Pilar",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/007_Hoian a Hanoi/001_Mausoleo Ho Chi Minh",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/006_Hoian",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/006_Hoian/001_día libre",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/AvioSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/AvioLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/005_Puente Japonés",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/004_Salón Asambleas Cantonés",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/003_Templo Phuc Kien",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/002_Museo Historia",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Vietnam/Vietnam/005_Ho Chi Minh a Hoian/001_Ciudad Hoian",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Japon/Japón Feudal/001_Llegada a Osaka/001_Aeropuerto de Osaka",
+      "pinPos": {
+        "x": 0.4129999876022339,
+        "y": 0.014999999664723873,
+        "z": 0.0560000017285347
+      },
+      "remainingAutoRefreshes": 2
+    }
+  ]
 }
