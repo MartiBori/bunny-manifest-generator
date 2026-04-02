@@ -15377,7 +15377,32 @@
                     {
                       "name": "002_Museo Historia",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "005_MuseoHistoria_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/002_Museo%20Historia/005_MuseoHistoria_01.jpg"
+                        },
+                        {
+                          "name": "005_MuseoHistoria_01.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/002_Museo%20Historia/005_MuseoHistoria_01.png"
+                        },
+                        {
+                          "name": "005_MuseoHistoria_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/002_Museo%20Historia/005_MuseoHistoria_02.jpg"
+                        },
+                        {
+                          "name": "005_MuseoHistoria_02.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/002_Museo%20Historia/005_MuseoHistoria_02.png"
+                        },
+                        {
+                          "name": "005_MuseoHistoria_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/002_Museo%20Historia/005_MuseoHistoria_03.jpg"
+                        },
+                        {
+                          "name": "005_MuseoHistoria_04.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/002_Museo%20Historia/005_MuseoHistoria_04.jpg"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
@@ -15389,8 +15414,28 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/KK.txt"
+                          "name": "005_TemploPhucKien_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_01.jpg"
+                        },
+                        {
+                          "name": "005_TemploPhucKien_01.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_01.png"
+                        },
+                        {
+                          "name": "005_TemploPhucKien_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_02.jpg"
+                        },
+                        {
+                          "name": "005_TemploPhucKien_02.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_02.png"
+                        },
+                        {
+                          "name": "005_TemploPhucKien_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_03.jpg"
+                        },
+                        {
+                          "name": "005_TemploPhucKien_04.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_04.jpg"
                         }
                       ],
                       "pinPos": {
@@ -15404,8 +15449,28 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/KK.txt"
+                          "name": "005_SalonAsambleasCantones_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_01.jpg"
+                        },
+                        {
+                          "name": "005_SalonAsambleasCantones_01.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_01.mp4"
+                        },
+                        {
+                          "name": "005_SalonAsambleasCantones_01.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_01.png"
+                        },
+                        {
+                          "name": "005_SalonAsambleasCantones_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_02.jpg"
+                        },
+                        {
+                          "name": "005_SalonAsambleasCantones_02.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_02.png"
+                        },
+                        {
+                          "name": "005_SalonAsambleasCantones_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_03.jpg"
                         }
                       ],
                       "pinPos": {
@@ -15445,8 +15510,24 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/KK.txt"
+                          "name": "006_HoiAn_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_HoiAn_01.jpg"
+                        },
+                        {
+                          "name": "006_HoiAn_01.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_HoiAn_01.png"
+                        },
+                        {
+                          "name": "006_HoiAn_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_HoiAn_02.jpg"
+                        },
+                        {
+                          "name": "006_HoiAn_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_HoiAn_03.jpg"
+                        },
+                        {
+                          "name": "006_HoiAn_04.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_HoiAn_04.jpg"
                         }
                       ],
                       "pinPos": {
