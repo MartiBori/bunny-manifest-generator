@@ -7,7 +7,7 @@
         "y": -0.12700000405311584,
         "z": -0.0860000029206276
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/001_Llegada a Bogotá/002_Sofitel Victoria Regia",
@@ -16,7 +16,7 @@
         "y": -0.10000000149011612,
         "z": -0.05900000035762787
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/003_Zipaquirá",
@@ -25,7 +25,7 @@
         "y": 0.1120000034570694,
         "z": 0.15299999713897705
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/003_Zipaquirá/001_Día libre Bogotá",
@@ -34,7 +34,7 @@
         "y": -0.26499998569488525,
         "z": -0.2240000069141388
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/003_Zipaquirá/002_Catedral de Sal",
@@ -43,7 +43,7 @@
         "y": 0.03400000184774399,
         "z": 0.07500000298023224
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/004_Llegada a Pereira/001_Boutique Sazagua",
@@ -52,7 +52,7 @@
         "y": 0.07500000298023224,
         "z": 0.11599999666213989
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/006_Salento",
@@ -61,7 +61,7 @@
         "y": -0.03999999910593033,
         "z": 0
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/006_Salento/001_Filandia",
@@ -70,7 +70,7 @@
         "y": 0.1589999943971634,
         "z": 0.19900000095367432
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/006_Salento/002_Salento",
@@ -79,7 +79,7 @@
         "y": 0.07400000095367432,
         "z": 0.11500000208616257
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Colombia/Colombia/006_Salento/003_Valle del Cocora",
@@ -88,7 +88,7 @@
         "y": 0.09700000286102295,
         "z": 0.1379999965429306
       },
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     }
   ]
 }
