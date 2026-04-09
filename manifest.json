@@ -800,7 +800,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "008_hotel_Mara Plains Camp_02.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/008_Masai%20Mara/008_hotel_Mara%20Plains%20Camp_02.png"
+                    },
+                    {
+                      "name": "008_MasaiMara.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Kenia/Kenia/008_Masai%20Mara/008_MasaiMara.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": -0.2540000081062317,
                     "y": -0.1289999932050705,
@@ -8498,6 +8507,10 @@
                   ],
                   "files": [
                     {
+                      "name": "001_LlegadaPekin.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/001_Llegada%20a%20Pek%C3%ADn/001_LlegadaPekin.jpg"
+                    },
+                    {
                       "name": "001_Pekin_1.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/001_Llegada%20a%20Pek%C3%ADn/001_Pekin_1.png"
                     }
@@ -8516,28 +8529,28 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "001_Pekin_1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/001_Pekin_1.jpg"
+                          "name": "002_Pekin_1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/002_Pekin_1.jpg"
                         },
                         {
-                          "name": "001_Pekin_1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/001_Pekin_1.png"
+                          "name": "002_Pekin_1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/002_Pekin_1.png"
                         },
                         {
-                          "name": "001_Pekin_2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/001_Pekin_2.jpg"
+                          "name": "002_Pekin_2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/002_Pekin_2.jpg"
                         },
                         {
-                          "name": "001_Pekin_2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/001_Pekin_2.png"
+                          "name": "002_Pekin_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/002_Pekin_2.png"
                         },
                         {
-                          "name": "001_Pekin_3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/001_Pekin_3.jpg"
+                          "name": "002_Pekin_3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/002_Pekin_3.jpg"
                         },
                         {
-                          "name": "001_Pekin_4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/001_Pekin_4.jpg"
+                          "name": "002_Pekin_4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/D%C3%ADa%20libre/002_Pekin_4.jpg"
                         },
                         {
                           "name": "002_pekin.mp4",
@@ -8553,8 +8566,12 @@
                   ],
                   "files": [
                     {
-                      "name": "001_Pekin_2.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/001_Pekin_2.png"
+                      "name": "002_Pekin_2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/002_Pekin_2.png"
+                    },
+                    {
+                      "name": "002_Pekin.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/002_Pekin.jpg"
                     }
                   ],
                   "pinPos": {
@@ -8665,7 +8682,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "003_PalacioImperiall_3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/003_Pek%C3%ADn/003_PalacioImperiall_3.png"
+                    },
+                    {
+                      "name": "003_Pekin.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/003_Pek%C3%ADn/003_Pekin.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -8770,7 +8796,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "004_Gran muralla China_4.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/004_Pek%C3%ADn/004_Gran%20muralla%20China_4.png"
+                    },
+                    {
+                      "name": "004_Pekin_Murallachina.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/004_Pek%C3%ADn/004_Pekin_Murallachina.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -8848,7 +8883,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "005_pekin a xian.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/005_Pek%C3%ADn%20a%20Xian/005_pekin%20a%20xian.jpg"
+                    },
+                    {
+                      "name": "005_Templo del cielo_3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/005_Pek%C3%ADn%20a%20Xian/005_Templo%20del%20cielo_3.png"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -8980,7 +9024,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "006_Guerreros Terracota_4.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/006_Xian/006_Guerreros%20Terracota_4.png"
+                    },
+                    {
+                      "name": "006_Xian.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/006_Xian/006_Xian.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -9011,7 +9064,12 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "007_XianZhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/007_Xian%20a%20Zhangjiajie/007_XianZhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -9025,6 +9083,26 @@
                       "name": "001_Parque Zhangjiajie",
                       "children": [],
                       "files": [
+                        {
+                          "name": "008_Parque Zhangjiajie_1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/008_Parque%20Zhangjiajie_1.png"
+                        },
+                        {
+                          "name": "008_Parque Zhangjiajie_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/008_Parque%20Zhangjiajie_2.png"
+                        },
+                        {
+                          "name": "008_Parque Zhangjiajie_3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/008_Parque%20Zhangjiajie_3.png"
+                        },
+                        {
+                          "name": "008_Parque Zhangjiajie_4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/008_Parque%20Zhangjiajie_4.png"
+                        },
+                        {
+                          "name": "008_Zhangjiajie.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/008_Zhangjiajie.mp4"
+                        },
                         {
                           "name": "D8_ParqueZhangjiajie.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/D8_ParqueZhangjiajie.jpg"
@@ -9044,10 +9122,6 @@
                         {
                           "name": "D8_ParqueZhangjiajie5.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/D8_ParqueZhangjiajie5.jpg"
-                        },
-                        {
-                          "name": "Zhangjiajie.mp4",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/001_Parque%20Zhangjiajie/Zhangjiajie.mp4"
                         }
                       ],
                       "pinPos": {
@@ -9060,6 +9134,22 @@
                       "name": "002_Elevador Bailong",
                       "children": [],
                       "files": [
+                        {
+                          "name": "008_ElevadorBailong_1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/002_Elevador%20Bailong/008_ElevadorBailong_1.png"
+                        },
+                        {
+                          "name": "008_ElevadorBailong_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/002_Elevador%20Bailong/008_ElevadorBailong_2.png"
+                        },
+                        {
+                          "name": "008_ElevadorBailong_3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/002_Elevador%20Bailong/008_ElevadorBailong_3.png"
+                        },
+                        {
+                          "name": "008_ElevadorBailong_4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/002_Elevador%20Bailong/008_ElevadorBailong_4.png"
+                        },
                         {
                           "name": "D8_ElevadorBailong.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/002_Elevador%20Bailong/D8_ElevadorBailong.jpg"
@@ -9092,6 +9182,22 @@
                       "children": [],
                       "files": [
                         {
+                          "name": "008_Reserva Natural Yuanjiajie_1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/003_Reserva%20Natural%20Yuanjiajie/008_Reserva%20Natural%20Yuanjiajie_1.png"
+                        },
+                        {
+                          "name": "008_Reserva Natural Yuanjiajie_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/003_Reserva%20Natural%20Yuanjiajie/008_Reserva%20Natural%20Yuanjiajie_2.png"
+                        },
+                        {
+                          "name": "008_Reserva Natural Yuanjiajie_3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/003_Reserva%20Natural%20Yuanjiajie/008_Reserva%20Natural%20Yuanjiajie_3.png"
+                        },
+                        {
+                          "name": "008_Reserva Natural Yuanjiajie_4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/003_Reserva%20Natural%20Yuanjiajie/008_Reserva%20Natural%20Yuanjiajie_4.png"
+                        },
+                        {
                           "name": "D8_Yuanjiajie.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/003_Reserva%20Natural%20Yuanjiajie/D8_Yuanjiajie.jpg"
                         },
@@ -9122,6 +9228,18 @@
                       "name": "004_Aleluya Mountain",
                       "children": [],
                       "files": [
+                        {
+                          "name": "008_Aleluya Mountain_1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/004_Aleluya%20Mountain/008_Aleluya%20Mountain_1.png"
+                        },
+                        {
+                          "name": "008_Aleluya Mountain_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/004_Aleluya%20Mountain/008_Aleluya%20Mountain_2.png"
+                        },
+                        {
+                          "name": "008_Aleluya Mountain_3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/004_Aleluya%20Mountain/008_Aleluya%20Mountain_3.png"
+                        },
                         {
                           "name": "D8_HallelujahMountain.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/004_Aleluya%20Mountain/D8_HallelujahMountain.jpg"
@@ -9181,7 +9299,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "008_Parque Zhangjiajie_2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/008_Parque%20Zhangjiajie_2.png"
+                    },
+                    {
+                      "name": "008_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/008_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
