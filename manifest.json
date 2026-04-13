@@ -2132,8 +2132,8 @@
                   ],
                   "files": [
                     {
-                      "name": "001_Audio.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Estados%20Unidos/Costa%20Oeste/001_Llegada%20a%20San%20Francisco/001_Audio.mp3"
+                      "name": "001_CostaOeste.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Estados%20Unidos/Costa%20Oeste/001_Llegada%20a%20San%20Francisco/001_CostaOeste.mp3"
                     },
                     {
                       "name": "1_Barcelona_SanFrancisco.jpg",
@@ -2718,6 +2718,10 @@
                     {
                       "name": "004_Audio.mp3",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Estados%20Unidos/Costa%20Oeste/004_Llegada%20a%20Yosemite/004_Audio.mp3"
+                    },
+                    {
+                      "name": "004_CostaOeste.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Estados%20Unidos/Costa%20Oeste/004_Llegada%20a%20Yosemite/004_CostaOeste.mp3"
                     },
                     {
                       "name": "4_SanFrancisco_Yosemite.jpg",
