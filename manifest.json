@@ -15983,10 +15983,20 @@
                     {
                       "name": "Actividad_1",
                       "children": [],
-                      "files": []
+                      "files": [
+                        {
+                          "name": "001_ArgentianEspectacular.mp3",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/Dia_1/Actividad_1/001_ArgentianEspectacular.mp3"
+                        }
+                      ]
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "002_ArgentianEspectacular.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/Dia_1/002_ArgentianEspectacular.mp3"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.7369999885559082,
                     "y": -0.3050000071525574,
@@ -15994,7 +16004,12 @@
                   }
                 }
               ],
-              "files": []
+              "files": [
+                {
+                  "name": "003_ArgentianEspectacular.mp3",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/003_ArgentianEspectacular.mp3"
+                }
+              ]
             }
           ],
           "files": [],
