@@ -1,3 +1,22 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "path": "Europa/España/Itinerario_2",
+      "pinPos": {
+        "x": 0.31700000166893005,
+        "y": 0.0860000029206276,
+        "z": 0.12700000405311584
+      },
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/Itinerario_2/Dia_1/Actividad_1",
+      "pinPos": {
+        "x": 0.7319999933242798,
+        "y": 0.25699999928474426,
+        "z": 0.2980000078678131
+      },
+      "remainingAutoRefreshes": 2
+    }
+  ]
 }

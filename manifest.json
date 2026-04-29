@@ -15975,7 +15975,7 @@
           "name": "España",
           "children": [
             {
-              "name": "Itinerario_2",
+              "name": "Barcelona Espectacular",
               "children": [
                 {
                   "name": "Dia_1",
@@ -15983,12 +15983,7 @@
                     {
                       "name": "Actividad_1",
                       "children": [],
-                      "files": [],
-                      "pinPos": {
-                        "x": 0.7319999933242798,
-                        "y": 0.25699999928474426,
-                        "z": 0.2980000078678131
-                      }
+                      "files": []
                     }
                   ],
                   "files": [],
@@ -15999,12 +15994,7 @@
                   }
                 }
               ],
-              "files": [],
-              "pinPos": {
-                "x": 0.31700000166893005,
-                "y": 0.0860000029206276,
-                "z": 0.12700000405311584
-              }
+              "files": []
             }
           ],
           "files": [],
