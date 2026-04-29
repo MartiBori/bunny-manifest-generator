@@ -18167,6 +18167,10 @@
     {
       "name": "manifest.json",
       "url": "https://foto360.b-cdn.net/Vila_Viatges/manifest.json"
+    },
+    {
+      "name": "pinpos-retention.json",
+      "url": "https://foto360.b-cdn.net/Vila_Viatges/pinpos-retention.json"
     }
   ],
   "version": 8
