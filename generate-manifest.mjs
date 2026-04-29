@@ -329,11 +329,26 @@ async function run() {
     // 1e) Si algun path ha reaparegut, restaurem el pinPos des de retenció
     restorePinPosFromRetention(tree, retentionStore);
 
+    // 1e-bis) Si el pare ha canviat de nom però els fills mantenen nom/estructura,
+    // restaurem el pinPos dels fills equivalents.
+    restorePinPosFromRetentionByRenamedParent(tree, retentionStore);
+
     // 1f) Només els refresh automàtics consumeixen intents
     decrementRetentionOnlyOnAutomaticRefresh(retentionStore, newlyRetainedPaths);
 
     // 1g) Guardem l'estat de retenció a disc
     saveJsonFilePretty(path.join(process.cwd(), PINPOS_RETENTION_FILE), retentionStore);
+
+    const retentionJson = JSON.stringify(retentionStore, null, 2);
+    const retentionRemotePath = `${STORAGE_API}/${encodeURIComponent(STORAGE_ZONE)}/${encodeURI(ROOT_PREFIX)}/${PINPOS_RETENTION_FILE}`;
+
+    await axios.put(retentionRemotePath, retentionJson, {
+        headers: { AccessKey: API_KEY, "Content-Type": "application/json" },
+        maxContentLength: Infinity,
+        maxBodyLength: Infinity
+    });
+
+    console.log(`[generator] Pujat a Storage -> /${ROOT_PREFIX}/${PINPOS_RETENTION_FILE}`);
 
     console.log(
         `[generator] Retenció pinPos -> entries=${retentionStore.entries.length} automatic=${IS_AUTOMATIC_REFRESH}`
