@@ -8,6 +8,18 @@
         "z": -0.2639999985694885
       },
       "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Europa/España/Barcelona Espectacular",
+      "pinPos": {
+        "x": 0.3190000057220459,
+        "y": 0.08900000154972076,
+        "z": 0.12999999523162842
+      },
+      "files": [
+        "003_argentianespectacular.mp3"
+      ],
+      "remainingAutoRefreshes": 2
     }
   ]
 }
