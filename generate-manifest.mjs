@@ -90,6 +90,14 @@ function clonePinPos(pinPos) {
         z: Number(pinPos.z || 0),
     };
 }
+function getFileSignature(node) {
+    const files = Array.isArray(node?.files) ? node.files : [];
+
+    return files
+        .map(f => String(f?.name || "").trim().toLowerCase())
+        .filter(Boolean)
+        .sort();
+}
 
 function walkNodes(nodeOrTree, currentPath = "", outMap = new Map()) {
     if (!nodeOrTree) return outMap;
@@ -420,7 +428,7 @@ async function run() {
                 best.score >= minScore &&
                 (!second || (best.score - second.score) >= minGap);
 
-            if (isClear) {
+            if (isClear) {function clonePinPos(pinPos) {
                 best.node.pinPos = clonePinPos(entry.pinPos);
                 console.log(`[generator] Retenció scoring OK: '${entry.path}' -> '${best.path}' score=${best.score}`);
                 continue;
