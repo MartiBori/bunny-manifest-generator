@@ -15975,7 +15975,7 @@
           "name": "España",
           "children": [
             {
-              "name": "Barcelona",
+              "name": "Catalunya Barcelona",
               "children": [
                 {
                   "name": "001_Dia patata",
@@ -15986,7 +15986,7 @@
                       "files": [
                         {
                           "name": "Rata_1 (1).mp3",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona/001_Dia%20patata/001_Bodega/Rata_1%20(1).mp3"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Catalunya%20Barcelona/001_Dia%20patata/001_Bodega/Rata_1%20(1).mp3"
                         }
                       ],
                       "pinPos": {
@@ -15999,7 +15999,7 @@
                   "files": [
                     {
                       "name": "002_ArgentianEspectacular.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona/001_Dia%20patata/002_ArgentianEspectacular.mp3"
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Catalunya%20Barcelona/001_Dia%20patata/002_ArgentianEspectacular.mp3"
                     }
                   ],
                   "pinPos": {
@@ -16012,7 +16012,7 @@
               "files": [
                 {
                   "name": "003_ArgentianEspectacular.mp3",
-                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona/003_ArgentianEspectacular.mp3"
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Catalunya%20Barcelona/003_ArgentianEspectacular.mp3"
                 }
               ]
             }
