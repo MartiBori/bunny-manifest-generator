@@ -1,3 +1,13 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "path": "Europa/España/Barcelona Espectacular/Dia_1",
+      "pinPos": {
+        "x": 0.7369999885559082,
+        "y": -0.3050000071525574,
+        "z": -0.2639999985694885
+      },
+      "remainingAutoRefreshes": 2
+    }
+  ]
 }

@@ -15978,15 +15978,15 @@
               "name": "Barcelona Espectacular",
               "children": [
                 {
-                  "name": "Dia_1",
+                  "name": "001_Dia patata",
                   "children": [
                     {
-                      "name": "Actividad_1",
+                      "name": "001_Bodega",
                       "children": [],
                       "files": [
                         {
-                          "name": "001_ArgentianEspectacular.mp3",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/Dia_1/Actividad_1/001_ArgentianEspectacular.mp3"
+                          "name": "Rata_1 (1).mp3",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/001_Dia%20patata/001_Bodega/Rata_1%20(1).mp3"
                         }
                       ]
                     }
@@ -15994,14 +15994,9 @@
                   "files": [
                     {
                       "name": "002_ArgentianEspectacular.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/Dia_1/002_ArgentianEspectacular.mp3"
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/001_Dia%20patata/002_ArgentianEspectacular.mp3"
                     }
-                  ],
-                  "pinPos": {
-                    "x": 0.7369999885559082,
-                    "y": -0.3050000071525574,
-                    "z": -0.2639999985694885
-                  }
+                  ]
                 }
               ],
               "files": [
