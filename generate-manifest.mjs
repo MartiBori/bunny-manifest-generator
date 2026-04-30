@@ -428,7 +428,7 @@ async function run() {
                 best.score >= minScore &&
                 (!second || (best.score - second.score) >= minGap);
 
-            if (isClear) {function clonePinPos(pinPos) {
+            if (isClear) {
                 best.node.pinPos = clonePinPos(entry.pinPos);
                 console.log(`[generator] Retenció scoring OK: '${entry.path}' -> '${best.path}' score=${best.score}`);
                 continue;
@@ -439,6 +439,7 @@ async function run() {
 
         retentionStore.entries = keptEntries;
     }
+
     // Fallback 2: scoring conservador
     restorePinPosFromRetentionByScore(tree, retentionStore, 80, 20);
 
