@@ -145,6 +145,7 @@ function collectDeletedPinPosIntoRetention(previousTree, newTree, retentionStore
             retentionMap.set(path, {
                 path,
                 pinPos: clonePinPos(prevNode.pinPos),
+                files: getFileSignature(prevNode),
                 remainingAutoRefreshes: PINPOS_RETENTION_AUTOMATIC_REFRESHES,
             });
 
@@ -326,12 +327,112 @@ async function run() {
         newlyRetainedPaths = collectDeletedPinPosIntoRetention(prevManifest, tree, retentionStore);
     }
 
-    // 1e) Si algun path ha reaparegut, restaurem el pinPos des de retenció
     restorePinPosFromRetention(tree, retentionStore);
 
-    // 1e-bis) Si el pare ha canviat de nom però els fills mantenen nom/estructura,
-    // restaurem el pinPos dels fills equivalents.
+    // Fallback 1: pare renombrat però fill igual
     restorePinPosFromRetentionByRenamedParent(tree, retentionStore);
+
+    function getFileSignature(node) {
+        const files = Array.isArray(node?.files) ? node.files : [];
+
+        return files
+            .map(f => String(f?.name || "").trim().toLowerCase())
+            .filter(Boolean)
+            .sort();
+    }
+
+    function countCommonItems(a, b) {
+        const setB = new Set(b);
+        let count = 0;
+
+        for (const x of a) {
+            if (setB.has(x)) count++;
+        }
+
+        return count;
+    }
+
+    function scoreRetentionCandidate(entry, candidatePath, candidateNode) {
+        const oldName = getLastSegment(entry.path);
+        const newName = getLastSegment(candidatePath);
+
+        if (!oldName || !newName) return 0;
+        if (isGenericNodeName(oldName)) return 0;
+
+        let score = 0;
+
+        // Mateix nom final
+        if (oldName === newName) score += 45;
+
+        // Mateixa profunditat
+        if (getDepth(entry.path) === getDepth(candidatePath)) score += 20;
+
+        // Mateix context superior, ignorant el pare immediat
+        if (getGrandParentPrefix(entry.path) === getGrandParentPrefix(candidatePath)) score += 25;
+
+        // Arxius semblants
+        const oldFiles = Array.isArray(entry.files) ? entry.files : [];
+        const newFiles = getFileSignature(candidateNode);
+
+        if (oldFiles.length > 0 && newFiles.length > 0) {
+            const common = countCommonItems(oldFiles, newFiles);
+            const ratio = common / Math.max(oldFiles.length, newFiles.length);
+
+            if (ratio >= 0.75) score += 20;
+            else if (ratio >= 0.5) score += 10;
+        }
+
+        return score;
+    }
+
+    function restorePinPosFromRetentionByScore(newTree, retentionStore, minScore = 80, minGap = 20) {
+        const newMap = buildPathNodeMap(newTree);
+        const keptEntries = [];
+
+        for (const entry of retentionStore.entries) {
+            if (!entry || !entry.path || !entry.pinPos) continue;
+
+            if (newMap.has(entry.path)) {
+                keptEntries.push(entry);
+                continue;
+            }
+
+            const candidates = [];
+
+            for (const [candidatePath, candidateNode] of newMap.entries()) {
+                if (candidatePath === entry.path) continue;
+                if (getDepth(candidatePath) !== getDepth(entry.path)) continue;
+
+                const score = scoreRetentionCandidate(entry, candidatePath, candidateNode);
+
+                if (score > 0) {
+                    candidates.push({ path: candidatePath, node: candidateNode, score });
+                }
+            }
+
+            candidates.sort((a, b) => b.score - a.score);
+
+            const best = candidates[0];
+            const second = candidates[1];
+
+            const isClear =
+                best &&
+                best.score >= minScore &&
+                (!second || (best.score - second.score) >= minGap);
+
+            if (isClear) {
+                best.node.pinPos = clonePinPos(entry.pinPos);
+                console.log(`[generator] Retenció scoring OK: '${entry.path}' -> '${best.path}' score=${best.score}`);
+                continue;
+            }
+
+            keptEntries.push(entry);
+        }
+
+        retentionStore.entries = keptEntries;
+    }
+    // Fallback 2: scoring conservador
+    restorePinPosFromRetentionByScore(tree, retentionStore, 80, 20);
 
     // 1f) Només els refresh automàtics consumeixen intents
     decrementRetentionOnlyOnAutomaticRefresh(retentionStore, newlyRetainedPaths);
