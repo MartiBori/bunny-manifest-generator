@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "path": "Europa/España/Barcelona Espectacular/Dia_1",
-      "pinPos": {
-        "x": 0.7369999885559082,
-        "y": -0.3050000071525574,
-        "z": -0.2639999985694885
-      },
-      "remainingAutoRefreshes": 1
-    },
-    {
-      "path": "Europa/España/Barcelona Espectacular",
-      "pinPos": {
-        "x": 0.3190000057220459,
-        "y": 0.08900000154972076,
-        "z": 0.12999999523162842
-      },
-      "files": [
-        "003_argentianespectacular.mp3"
-      ],
-      "remainingAutoRefreshes": 1
-    },
-    {
       "path": "Asia/Japon/Japón Feudal/001_Llegada a Osaka/AvioLLegada",
       "pinPos": {
         "x": 0.40799999237060547,
@@ -31,7 +10,7 @@
       "files": [
         "d1_osaka15k.png"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/001_Llegada a Osaka/AvioSalida",
@@ -41,7 +20,7 @@
         "z": 0.10199999809265137
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/005_Hiroshima/AvioLLegada",
@@ -51,7 +30,7 @@
         "z": 0.03200000151991844
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/005_Hiroshima/AvioSalida",
@@ -61,7 +40,7 @@
         "z": -0.019999999552965164
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/006_Ruta Nakasendo/AvioLLegada",
@@ -71,7 +50,7 @@
         "z": -0.04800000041723251
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/006_Ruta Nakasendo/AvioSalida",
@@ -81,7 +60,7 @@
         "z": -0.16699999570846558
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/008_Camino a Tokio/AvioLLegada",
@@ -91,7 +70,7 @@
         "z": -0.039000000804662704
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/008_Camino a Tokio/AvioSalida",
@@ -101,7 +80,7 @@
         "z": -0.08699999749660492
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/011_Regreso a Barcelona/AvioLLegada",
@@ -111,7 +90,7 @@
         "z": 0.09799999743700027
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "Asia/Japon/Japón Feudal/011_Regreso a Barcelona/AvioSalida",
@@ -121,7 +100,7 @@
         "z": 0.0560000017285347
       },
       "files": [],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     }
   ]
 }
