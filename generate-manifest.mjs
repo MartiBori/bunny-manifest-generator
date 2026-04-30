@@ -337,7 +337,8 @@ async function run() {
 
     restorePinPosFromRetention(tree, retentionStore);
 
-    // Fallback 1: pare renombrat però fill igual
+    // 1e-bis) Pare renombrat: restaura fills i, si hi ha prou coincidències,
+    // també reassigna la posició del pare antic al pare nou.
     restorePinPosFromRetentionByRenamedParent(tree, retentionStore);
 
     function getFileSignature(node) {
@@ -574,7 +575,11 @@ async function run() {
             "trensalida",
             "trenllegada",
             "cochesalida",
-            "cochellegada"
+            "cochellegada",
+            "barcosalida",
+            "barcollegada",
+            "furgollegada",
+            "furgosalida"
         ]);
 
         return genericNames.has(n);
@@ -606,28 +611,91 @@ async function run() {
     }
     function restorePinPosFromRetentionByRenamedParent(newTree, retentionStore) {
         const newMap = buildPathNodeMap(newTree);
+
         const keptEntries = [];
+        const childRemaps = new Map();
+        const parentVotes = new Map();
 
+        const MIN_CHILD_MATCHES_TO_RESTORE_PARENT = 2;
+
+        // 1) Primer detectem fills equivalents
         for (const entry of retentionStore.entries) {
-            if (!entry || !entry.path || !entry.pinPos) {
-                continue;
-            }
+            if (!entry || !entry.path || !entry.pinPos) continue;
 
-            // Si ja existeix exactament, aquesta entrada la gestiona
-            // restorePinPosFromRetention(...) i aquí no cal tocar-la.
             if (newMap.has(entry.path)) {
                 keptEntries.push(entry);
                 continue;
             }
 
             const candidatePath = findSingleEquivalentPathByRenamedParent(entry.path, newTree);
+            if (!candidatePath) continue;
 
-            if (candidatePath) {
-                const node = newMap.get(candidatePath);
-                if (node) {
-                    node.pinPos = clonePinPos(entry.pinPos);
-                    continue; // consumim la retenció
+            const oldParentPath = getParentPath(entry.path);
+            const newParentPath = getParentPath(candidatePath);
+            const childName = getLastSegment(entry.path);
+            const childIsSafe = !isGenericNodeName(childName);
+
+            childRemaps.set(entry.path, candidatePath);
+
+            if (oldParentPath && newParentPath && oldParentPath !== newParentPath) {
+                const vote = parentVotes.get(oldParentPath) || {
+                    newParentPath,
+                    count: 0,
+                    safeChildCount: 0
+                };
+
+                if (vote.newParentPath === newParentPath) {
+                    vote.count++;
+
+                    if (childIsSafe) {
+                        vote.safeChildCount++;
+                    }
+
+                    parentVotes.set(oldParentPath, vote);
                 }
+            }
+        }
+
+        // 2) Ara apliquem fills i pares detectats
+        for (const entry of retentionStore.entries) {
+            if (!entry || !entry.path || !entry.pinPos) continue;
+
+            if (newMap.has(entry.path)) {
+                keptEntries.push(entry);
+                continue;
+            }
+
+            // Fills
+            const childCandidatePath = childRemaps.get(entry.path);
+            if (childCandidatePath) {
+                const childNode = newMap.get(childCandidatePath);
+                if (childNode) {
+                    childNode.pinPos = clonePinPos(entry.pinPos);
+                    console.log(`[generator] Retenció pare renombrat fill: '${entry.path}' -> '${childCandidatePath}'`);
+                    continue;
+                }
+            }
+
+            // Pare
+            const parentVote = parentVotes.get(entry.path);
+
+            const canRestoreParent =
+                parentVote &&
+                newMap.has(parentVote.newParentPath) &&
+                (
+                    parentVote.count >= MIN_CHILD_MATCHES_TO_RESTORE_PARENT ||
+                    (parentVote.count === 1 && parentVote.safeChildCount === 1)
+                );
+
+            if (canRestoreParent) {
+                const parentNode = newMap.get(parentVote.newParentPath);
+                parentNode.pinPos = clonePinPos(entry.pinPos);
+
+                console.log(
+                    `[generator] Retenció pare renombrat PARE: '${entry.path}' -> '${parentVote.newParentPath}' matches=${parentVote.count} safe=${parentVote.safeChildCount}`
+                );
+
+                continue;
             }
 
             keptEntries.push(entry);
