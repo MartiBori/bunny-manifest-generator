@@ -15988,7 +15988,12 @@
                           "name": "Rata_1 (1).mp3",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/001_Dia%20patata/001_Bodega/Rata_1%20(1).mp3"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0.7409999966621399,
+                        "y": 0.27000001072883606,
+                        "z": 0.3109999895095825
+                      }
                     }
                   ],
                   "files": [
@@ -15996,7 +16001,12 @@
                       "name": "002_ArgentianEspectacular.mp3",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/001_Dia%20patata/002_ArgentianEspectacular.mp3"
                     }
-                  ]
+                  ],
+                  "pinPos": {
+                    "x": 0.753000020980835,
+                    "y": -0.3199999928474426,
+                    "z": -0.27900001406669617
+                  }
                 }
               ],
               "files": [
@@ -16004,7 +16014,12 @@
                   "name": "003_ArgentianEspectacular.mp3",
                   "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Barcelona%20Espectacular/003_ArgentianEspectacular.mp3"
                 }
-              ]
+              ],
+              "pinPos": {
+                "x": 0.31700000166893005,
+                "y": 0.08799999952316284,
+                "z": 0.1289999932050705
+              }
             }
           ],
           "files": [],
@@ -18183,5 +18198,5 @@
       "url": "https://foto360.b-cdn.net/Vila_Viatges/pinpos-retention.json"
     }
   ],
-  "version": 8
+  "version": 9
 }
