@@ -10207,7 +10207,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/001_Llegada%20a%20Osaka/AvioLLegada/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     },
                     {
                       "name": "AvioSalida",
@@ -10217,7 +10222,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/001_Llegada%20a%20Osaka/AvioSalida/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [
@@ -11032,7 +11042,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/005_Hiroshima/AvioLLegada/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     },
                     {
                       "name": "AvioSalida",
@@ -11042,7 +11057,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/005_Hiroshima/AvioSalida/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [
@@ -11373,7 +11393,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/006_Ruta%20Nakasendo/AvioLLegada/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     },
                     {
                       "name": "AvioSalida",
@@ -11383,7 +11408,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/006_Ruta%20Nakasendo/AvioSalida/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [
@@ -11920,7 +11950,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/008_Camino%20a%20Tokio/AvioLLegada/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     },
                     {
                       "name": "AvioSalida",
@@ -11930,7 +11965,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/008_Camino%20a%20Tokio/AvioSalida/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [
@@ -12584,7 +12624,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/011_Regreso%20a%20Barcelona/AvioLLegada/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     },
                     {
                       "name": "AvioSalida",
@@ -12594,7 +12639,12 @@
                           "name": "kk.txt",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Jap%C3%B3n/Jap%C3%B3n%20Feudal/011_Regreso%20a%20Barcelona/AvioSalida/kk.txt"
                         }
-                      ]
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
                     }
                   ],
                   "files": [
@@ -12635,7 +12685,12 @@
               }
             }
           ],
-          "files": []
+          "files": [],
+          "pinPos": {
+            "x": 0.1940000057220459,
+            "y": -0.06700000166893005,
+            "z": -0.027000000700354576
+          }
         },
         {
           "name": "Sri Lanka",
@@ -16008,7 +16063,12 @@
                   "name": "003_ArgentianEspectacular.mp3",
                   "url": "https://foto360.b-cdn.net/Vila_Viatges/Europa/Espa%C3%B1a/Maresme/003_ArgentianEspectacular.mp3"
                 }
-              ]
+              ],
+              "pinPos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
             }
           ],
           "files": [],
@@ -18192,5 +18252,5 @@
       "url": "https://foto360.b-cdn.net/Vila_Viatges/pinpos-retention.json"
     }
   ],
-  "version": 12
+  "version": 13
 }
