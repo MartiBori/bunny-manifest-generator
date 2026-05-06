@@ -90,16 +90,36 @@
                       "children": [],
                       "files": [
                         {
+                          "name": "001_Piramides.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides.jpg"
+                        },
+                        {
+                          "name": "001_Piramides1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides1.jpg"
+                        },
+                        {
                           "name": "001_Piramides1.png",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides1.png"
+                        },
+                        {
+                          "name": "001_Piramides2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides2.jpg"
                         },
                         {
                           "name": "001_Piramides2.png",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides2.png"
                         },
                         {
+                          "name": "001_Piramides3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides3.jpg"
+                        },
+                        {
                           "name": "001_Piramides3.png",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides3.png"
+                        },
+                        {
+                          "name": "001_Piramides4.jpeg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides4.jpeg"
                         },
                         {
                           "name": "001_Piramides4.png",
@@ -17182,6 +17202,10 @@
                 {
                   "name": "InfoText_Vietnam.mp3",
                   "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/InfoText_Vietnam.mp3"
+                },
+                {
+                  "name": "Vietnam.jpg",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/Vietnam.jpg"
                 },
                 {
                   "name": "VIETNAM.txt",
