@@ -4,6 +4,166 @@
       "name": "África",
       "children": [
         {
+          "name": "Egipto",
+          "children": [
+            {
+              "name": "Egipto",
+              "children": [
+                {
+                  "name": "001_Llegada a El Cairo",
+                  "children": [
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/001_Llegada%20a%20El%20Cairo/AvioLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/001_Llegada%20a%20El%20Cairo/AvioSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "001_ElCairoLlegada.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/001_Llegada%20a%20El%20Cairo/001_ElCairoLlegada.png"
+                    }
+                  ]
+                },
+                {
+                  "name": "002_El Cairo",
+                  "children": [
+                    {
+                      "name": "001_Necrópolis de Giza",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "001_Giza_2.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza_2.mp4"
+                        },
+                        {
+                          "name": "001_Giza.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza.jpg"
+                        },
+                        {
+                          "name": "001_Giza1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza1.png"
+                        },
+                        {
+                          "name": "001_Giza2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza2.jpg"
+                        },
+                        {
+                          "name": "001_Giza2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza2.png"
+                        },
+                        {
+                          "name": "001_Giza3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza3.jpg"
+                        },
+                        {
+                          "name": "001_Giza3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza3.png"
+                        },
+                        {
+                          "name": "001_Giza4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza4.jpg"
+                        },
+                        {
+                          "name": "001_Giza5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Necr%C3%B3polis%20de%20Giza/001_Giza5.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "002_Pirámide de Krefén, Micerinos y Kéops",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "001_Piramides1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides1.png"
+                        },
+                        {
+                          "name": "001_Piramides2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides2.png"
+                        },
+                        {
+                          "name": "001_Piramides3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides3.png"
+                        },
+                        {
+                          "name": "001_Piramides4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides4.png"
+                        },
+                        {
+                          "name": "001_Piramides5.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides5.png"
+                        },
+                        {
+                          "name": "001_Piramides6.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides6.png"
+                        },
+                        {
+                          "name": "001_Piramides7.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Pir%C3%A1mide%20de%20Kref%C3%A9n,%20Micerinos%20y%20K%C3%A9ops/001_Piramides7.png"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "003_Esfinge",
+                      "children": [],
+                      "files": []
+                    }
+                  ],
+                  "files": []
+                },
+                {
+                  "name": "003_El Cairo",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "004_Cairo a Luxor",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "005_Luxor a Esna y Edfu",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "006_Edfu a Aswan",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "007_Aswan",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "008_Regreso a Barcelona",
+                  "children": [],
+                  "files": []
+                }
+              ],
+              "files": []
+            }
+          ],
+          "files": []
+        },
+        {
           "name": "Kenia",
           "children": [
             {
@@ -8737,12 +8897,16 @@
                   ],
                   "files": [
                     {
-                      "name": "001_LlegadaPekin.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/001_Llegada%20a%20Pek%C3%ADn/001_LlegadaPekin.jpg"
+                      "name": "001_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/001_Llegada%20a%20Pek%C3%ADn/001_CHINA.mp3"
                     },
                     {
                       "name": "001_Pekin_1.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/001_Llegada%20a%20Pek%C3%ADn/001_Pekin_1.png"
+                    },
+                    {
+                      "name": "Dia_1_18.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/001_Llegada%20a%20Pek%C3%ADn/Dia_1_18.jpg"
                     }
                   ],
                   "pinPos": {
@@ -8795,6 +8959,10 @@
                     }
                   ],
                   "files": [
+                    {
+                      "name": "002_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/002_CHINA.mp3"
+                    },
                     {
                       "name": "002_Pekin_2.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/002_Pek%C3%ADn/002_Pekin_2.png"
@@ -8914,6 +9082,10 @@
                   ],
                   "files": [
                     {
+                      "name": "003_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/003_Pek%C3%ADn/003_CHINA.mp3"
+                    },
+                    {
                       "name": "003_PalacioImperiall_3.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/003_Pek%C3%ADn/003_PalacioImperiall_3.png"
                     },
@@ -9028,12 +9200,16 @@
                   ],
                   "files": [
                     {
+                      "name": "004_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/004_Pek%C3%ADn/004_CHINA.mp3"
+                    },
+                    {
                       "name": "004_Gran muralla China_4.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/004_Pek%C3%ADn/004_Gran%20muralla%20China_4.png"
                     },
                     {
-                      "name": "004_Pekin_Murallachina.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/004_Pek%C3%ADn/004_Pekin_Murallachina.jpg"
+                      "name": "Dia_4.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/004_Pek%C3%ADn/Dia_4.jpg"
                     }
                   ],
                   "pinPos": {
@@ -9124,6 +9300,10 @@
                     }
                   ],
                   "files": [
+                    {
+                      "name": "005_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/005_Pek%C3%ADn%20a%20Xian/005_CHINA.mp3"
+                    },
                     {
                       "name": "005_pekin a xian.jpg",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/005_Pek%C3%ADn%20a%20Xian/005_pekin%20a%20xian.jpg"
@@ -9266,6 +9446,10 @@
                   ],
                   "files": [
                     {
+                      "name": "006_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/006_Xian/006_CHINA.mp3"
+                    },
+                    {
                       "name": "006_Guerreros Terracota_4.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/006_Xian/006_Guerreros%20Terracota_4.png"
                     },
@@ -9316,8 +9500,16 @@
                   ],
                   "files": [
                     {
+                      "name": "007_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/007_Xian%20a%20Zhangjiajie/007_CHINA.mp3"
+                    },
+                    {
                       "name": "007_XianZhangjiajie.jpg",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/007_Xian%20a%20Zhangjiajie/007_XianZhangjiajie.jpg"
+                    },
+                    {
+                      "name": "007_Zhangjiajie_1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/007_Xian%20a%20Zhangjiajie/007_Zhangjiajie_1.png"
                     }
                   ],
                   "pinPos": {
@@ -9534,8 +9726,28 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "D8_TIanzi.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/D8_TIanzi.jpg"
+                          "name": "008_MonatñaTianzi_1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/008_Monat%C3%B1aTianzi_1.jpg"
+                        },
+                        {
+                          "name": "008_Montaña Tianzi_1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/008_Monta%C3%B1a%20Tianzi_1.png"
+                        },
+                        {
+                          "name": "008_Montaña Tianzi_2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/008_Monta%C3%B1a%20Tianzi_2.png"
+                        },
+                        {
+                          "name": "008_Montaña Tianzi_3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/008_Monta%C3%B1a%20Tianzi_3.png"
+                        },
+                        {
+                          "name": "008_MontañaTianzi_2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/008_Monta%C3%B1aTianzi_2.jpg"
+                        },
+                        {
+                          "name": "008_MontañaTianzi_3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/008_Monta%C3%B1aTianzi_3.jpg"
                         },
                         {
                           "name": "D8_Tianzi.mp4",
@@ -9544,18 +9756,6 @@
                         {
                           "name": "D8_TIanzi2.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/D8_TIanzi2.jpg"
-                        },
-                        {
-                          "name": "D8_TIanzi3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/D8_TIanzi3.jpg"
-                        },
-                        {
-                          "name": "D8_TIanzi4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/D8_TIanzi4.jpg"
-                        },
-                        {
-                          "name": "D8_TIanzi5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/005_Monta%C3%B1a%20Tianzi/D8_TIanzi5.jpg"
                         }
                       ],
                       "pinPos": {
@@ -9566,6 +9766,10 @@
                     }
                   ],
                   "files": [
+                    {
+                      "name": "008_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/008_CHINA.mp3"
+                    },
                     {
                       "name": "008_Parque Zhangjiajie_2.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/008_Zhangjiajie/008_Parque%20Zhangjiajie_2.png"
@@ -9647,7 +9851,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "009_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/009_Zhangjiajie/009_CHINA.mp3"
+                    },
+                    {
+                      "name": "009_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/009_Zhangjiajie/009_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.13699999451637268,
                     "y": 0.004000000189989805,
@@ -9750,7 +9963,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "010_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/010_Zhangjiajie%20a%20Furong/010_CHINA.mp3"
+                    },
+                    {
+                      "name": "010_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/010_Zhangjiajie%20a%20Furong/010_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.47699999809265137,
                     "y": -0.03400000184774399,
@@ -9822,7 +10044,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "011_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/011_Furong%20a%20Guilin/011_CHINA.mp3"
+                    },
+                    {
+                      "name": "011_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/011_Furong%20a%20Guilin/011_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.13899999856948853,
                     "y": -0.0689999982714653,
@@ -9895,7 +10126,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "012_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/012_Guilin/012_CHINA.mp3"
+                    },
+                    {
+                      "name": "012_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/012_Guilin/012_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.22699999809265137,
                     "y": -0.017000000923871994,
@@ -9998,7 +10238,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "013_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/013_Guilin%20a%20Hangzhou/013_CHINA.mp3"
+                    },
+                    {
+                      "name": "013_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/013_Guilin%20a%20Hangzhou/013_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -10102,7 +10351,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "014_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/014_Hangzhou/014_CHINA.mp3"
+                    },
+                    {
+                      "name": "014_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/014_Hangzhou/014_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.1979999989271164,
                     "y": -0.0989999994635582,
@@ -10236,7 +10494,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "015_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/015_Hangzhou%20a%20Suzhou/015_CHINA.mp3"
+                    },
+                    {
+                      "name": "015_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/015_Hangzhou%20a%20Suzhou/015_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.335999995470047,
                     "y": -0.11699999868869781,
@@ -10401,7 +10668,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "016_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/016_Suzhou%20a%20Shanghai/016_CHINA.mp3"
+                    },
+                    {
+                      "name": "016_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/016_Suzhou%20a%20Shanghai/016_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -10422,7 +10698,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "017_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/017_Shanghai/017_CHINA.mp3"
+                    },
+                    {
+                      "name": "017_Zhangjiajie.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/017_Shanghai/017_Zhangjiajie.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0.33399999141693115,
                     "y": -0.03200000151991844,
@@ -10465,8 +10750,16 @@
                   ],
                   "files": [
                     {
+                      "name": "018_CHINA.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/018_Regreso%20a%20Barcelona/018_CHINA.mp3"
+                    },
+                    {
                       "name": "360_BCN_1.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/018_Regreso%20a%20Barcelona/360_BCN_1.png"
+                    },
+                    {
+                      "name": "Dia_1_18.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/018_Regreso%20a%20Barcelona/Dia_1_18.jpg"
                     }
                   ],
                   "pinPos": {
@@ -10480,6 +10773,10 @@
                 {
                   "name": "CHINA.txt",
                   "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/CHINA.txt"
+                },
+                {
+                  "name": "InfoText_China.mp3",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/China/China/InfoText_China.mp3"
                 }
               ],
               "pinPos": {
@@ -15586,7 +15883,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "001_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/001_Llegada%20a%20Ho%20Chi%20Minh/001_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_1_11.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/001_Llegada%20a%20Ho%20Chi%20Minh/Dia_1_11.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -15636,7 +15942,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "002_ho_chi_minh_002.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/002_Ho%20Chi%20Minh/002_ho_chi_minh_002.png"
+                    },
+                    {
+                      "name": "002_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/002_Ho%20Chi%20Minh/002_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_2.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/002_Ho%20Chi%20Minh/Dia_2.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -15842,7 +16161,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "003_MercadoBenThanh_03.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/003_MercadoBenThanh_03.png"
+                    },
+                    {
+                      "name": "003_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/003_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_3.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/Dia_3.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -15910,7 +16242,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "004_Delta_Mekong.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/004_Ho%20Chi%20Minh%20a%20Mekong%20Delta/004_Delta_Mekong.png"
+                    },
+                    {
+                      "name": "004_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/004_Ho%20Chi%20Minh%20a%20Mekong%20Delta/004_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_4.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/004_Ho%20Chi%20Minh%20a%20Mekong%20Delta/Dia_4.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16017,6 +16362,10 @@
                         {
                           "name": "005_TemploPhucKien_04.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien_04.jpg"
+                        },
+                        {
+                          "name": "005_TemploPhucKien.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/003_Templo%20Phuc%20Kien/005_TemploPhucKien.mp4"
                         }
                       ],
                       "pinPos": {
@@ -16065,8 +16414,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/KK.txt"
+                          "name": "005_JapneseBridge.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_JapneseBridge.mp4"
+                        },
+                        {
+                          "name": "005_PuenteJapones.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones.jpg"
+                        },
+                        {
+                          "name": "005_PuenteJapones.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones.png"
+                        },
+                        {
+                          "name": "005_PuenteJapones1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones1.jpg"
+                        },
+                        {
+                          "name": "005_PuenteJapones2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones2.jpg"
+                        },
+                        {
+                          "name": "005_PuenteJapones2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones2.png"
+                        },
+                        {
+                          "name": "005_PuenteJapones3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones3.jpg"
+                        },
+                        {
+                          "name": "005_PuenteJapones3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones3.png"
+                        },
+                        {
+                          "name": "005_PuenteJapones4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Puente%20Japon%C3%A9s/005_PuenteJapones4.jpg"
                         }
                       ],
                       "pinPos": {
@@ -16076,7 +16457,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "005_PuenteJapones3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_PuenteJapones3.png"
+                    },
+                    {
+                      "name": "005_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/005_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_5.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/Dia_5.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16090,6 +16484,10 @@
                       "name": "001_día libre",
                       "children": [],
                       "files": [
+                        {
+                          "name": "006_DiaLibreHoiAn.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_DiaLibreHoiAn.mp4"
+                        },
                         {
                           "name": "006_HoiAn_01.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/001_d%C3%ADa%20libre/006_HoiAn_01.jpg"
@@ -16118,7 +16516,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "006_HoiAn_01.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/006_HoiAn_01.png"
+                    },
+                    {
+                      "name": "006_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/006_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_6.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/006_Hoi%20An/Dia_6.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16133,8 +16544,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/KK.txt"
+                          "name": "007_HoChiMinMausoleo.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_HoChiMinMausoleo.mp4"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMin.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMin.jpg"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMin1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMin1.jpg"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMin2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMin2.jpg"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMin3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMin3.jpg"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMin4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMin4.jpg"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMinh.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMinh.png"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMinh2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMinh2.png"
+                        },
+                        {
+                          "name": "007_MausoleoHoChiMinh3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/001_Mausoleo%20Ho%20Chi%20Minh/007_MausoleoHoChiMinh3.png"
                         }
                       ],
                       "pinPos": {
@@ -16148,8 +16591,48 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/KK.txt"
+                          "name": "007_1PillarPagoda.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_1PillarPagoda.mp4"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar.jpg"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar.png"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar2.jpg"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar2.png"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar3.jpg"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar3.png"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar4.jpg"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar4.png"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar5.jpg"
+                        },
+                        {
+                          "name": "007_Pagoda1Pilar5.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/002_Pagoda%20un%20solo%20Pilar/007_Pagoda1Pilar5.png"
                         }
                       ],
                       "pinPos": {
@@ -16163,8 +16646,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/KK.txt"
+                          "name": "007_HoanKiem.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_HoanKiem.mp4"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem.jpeg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem.jpeg"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem.png"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem1.jpg"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem1.png"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem2.jpg"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem2.png"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem3.jpg"
+                        },
+                        {
+                          "name": "007_LagoHoaKiem4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/003_Lago%20Hoa%20Kiem/007_LagoHoaKiem4.jpg"
                         }
                       ],
                       "pinPos": {
@@ -16178,8 +16693,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/KK.txt"
+                          "name": "007_BarrioAntiguoHanoi.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_BarrioAntiguoHanoi.jpg"
+                        },
+                        {
+                          "name": "007_BarrioAntiguoHanoi2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_BarrioAntiguoHanoi2.jpg"
+                        },
+                        {
+                          "name": "007_BarrioAntiguoHanoi3.JPG",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_BarrioAntiguoHanoi3.JPG"
+                        },
+                        {
+                          "name": "007_BarrioAntiguoHanoi4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_BarrioAntiguoHanoi4.jpg"
+                        },
+                        {
+                          "name": "007_BarrioAntiguoHanoi5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_BarrioAntiguoHanoi5.jpg"
+                        },
+                        {
+                          "name": "007_OldQuarterHanoi_1.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_OldQuarterHanoi_1.mp4"
+                        },
+                        {
+                          "name": "007_OldQuarterHanoi.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_OldQuarterHanoi.png"
+                        },
+                        {
+                          "name": "007_OldQuarterHanoi1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_OldQuarterHanoi1.png"
+                        },
+                        {
+                          "name": "007_OldQuarterHanoi2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/004_Barrio%20Antiguo%20Hanoi/007_OldQuarterHanoi2.png"
                         }
                       ],
                       "pinPos": {
@@ -16189,7 +16736,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "007_LagoHoaKiem1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/007_LagoHoaKiem1.png"
+                    },
+                    {
+                      "name": "007_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/007_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_7.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/007_Hoi%20An%20a%20Hanoi/Dia_7.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16204,8 +16764,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/KK.txt"
+                          "name": "008_HanoiLibre.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre.jpg"
+                        },
+                        {
+                          "name": "008_HanoiLibre.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre.mp4"
+                        },
+                        {
+                          "name": "008_HanoiLibre.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre.png"
+                        },
+                        {
+                          "name": "008_HanoiLibre1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre1.jpg"
+                        },
+                        {
+                          "name": "008_HanoiLibre2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre2.jpg"
+                        },
+                        {
+                          "name": "008_HanoiLibre2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre2.png"
+                        },
+                        {
+                          "name": "008_HanoiLibre3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre3.jpg"
+                        },
+                        {
+                          "name": "008_HanoiLibre3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre3.png"
+                        },
+                        {
+                          "name": "008_HanoiLibre4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/001_d%C3%ADa%20libre/008_HanoiLibre4.jpg"
                         }
                       ],
                       "pinPos": {
@@ -16215,7 +16807,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "008_HanoiLibre2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/008_HanoiLibre2.png"
+                    },
+                    {
+                      "name": "008_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/008_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_8.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/008_Hanoi/Dia_8.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16230,8 +16835,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/KK.txt"
+                          "name": "009_NinhBinh.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh.jpg"
+                        },
+                        {
+                          "name": "009_NinhBinh.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh.mp4"
+                        },
+                        {
+                          "name": "009_NinhBinh1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh1.png"
+                        },
+                        {
+                          "name": "009_NinhBinh2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh2.jpg"
+                        },
+                        {
+                          "name": "009_NinhBinh2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh2.png"
+                        },
+                        {
+                          "name": "009_NinhBinh3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh3.jpg"
+                        },
+                        {
+                          "name": "009_NinhBinh3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh3.png"
+                        },
+                        {
+                          "name": "009_NinhBinh4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh4.jpg"
+                        },
+                        {
+                          "name": "009_NinhBinh5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/001_Ninh%20Binh/009_NinhBinh5.jpg"
                         }
                       ],
                       "pinPos": {
@@ -16245,8 +16882,44 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/KK.txt"
+                          "name": "009_TamCoc.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc.jpg"
+                        },
+                        {
+                          "name": "009_TamCoc.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc.mp4"
+                        },
+                        {
+                          "name": "009_TamCoc.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc.png"
+                        },
+                        {
+                          "name": "009_TamCoc1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc1.png"
+                        },
+                        {
+                          "name": "009_TamCoc2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc2.jpg"
+                        },
+                        {
+                          "name": "009_TamCoc2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc2.png"
+                        },
+                        {
+                          "name": "009_TamCoc3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc3.jpg"
+                        },
+                        {
+                          "name": "009_TamCoc3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc3.png"
+                        },
+                        {
+                          "name": "009_TamCoc4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc4.jpg"
+                        },
+                        {
+                          "name": "009_TamCoc5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/002_Tam%20Coc/009_TamCoc5.jpg"
                         }
                       ],
                       "pinPos": {
@@ -16286,7 +16959,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "009_NinhBinh3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/009_NinhBinh3.png"
+                    },
+                    {
+                      "name": "009_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/009_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_9.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/Dia_9.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16301,8 +16987,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/KK.txt"
+                          "name": "010_BahiaHaLong0.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong0.png"
+                        },
+                        {
+                          "name": "010_BahiaHaLong1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong1.jpg"
+                        },
+                        {
+                          "name": "010_BahiaHaLong1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong1.png"
+                        },
+                        {
+                          "name": "010_BahiaHaLong2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong2.jpg"
+                        },
+                        {
+                          "name": "010_BahiaHaLong2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong2.png"
+                        },
+                        {
+                          "name": "010_BahiaHaLong3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong3.jpg"
+                        },
+                        {
+                          "name": "010_BahiaHaLong4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong4.jpg"
+                        },
+                        {
+                          "name": "010_BahiaHaLong5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_BahiaHaLong5.jpg"
+                        },
+                        {
+                          "name": "010_HaLongBay.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/001_Bahia%20Halong/010_HaLongBay.mp4"
                         }
                       ],
                       "pinPos": {
@@ -16316,8 +17034,40 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/KK.txt"
+                          "name": "010_CruceroPARADISE.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroPARADISE.jpg"
+                        },
+                        {
+                          "name": "010_CruceroParadise.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroParadise.png"
+                        },
+                        {
+                          "name": "010_CruceroParadise1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroParadise1.png"
+                        },
+                        {
+                          "name": "010_CruceroPARADISE2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroPARADISE2.jpg"
+                        },
+                        {
+                          "name": "010_CruceroParadise2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroParadise2.png"
+                        },
+                        {
+                          "name": "010_CruceroPARADISE3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroPARADISE3.jpg"
+                        },
+                        {
+                          "name": "010_CruceroPARADISE4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroPARADISE4.jpg"
+                        },
+                        {
+                          "name": "010_CruceroPARADISE5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_CruceroPARADISE5.jpg"
+                        },
+                        {
+                          "name": "010_ParadiseCruise.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/002_Cruceros%20Paradise/010_ParadiseCruise.mp4"
                         }
                       ],
                       "pinPos": {
@@ -16357,7 +17107,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "010_BahiaHaLong2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/010_BahiaHaLong2.png"
+                    },
+                    {
+                      "name": "010_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/010_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_10.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/010_Hanoi%20a%20Bahia%20Halong/Dia_10.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16370,7 +17133,12 @@
                     {
                       "name": "AvioLLegada",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/011_Regreso%20a%20Barcelona/AvioLLegada/kk.txt"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
@@ -16380,7 +17148,12 @@
                     {
                       "name": "AvioSalida",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/011_Regreso%20a%20Barcelona/AvioSalida/kk.txt"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
@@ -16388,7 +17161,16 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "011_Vietnam.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/011_Regreso%20a%20Barcelona/011_Vietnam.mp3"
+                    },
+                    {
+                      "name": "Dia_1_11.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/011_Regreso%20a%20Barcelona/Dia_1_11.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16396,7 +17178,16 @@
                   }
                 }
               ],
-              "files": [],
+              "files": [
+                {
+                  "name": "InfoText_Vietnam.mp3",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/InfoText_Vietnam.mp3"
+                },
+                {
+                  "name": "VIETNAM.txt",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/VIETNAM.txt"
+                }
+              ],
               "pinPos": {
                 "x": 0,
                 "y": 0,
