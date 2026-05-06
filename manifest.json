@@ -308,6 +308,10 @@
                         {
                           "name": "003_TumbaTutankamon5.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon5.jpg"
+                        },
+                        {
+                          "name": "003_TutAnkAmhumTomb.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TutAnkAmhumTomb.mp4"
                         }
                       ],
                       "pinPos": {
@@ -319,7 +323,44 @@
                     {
                       "name": "003_Ciutadela de Saladino",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "003_CiutadelaSaladino.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino.jpg"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino.png"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino2.jpg"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino2.png"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino3.jpg"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino3.png"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino4.jpg"
+                        },
+                        {
+                          "name": "003_CiutadelaSaladino5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_CiutadelaSaladino5.jpg"
+                        },
+                        {
+                          "name": "003_SaladinoCitadel.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Ciutadela%20de%20Saladino/003_SaladinoCitadel.mp4"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
@@ -329,7 +370,24 @@
                     {
                       "name": "004_Mezquita Mohamed Ali",
                       "children": [],
-                      "files": [],
+                      "files": [
+                        {
+                          "name": "003_MezquitaMohammedAli.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/004_Mezquita%20Mohamed%20Ali/003_MezquitaMohammedAli.png"
+                        },
+                        {
+                          "name": "003_MezquitaMohammedAli2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/004_Mezquita%20Mohamed%20Ali/003_MezquitaMohammedAli2.png"
+                        },
+                        {
+                          "name": "003_MezquitaMohammedAli3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/004_Mezquita%20Mohamed%20Ali/003_MezquitaMohammedAli3.png"
+                        },
+                        {
+                          "name": "003_MuhammadAliMosque.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/004_Mezquita%20Mohamed%20Ali/003_MuhammadAliMosque.mp4"
+                        }
+                      ],
                       "pinPos": {
                         "x": 0,
                         "y": 0,
@@ -17250,8 +17308,8 @@
                   ],
                   "files": [
                     {
-                      "name": "009_NinhBinh3.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/009_NinhBinh3.png"
+                      "name": "009_TamCoc1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/009_Hanoi%20a%20Ninh%20Binh%20%E2%80%93%20Hanoi/009_TamCoc1.png"
                     },
                     {
                       "name": "009_Vietnam.mp3",
