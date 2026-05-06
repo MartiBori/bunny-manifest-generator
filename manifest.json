@@ -271,7 +271,40 @@
                     {
                       "name": "002_Tumba de Tutankhamón",
                       "children": [],
-                      "files": []
+                      "files": [
+                        {
+                          "name": "003_TumbaTutankamon.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon.jpg"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon1.png"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon2.jpg"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon2.png"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon3.jpg"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon3.png"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon4.jpg"
+                        },
+                        {
+                          "name": "003_TumbaTutankamon5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/002_Tumba%20de%20Tutankham%C3%B3n/003_TumbaTutankamon5.jpg"
+                        }
+                      ]
                     },
                     {
                       "name": "003_Ciutadela de Saladino",
@@ -16088,6 +16121,10 @@
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/001_Llegada%20a%20Ho%20Chi%20Minh/001_Vietnam.mp3"
                     },
                     {
+                      "name": "002_ho_chi_minh_003.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/001_Llegada%20a%20Ho%20Chi%20Minh/002_ho_chi_minh_003.png"
+                    },
+                    {
                       "name": "Dia_1_11.jpg",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/001_Llegada%20a%20Ho%20Chi%20Minh/Dia_1_11.jpg"
                     }
@@ -16312,6 +16349,10 @@
                         {
                           "name": "003_MercadoBenThanh_04.png",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/003_MercadoBenThanh_04.png"
+                        },
+                        {
+                          "name": "008_MontañaTianzi_3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/003_Ho%20Chi%20Minh/004_Mercado%20Ben%20Thanh/008_Monta%C3%B1aTianzi_3.jpg"
                         }
                       ],
                       "pinPos": {
