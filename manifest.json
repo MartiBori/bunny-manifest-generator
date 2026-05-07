@@ -522,10 +522,6 @@
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/004_Cairo%20a%20Luxor/001_Templos%20Karnak%20y%20Luxor/004_KarnakLuxor2.jpg"
                         },
                         {
-                          "name": "004_KarnakLuxor2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/004_Cairo%20a%20Luxor/001_Templos%20Karnak%20y%20Luxor/004_KarnakLuxor2.png"
-                        },
-                        {
                           "name": "004_KarnakLuxor3.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/004_Cairo%20a%20Luxor/001_Templos%20Karnak%20y%20Luxor/004_KarnakLuxor3.jpg"
                         },
@@ -15044,23 +15040,138 @@
                         {
                           "name": "003_BudaReclinado4.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado4.jpg"
+                        },
+                        {
+                          "name": "003_RecliningBuddha_1.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_RecliningBuddha_1.mp4"
                         }
                       ]
                     },
                     {
                       "name": "003_Wat Arun",
                       "children": [],
-                      "files": []
+                      "files": [
+                        {
+                          "name": "003_WatArun_1.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun_1.mp4"
+                        },
+                        {
+                          "name": "003_WatArun.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun.jpg"
+                        },
+                        {
+                          "name": "003_WatArun1.jpeg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun1.jpeg"
+                        },
+                        {
+                          "name": "003_WatArun1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun1.png"
+                        },
+                        {
+                          "name": "003_WatArun2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun2.jpg"
+                        },
+                        {
+                          "name": "003_WatArun2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun2.png"
+                        },
+                        {
+                          "name": "003_WatArun3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun3.jpg"
+                        },
+                        {
+                          "name": "003_WatArun3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun3.png"
+                        },
+                        {
+                          "name": "003_WatArun4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/003_Wat%20Arun/003_WatArun4.jpg"
+                        }
+                      ]
                     },
                     {
                       "name": "004_Wat Saket",
                       "children": [],
-                      "files": []
+                      "files": [
+                        {
+                          "name": "003_WatSaket.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket.jpg"
+                        },
+                        {
+                          "name": "003_watSaket.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_watSaket.mp4"
+                        },
+                        {
+                          "name": "003_WatSaket.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket.png"
+                        },
+                        {
+                          "name": "003_WatSaket2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket2.jpg"
+                        },
+                        {
+                          "name": "003_WatSaket2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket2.png"
+                        },
+                        {
+                          "name": "003_WatSaket3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket3.jpg"
+                        },
+                        {
+                          "name": "003_WatSaket3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket3.png"
+                        },
+                        {
+                          "name": "003_WatSaket4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket4.jpg"
+                        },
+                        {
+                          "name": "003_WatSaket5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/004_Wat%20Saket/003_WatSaket5.jpg"
+                        }
+                      ]
                     },
                     {
                       "name": "005_China Town",
                       "children": [],
-                      "files": []
+                      "files": [
+                        {
+                          "name": "003_Chinatown.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_Chinatown.mp4"
+                        },
+                        {
+                          "name": "003_CHinatown1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_CHinatown1.jpg"
+                        },
+                        {
+                          "name": "003_ChinaTown1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_ChinaTown1.png"
+                        },
+                        {
+                          "name": "003_CHinatown2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_CHinatown2.jpg"
+                        },
+                        {
+                          "name": "003_ChinaTown2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_ChinaTown2.png"
+                        },
+                        {
+                          "name": "003_CHinatown3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_CHinatown3.jpg"
+                        },
+                        {
+                          "name": "003_ChinaTown3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_ChinaTown3.png"
+                        },
+                        {
+                          "name": "003_CHinatown4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_CHinatown4.jpg"
+                        },
+                        {
+                          "name": "003_CHinatown6.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/005_China%20Town/003_CHinatown6.jpg"
+                        }
+                      ]
                     },
                     {
                       "name": "006_Calle Yaowarat",
