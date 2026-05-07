@@ -45,8 +45,16 @@
                   ],
                   "files": [
                     {
+                      "name": "001_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/001_Llegada%20a%20El%20Cairo/001_Egipto.mp3"
+                    },
+                    {
                       "name": "001_ElCairoLlegada.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/001_Llegada%20a%20El%20Cairo/001_ElCairoLlegada.png"
+                    },
+                    {
+                      "name": "Egipto_1_8.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/001_Llegada%20a%20El%20Cairo/Egipto_1_8.jpg"
                     }
                   ],
                   "pinPos": {
@@ -211,7 +219,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "001_Giza3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/001_Giza3.png"
+                    },
+                    {
+                      "name": "002_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/002_Egipto.mp3"
+                    },
+                    {
+                      "name": "Egipto_2.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/002_El%20Cairo/Egipto_2.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -457,7 +478,20 @@
                       }
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "003_CiutadelaSaladino.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_CiutadelaSaladino.png"
+                    },
+                    {
+                      "name": "003_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/003_Egipto.mp3"
+                    },
+                    {
+                      "name": "Egipto_2_3.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/003_El%20Cairo/Egipto_2_3.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -538,7 +572,20 @@
                       ]
                     }
                   ],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "004_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/004_Cairo%20a%20Luxor/004_Egipto.mp3"
+                    },
+                    {
+                      "name": "004_KarnakLuxor2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/004_Cairo%20a%20Luxor/004_KarnakLuxor2.png"
+                    },
+                    {
+                      "name": "Egipto_4.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/004_Cairo%20a%20Luxor/Egipto_4.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -547,8 +594,88 @@
                 },
                 {
                   "name": "005_Luxor a Esna y Edfu",
-                  "children": [],
-                  "files": [],
+                  "children": [
+                    {
+                      "name": "001_Valle de los reyes",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "005_ValleDeLosReyes1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes1.jpg"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes1.png"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes2.jpg"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes2.png"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes3.jpg"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes3.png"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes4.jpg"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes4.png"
+                        },
+                        {
+                          "name": "005_ValleDeLosReyes5.jpeg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleDeLosReyes5.jpeg"
+                        },
+                        {
+                          "name": "005_ValleyOfTheKings.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/001_Valle%20de%20los%20reyes/005_ValleyOfTheKings.mp4"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/CocheLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/CocheSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "005_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/005_Egipto.mp3"
+                    },
+                    {
+                      "name": "005_ValleDeLosReyes2.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/005_ValleDeLosReyes2.png"
+                    },
+                    {
+                      "name": "Egipto_5.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/005_Luxor%20a%20Esna%20y%20Edfu/Egipto_5.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -557,8 +684,134 @@
                 },
                 {
                   "name": "006_Edfu a Aswan",
-                  "children": [],
-                  "files": [],
+                  "children": [
+                    {
+                      "name": "001_Templo de Edfu",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "006__EdfuTempleHorus.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006__EdfuTempleHorus.mp4"
+                        },
+                        {
+                          "name": "006_TemploDeEdfu.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploDeEdfu.png"
+                        },
+                        {
+                          "name": "006_TemploDeEdfu1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploDeEdfu1.png"
+                        },
+                        {
+                          "name": "006_TemploDeEdfu2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploDeEdfu2.png"
+                        },
+                        {
+                          "name": "006_TemploDeEdfu3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploDeEdfu3.png"
+                        },
+                        {
+                          "name": "006_TemploDeEdfu4.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploDeEdfu4.png"
+                        },
+                        {
+                          "name": "006_TemploEdfu1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploEdfu1.jpg"
+                        },
+                        {
+                          "name": "006_TemploEdfu2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploEdfu2.jpg"
+                        },
+                        {
+                          "name": "006_TemploEdfu3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploEdfu3.jpg"
+                        },
+                        {
+                          "name": "006_TemploEdfu4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploEdfu4.jpg"
+                        },
+                        {
+                          "name": "006_TemploEdfu5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/001_Templo%20de%20Edfu/006_TemploEdfu5.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "002_Templo Sobek",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "006_KonOmboSobek.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_KonOmboSobek.mp4"
+                        },
+                        {
+                          "name": "006_Sobek1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_Sobek1.png"
+                        },
+                        {
+                          "name": "006_Sobek2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_Sobek2.png"
+                        },
+                        {
+                          "name": "006_Sobek3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_Sobek3.png"
+                        },
+                        {
+                          "name": "006_TemploSobek.jpeg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_TemploSobek.jpeg"
+                        },
+                        {
+                          "name": "006_TemploSobek1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_TemploSobek1.jpg"
+                        },
+                        {
+                          "name": "006_TemploSobek2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_TemploSobek2.jpg"
+                        },
+                        {
+                          "name": "006_TemploSobek3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_TemploSobek3.jpg"
+                        },
+                        {
+                          "name": "006_TemploSobek4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/002_Templo%20Sobek/006_TemploSobek4.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/CocheLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/CocheSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "006_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/006_Egipto.mp3"
+                    },
+                    {
+                      "name": "006_TemploDeEdfu3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/006_TemploDeEdfu3.png"
+                    },
+                    {
+                      "name": "Egipto_6.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/006_Edfu%20a%20Aswan/Egipto_6.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -567,8 +820,110 @@
                 },
                 {
                   "name": "007_Aswan",
-                  "children": [],
-                  "files": [],
+                  "children": [
+                    {
+                      "name": "001_Aswan",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "007_Aswan.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan.jpg"
+                        },
+                        {
+                          "name": "007_Aswan.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan.mp4"
+                        },
+                        {
+                          "name": "007_Aswan1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan1.png"
+                        },
+                        {
+                          "name": "007_Aswan2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan2.jpg"
+                        },
+                        {
+                          "name": "007_Aswan2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan2.png"
+                        },
+                        {
+                          "name": "007_Aswan3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan3.jpg"
+                        },
+                        {
+                          "name": "007_Aswan3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan3.png"
+                        },
+                        {
+                          "name": "007_Aswan4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan4.jpg"
+                        },
+                        {
+                          "name": "007_Aswan5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/001_Aswan/007_Aswan5.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "002_Templos Abu Simbel",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "007_AbuSimbelRamsesII.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_AbuSimbelRamsesII.mp4"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel.jpg"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel0.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel0.png"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel1.png"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel2.jpg"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel2.png"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel3.jpg"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel3.png"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel4.jpg"
+                        },
+                        {
+                          "name": "007_TemploAbuSimbel6.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/002_Templos%20Abu%20Simbel/007_TemploAbuSimbel6.jpg"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "007_Aswan3.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/007_Aswan3.png"
+                    },
+                    {
+                      "name": "007_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/007_Egipto.mp3"
+                    },
+                    {
+                      "name": "Egipto_7.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/007_Aswan/Egipto_7.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -577,8 +932,42 @@
                 },
                 {
                   "name": "008_Regreso a Barcelona",
-                  "children": [],
-                  "files": [],
+                  "children": [
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/008_Regreso%20a%20Barcelona/AvioLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/008_Regreso%20a%20Barcelona/AvioSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "008_Egipto.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/008_Regreso%20a%20Barcelona/008_Egipto.mp3"
+                    },
+                    {
+                      "name": "360_BCN_1 (1).png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/008_Regreso%20a%20Barcelona/360_BCN_1%20(1).png"
+                    },
+                    {
+                      "name": "Egipto_1_8.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/008_Regreso%20a%20Barcelona/Egipto_1_8.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -586,7 +975,20 @@
                   }
                 }
               ],
-              "files": [],
+              "files": [
+                {
+                  "name": "Egipto.jpg",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/Egipto.jpg"
+                },
+                {
+                  "name": "InfoText_Egipto.mp3",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/InfoText_Egipto.mp3"
+                },
+                {
+                  "name": "Text_EGIPTO.txt",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/%C3%81frica/Egipto/Egipto/Text_EGIPTO.txt"
+                }
+              ],
               "pinPos": {
                 "x": 0,
                 "y": 0,
@@ -14461,6 +14863,270 @@
           }
         },
         {
+          "name": "Tailandia",
+          "children": [
+            {
+              "name": "Tailandia auténtica",
+              "children": [
+                {
+                  "name": "001_Llegada a Bangkok",
+                  "children": [
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/001_Llegada%20a%20Bangkok/AvioLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/001_Llegada%20a%20Bangkok/AvioSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "002_Bangkok0.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/001_Llegada%20a%20Bangkok/002_Bangkok0.png"
+                    }
+                  ]
+                },
+                {
+                  "name": "002_Bangkok libre",
+                  "children": [
+                    {
+                      "name": "001_Ciudad de Bangkok",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "001_Bangkok.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/001_Bangkok.jpg"
+                        },
+                        {
+                          "name": "001_Bangkok2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/001_Bangkok2.jpg"
+                        },
+                        {
+                          "name": "001_Bangkok3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/001_Bangkok3.jpg"
+                        },
+                        {
+                          "name": "001_Bangkok4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/001_Bangkok4.jpg"
+                        },
+                        {
+                          "name": "001_Bangkok5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/001_Bangkok5.jpg"
+                        },
+                        {
+                          "name": "002_Bangkok.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/002_Bangkok.mp4"
+                        },
+                        {
+                          "name": "002_Bangkok.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/002_Bangkok.png"
+                        },
+                        {
+                          "name": "002_Bangkok0.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/002_Bangkok0.png"
+                        },
+                        {
+                          "name": "002_Bangkok1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/001_Ciudad%20de%20Bangkok/002_Bangkok1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "002_Bangkok1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/002_Bangkok%20libre/002_Bangkok1.png"
+                    }
+                  ]
+                },
+                {
+                  "name": "003_Bangkok",
+                  "children": [
+                    {
+                      "name": "001_Gran Palacio",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "003_GrandPalace.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace.jpg"
+                        },
+                        {
+                          "name": "003_GrandPalace.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace.mp4"
+                        },
+                        {
+                          "name": "003_GrandPalace1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace1.jpg"
+                        },
+                        {
+                          "name": "003_GrandPalace2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace2.jpg"
+                        },
+                        {
+                          "name": "003_GrandPalace3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace3.jpg"
+                        },
+                        {
+                          "name": "003_GrandPalace4.jpeg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace4.jpeg"
+                        },
+                        {
+                          "name": "003_GrandPalace5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GrandPalace5.jpg"
+                        },
+                        {
+                          "name": "003_GranPalacio.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GranPalacio.png"
+                        },
+                        {
+                          "name": "003_GranPalacio0.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GranPalacio0.png"
+                        },
+                        {
+                          "name": "003_GranPalacio1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GranPalacio1.png"
+                        },
+                        {
+                          "name": "003_GranPalacio2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/001_Gran%20Palacio/003_GranPalacio2.png"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "002_Buda reclinado",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "003_BudaReclinado.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado.jpg"
+                        },
+                        {
+                          "name": "003_BudaReclinado.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado.png"
+                        },
+                        {
+                          "name": "003_BudaReclinado0.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado0.png"
+                        },
+                        {
+                          "name": "003_BudaReclinado1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado1.jpg"
+                        },
+                        {
+                          "name": "003_BudaReclinado2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado2.jpg"
+                        },
+                        {
+                          "name": "003_BudaReclinado2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado2.png"
+                        },
+                        {
+                          "name": "003_BudaReclinado3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado3.jpg"
+                        },
+                        {
+                          "name": "003_BudaReclinado3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado3.png"
+                        },
+                        {
+                          "name": "003_BudaReclinado4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/003_Bangkok/002_Buda%20reclinado/003_BudaReclinado4.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "003_Wat Arun",
+                      "children": [],
+                      "files": []
+                    },
+                    {
+                      "name": "004_Wat Saket",
+                      "children": [],
+                      "files": []
+                    },
+                    {
+                      "name": "005_China Town",
+                      "children": [],
+                      "files": []
+                    },
+                    {
+                      "name": "006_Calle Yaowarat",
+                      "children": [],
+                      "files": []
+                    }
+                  ],
+                  "files": []
+                },
+                {
+                  "name": "004_Bangkok",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "005_Chiang Mai",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "006_Chai Lai Orchid",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "007_Chai Lai Orchid a Chiang Mai",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "008_Playa de Chiang Mai",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "009_Phuket",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "010_Krabi",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "011_Koh Samui",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "012_Playa de Koh Samui",
+                  "children": [],
+                  "files": []
+                },
+                {
+                  "name": "013_Regreso a Barcelona",
+                  "children": [],
+                  "files": []
+                }
+              ],
+              "files": []
+            }
+          ],
+          "files": []
+        },
+        {
           "name": "Uzbekistán",
           "children": [
             {
@@ -16849,8 +17515,8 @@
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_02.png"
                         },
                         {
-                          "name": "005_SalonAsambleasCantones_03.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_03.jpg"
+                          "name": "005_SalonAsambleasCantones_3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Vietnam/Vietnam/005_Ho%20Chi%20Minh%20a%20Hoi%20An/004_Sal%C3%B3n%20Asambleas%20Canton%C3%A9s/005_SalonAsambleasCantones_3.jpg"
                         }
                       ],
                       "pinPos": {
