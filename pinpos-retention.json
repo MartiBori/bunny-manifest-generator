@@ -1,28 +1,3 @@
 {
-  "entries": [
-    {
-      "path": "África/Egipto/Egipto/002_El Cairo/002_Pirámide de Krefén, Micerinos y Kéops",
-      "pinPos": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "files": [
-        "001_piramides.jpg",
-        "001_piramides1.jpg",
-        "001_piramides1.png",
-        "001_piramides2.jpg",
-        "001_piramides2.png",
-        "001_piramides3.jpg",
-        "001_piramides3.png",
-        "001_piramides4.jpeg",
-        "001_piramides4.png",
-        "001_piramides5.png",
-        "001_piramides6.png",
-        "001_piramides7.png",
-        "001_pyramids.mp4"
-      ],
-      "remainingAutoRefreshes": 1
-    }
-  ]
+  "entries": []
 }
