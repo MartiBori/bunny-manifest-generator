@@ -1,3 +1,161 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "path": "América Sur/Costa Rica/Costa rica",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "costarica.jpg",
+        "infotext_costarica.mp3"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/001_Llegada a San José/AvioLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/001_Llegada a San José/AvioSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/002_San José a El Tortuguero/CocheLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/002_San José a El Tortuguero/CocheSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/004_Tortuguero a Volcán Arenal/CocheLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/004_Tortuguero a Volcán Arenal/CocheSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/006_Volcán Arenal a Monteverde/CocheLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/006_Volcán Arenal a Monteverde/CocheSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/008_Monteverde a Playas Guanacaste/CocheLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/008_Monteverde a Playas Guanacaste/CocheSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/011_Regreso a Barcelona/AvioLLegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "América Sur/Costa Rica/Costa rica/011_Regreso a Barcelona/AvioSalida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    }
+  ]
 }

@@ -3291,6 +3291,1096 @@
           }
         },
         {
+          "name": "Costa Rica",
+          "children": [
+            {
+              "name": "Costa Rica",
+              "children": [
+                {
+                  "name": "001_Llegada a San José",
+                  "children": [
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/001_Llegada%20a%20San%20Jos%C3%A9/AvioLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/001_Llegada%20a%20San%20Jos%C3%A9/AvioSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "001_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/001_Llegada%20a%20San%20Jos%C3%A9/001_CostaRica.mp3"
+                    },
+                    {
+                      "name": "001_LlegadaASanJose1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/001_Llegada%20a%20San%20Jos%C3%A9/001_LlegadaASanJose1.png"
+                    },
+                    {
+                      "name": "CostaRica_1_11.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/001_Llegada%20a%20San%20Jos%C3%A9/CostaRica_1_11.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": -0.3479999899864197,
+                    "y": -0.027000000700354576,
+                    "z": 0.014000000432133675
+                  }
+                },
+                {
+                  "name": "002_San José a El Tortuguero",
+                  "children": [
+                    {
+                      "name": "001_El Tortuguero",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "002_ElTortuguero.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero.mp4"
+                        },
+                        {
+                          "name": "002_ElTortuguero1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero1.jpg"
+                        },
+                        {
+                          "name": "002_ElTortuguero1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero1.png"
+                        },
+                        {
+                          "name": "002_ElTortuguero2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero2.jpg"
+                        },
+                        {
+                          "name": "002_ElTortuguero2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero2.png"
+                        },
+                        {
+                          "name": "002_ElTortuguero3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero3.jpg"
+                        },
+                        {
+                          "name": "002_ElTortuguero3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero3.png"
+                        },
+                        {
+                          "name": "002_ElTortuguero4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero4.jpg"
+                        },
+                        {
+                          "name": "002_ElTortuguero5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/CocheLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/CocheSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "002_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/002_CostaRica.mp3"
+                    },
+                    {
+                      "name": "002_SanJoseAElTortuguero1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/002_SanJoseAElTortuguero1.png"
+                    },
+                    {
+                      "name": "CostaRica_2.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/CostaRica_2.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": 0.19900000095367432,
+                    "y": -0.039000000804662704,
+                    "z": 0.0020000000949949026
+                  }
+                },
+                {
+                  "name": "003_Parque El Tortuguero",
+                  "children": [
+                    {
+                      "name": "001_Parque Tortuguero",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "003_ParqueTortuguero.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero.mp4"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero1.jpg"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero1.png"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero2.jpg"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero2.png"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero3.jpg"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero3.png"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero4.jpg"
+                        },
+                        {
+                          "name": "003_ParqueTortuguero5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Tortugas",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "003_Tortugas1 .png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas1%20.png"
+                        },
+                        {
+                          "name": "003_Tortugas1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas1.jpg"
+                        },
+                        {
+                          "name": "003_Tortugas2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas2.jpg"
+                        },
+                        {
+                          "name": "003_Tortugas3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas3.jpg"
+                        },
+                        {
+                          "name": "003_Tortugas4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas4.jpg"
+                        },
+                        {
+                          "name": "003_Tortugas5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Cocodrilos",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "003_Cocodrilos1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos1.jpg"
+                        },
+                        {
+                          "name": "003_Cocodrilos1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos1.png"
+                        },
+                        {
+                          "name": "003_Cocodrilos2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos2.jpg"
+                        },
+                        {
+                          "name": "003_Cocodrilos3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos3.jpg"
+                        },
+                        {
+                          "name": "003_Cocodrilos4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos4.jpg"
+                        },
+                        {
+                          "name": "003_Cocodrilos5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "004_Barcas por el río",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "004_Barcasporelrio1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio1.jpg"
+                        },
+                        {
+                          "name": "004_Barcasporelrio1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio1.png"
+                        },
+                        {
+                          "name": "004_Barcasporelrio2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio2.jpg"
+                        },
+                        {
+                          "name": "004_Barcasporelrio2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio2.png"
+                        },
+                        {
+                          "name": "004_Barcasporelrio3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio3.jpg"
+                        },
+                        {
+                          "name": "004_Barcasporelrio3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio3.png"
+                        },
+                        {
+                          "name": "004_Barcasporelrio4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio4.jpg"
+                        },
+                        {
+                          "name": "004_Barcasporelrio5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "003_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/003_CostaRica.mp3"
+                    },
+                    {
+                      "name": "CostaRica_3.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/003_Parque%20El%20Tortuguero/CostaRica_3.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": -0.12399999797344208,
+                    "y": -0.13899999856948853,
+                    "z": -0.09799999743700027
+                  }
+                },
+                {
+                  "name": "004_Tortuguero a Volcán Arenal",
+                  "children": [
+                    {
+                      "name": "001_Volcán Arenal",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "004_VolcanArenal.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal.mp4"
+                        },
+                        {
+                          "name": "004_VolcanArenal1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal1.jpg"
+                        },
+                        {
+                          "name": "004_VolcanArenal1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal1.png"
+                        },
+                        {
+                          "name": "004_VolcanArenal2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal2.jpg"
+                        },
+                        {
+                          "name": "004_VolcanArenal2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal2.png"
+                        },
+                        {
+                          "name": "004_VolcanArenal3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal3.jpg"
+                        },
+                        {
+                          "name": "004_VolcanArenal3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal3.png"
+                        },
+                        {
+                          "name": "004_VolcanArenal4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal4.jpg"
+                        },
+                        {
+                          "name": "004_VolcanArenal5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/CocheLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/CocheSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "004_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/004_CostaRica.mp3"
+                    },
+                    {
+                      "name": "CostaRica_4.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/CostaRica_4.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": 0.22599999606609344,
+                    "y": -0.1080000028014183,
+                    "z": -0.06700000166893005
+                  }
+                },
+                {
+                  "name": "005_Volcán Arenal",
+                  "children": [
+                    {
+                      "name": "001_Volcán Arenal",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "005_VolcanArenal.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal.mp4"
+                        },
+                        {
+                          "name": "005_VolcanArenal1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal1.jpg"
+                        },
+                        {
+                          "name": "005_VolcanArenal1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal1.png"
+                        },
+                        {
+                          "name": "005_VolcanArenal2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal2.jpg"
+                        },
+                        {
+                          "name": "005_VolcanArenal2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal2.png"
+                        },
+                        {
+                          "name": "005_VolcanArenal3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal3.jpg"
+                        },
+                        {
+                          "name": "005_VolcanArenal3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal3.png"
+                        },
+                        {
+                          "name": "005_VolcanArenal4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal4.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_La Fortuna",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "005_LaFortuna.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna.mp4"
+                        },
+                        {
+                          "name": "005_LaFortuna1.JPG",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna1.JPG"
+                        },
+                        {
+                          "name": "005_LaFortuna1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna1.png"
+                        },
+                        {
+                          "name": "005_LaFortuna2.JPG",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna2.JPG"
+                        },
+                        {
+                          "name": "005_LaFortuna2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna2.png"
+                        },
+                        {
+                          "name": "005_LaFortuna3.JPG",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna3.JPG"
+                        },
+                        {
+                          "name": "005_LaFortuna3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna3.png"
+                        },
+                        {
+                          "name": "005_LaFortuna4.JPG",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna4.JPG"
+                        },
+                        {
+                          "name": "005_LaFortuna5.JPG",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna5.JPG"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Tirolesas Volcán Arenal",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "005_TirolesasVolcanArenal.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal.mp4"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal1.jpg"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal1.png"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal2.jpg"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal2.png"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal3.jpg"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal3.png"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal4.jpg"
+                        },
+                        {
+                          "name": "005_TirolesasVolcanArenal5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "005_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/005_CostaRica.mp3"
+                    },
+                    {
+                      "name": "CostaRica_5.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/005_Volc%C3%A1n%20Arenal/CostaRica_5.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": -0.27799999713897705,
+                    "y": 0.10100000351667404,
+                    "z": 0.1420000046491623
+                  }
+                },
+                {
+                  "name": "006_Volcán Arenal a Monteverde",
+                  "children": [
+                    {
+                      "name": "001_Monteverde",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "006_Monteverde1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde1.jpg"
+                        },
+                        {
+                          "name": "006_Monteverde1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde1.png"
+                        },
+                        {
+                          "name": "006_Monteverde2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde2.jpg"
+                        },
+                        {
+                          "name": "006_Monteverde2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde2.png"
+                        },
+                        {
+                          "name": "006_Monteverde3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde3.jpg"
+                        },
+                        {
+                          "name": "006_Monteverde3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde3.png"
+                        },
+                        {
+                          "name": "006_Monteverde4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde4.jpg"
+                        },
+                        {
+                          "name": "006_Monteverde5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/CocheLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/CocheSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "006_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/006_CostaRica.mp3"
+                    },
+                    {
+                      "name": "006_VolcanArenalAMonteverde1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/006_VolcanArenalAMonteverde1.png"
+                    },
+                    {
+                      "name": "CostaRica_6.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/CostaRica_6.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": 0.06300000101327896,
+                    "y": -0.12399999797344208,
+                    "z": -0.08299999684095383
+                  }
+                },
+                {
+                  "name": "007_Monteverde",
+                  "children": [
+                    {
+                      "name": "001_Biosfera Monteverde",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "007_BiosferaMonteverde1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde1.jpg"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde1.png"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde2.jpg"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde2.png"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde3.jpg"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde3.png"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde4.jpg"
+                        },
+                        {
+                          "name": "007_BiosferaMonteverde5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "007_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/007_CostaRica.mp3"
+                    },
+                    {
+                      "name": "CostaRica_7.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/007_Monteverde/CostaRica_7.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": -0.00800000037997961,
+                    "y": 0.09700000286102295,
+                    "z": 0.1379999965429306
+                  }
+                },
+                {
+                  "name": "008_Monteverde a Playas Guanacaste",
+                  "children": [
+                    {
+                      "name": "001_Playas de Guanacaste",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "008_PlayasDeGuanacaste.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste.mp4"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste1.jpg"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste1.png"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste2.jpg"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste2.png"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste3.jpg"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste3.png"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste4.jpg"
+                        },
+                        {
+                          "name": "008_PlayasDeGuanacaste5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "CocheLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/CocheLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/CocheSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "008_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/008_CostaRica.mp3"
+                    },
+                    {
+                      "name": "CostaRica_8.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/008_Monteverde%20a%20Playas%20Guanacaste/CostaRica_8.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": 0.1679999977350235,
+                    "y": -0.17100000381469727,
+                    "z": -0.12999999523162842
+                  }
+                },
+                {
+                  "name": "009_Guanacaste",
+                  "children": [
+                    {
+                      "name": "001_Playa de Guanacaste",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "009_PlayaDeGuanacaste.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste.mp4"
+                        },
+                        {
+                          "name": "009_PlayaDeGuanacaste1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste1.jpg"
+                        },
+                        {
+                          "name": "009_PlayaDeGuanacaste2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste2.jpg"
+                        },
+                        {
+                          "name": "009_PlayaDeGuanacaste3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste3.jpg"
+                        },
+                        {
+                          "name": "009_PlayaDeGuanacaste4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste4.jpg"
+                        },
+                        {
+                          "name": "009_PlayaDeGuanacaste5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste5.jpg"
+                        },
+                        {
+                          "name": "009_PlayasDeGuanacaste1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayasDeGuanacaste1.png"
+                        },
+                        {
+                          "name": "009_PlayasDeGuanacaste2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayasDeGuanacaste2.png"
+                        },
+                        {
+                          "name": "009_PlayasDeGuanacaste3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayasDeGuanacaste3.png"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "002_Hotel Secrets Papagayo",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "009_HotelSecretsPapagayo.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo.mp4"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo1.jpg"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo1.png"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo2.jpg"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo2.png"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo3.jpg"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo3.png"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo4.jpg"
+                        },
+                        {
+                          "name": "009_HotelSecretsPapagayo5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "name": "003_Hotel Westin Reserva Conchal",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "009_HotelWestinReservaConchal1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal1.jpg"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal1.png"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal2.jpg"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal2.png"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal3.jpg"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal3.png"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal4.jpg"
+                        },
+                        {
+                          "name": "009_HotelWestinReservaConchal5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "009_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/009_CostaRica.mp3"
+                    },
+                    {
+                      "name": "CostaRica_9.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/009_Guanacaste/CostaRica_9.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": -0.13600000739097595,
+                    "y": -0.028999999165534973,
+                    "z": 0.010999999940395355
+                  }
+                },
+                {
+                  "name": "010_Día libre Guanacaste",
+                  "children": [
+                    {
+                      "name": "001_Día libre Guanacaste",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "010_DiaLibreGuanacaste1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste1.jpg"
+                        },
+                        {
+                          "name": "010_DiaLibreGuanacaste1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste1.png"
+                        },
+                        {
+                          "name": "010_DiaLibreGuanacaste2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste2.jpg"
+                        },
+                        {
+                          "name": "010_DiaLibreGuanacaste2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste2.png"
+                        },
+                        {
+                          "name": "010_DiaLibreGuanacaste3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste3.png"
+                        },
+                        {
+                          "name": "010_DiaLibreGuanacaste4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste4.jpg"
+                        },
+                        {
+                          "name": "010_DiaLibreGuanacaste5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste5.jpg"
+                        }
+                      ],
+                      "pinPos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "010_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/010_CostaRica.mp3"
+                    },
+                    {
+                      "name": "010_DiaLibreGuanacaste1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste1.png"
+                    },
+                    {
+                      "name": "CostaRica_10.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/010_D%C3%ADa%20libre%20Guanacaste/CostaRica_10.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": 0.1770000010728836,
+                    "y": 0.06300000101327896,
+                    "z": 0.10400000214576721
+                  }
+                },
+                {
+                  "name": "011_Regreso a Barcelona",
+                  "children": [
+                    {
+                      "name": "AvioLLegada",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/011_Regreso%20a%20Barcelona/AvioLLegada/kk.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AvioSalida",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "kk.txt",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/011_Regreso%20a%20Barcelona/AvioSalida/kk.txt"
+                        }
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "name": "011_CostaRica.mp3",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/011_Regreso%20a%20Barcelona/011_CostaRica.mp3"
+                    },
+                    {
+                      "name": "011_RegresoABarcelona1.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/011_Regreso%20a%20Barcelona/011_RegresoABarcelona1.png"
+                    },
+                    {
+                      "name": "CostaRica_1_11.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/011_Regreso%20a%20Barcelona/CostaRica_1_11.jpg"
+                    }
+                  ],
+                  "pinPos": {
+                    "x": -0.1420000046491623,
+                    "y": 0.0860000029206276,
+                    "z": 0.12700000405311584
+                  }
+                }
+              ],
+              "files": [
+                {
+                  "name": "CostaRica.jpg",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/CostaRica.jpg"
+                },
+                {
+                  "name": "COSTARICA.txt",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/COSTARICA.txt"
+                },
+                {
+                  "name": "InfoText_CostaRica.mp3",
+                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Norte/Costa%20Rica/Costa%20Rica/InfoText_CostaRica.mp3"
+                }
+              ]
+            }
+          ],
+          "files": [],
+          "pinPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
           "name": "Estados Unidos",
           "children": [
             {
@@ -9872,1121 +10962,6 @@
             "x": -0.1420000046491623,
             "y": 0.17000000178813934,
             "z": 0.210999995470047
-          }
-        },
-        {
-          "name": "Costa Rica",
-          "children": [
-            {
-              "name": "Costa rica",
-              "children": [
-                {
-                  "name": "001_Llegada a San José",
-                  "children": [
-                    {
-                      "name": "AvioLLegada",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/001_Llegada%20a%20San%20Jos%C3%A9/AvioLLegada/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "AvioSalida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/001_Llegada%20a%20San%20Jos%C3%A9/AvioSalida/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "001_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/001_Llegada%20a%20San%20Jos%C3%A9/001_CostaRica.mp3"
-                    },
-                    {
-                      "name": "001_LlegadaASanJose1.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/001_Llegada%20a%20San%20Jos%C3%A9/001_LlegadaASanJose1.png"
-                    },
-                    {
-                      "name": "CostaRica_1_11.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/001_Llegada%20a%20San%20Jos%C3%A9/CostaRica_1_11.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": -0.3479999899864197,
-                    "y": -0.027000000700354576,
-                    "z": 0.014000000432133675
-                  }
-                },
-                {
-                  "name": "002_San José a El Tortuguero",
-                  "children": [
-                    {
-                      "name": "001_El Tortuguero",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "002_ElTortuguero1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero1.jpg"
-                        },
-                        {
-                          "name": "002_ElTortuguero1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero1.png"
-                        },
-                        {
-                          "name": "002_ElTortuguero2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero2.jpg"
-                        },
-                        {
-                          "name": "002_ElTortuguero2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero2.png"
-                        },
-                        {
-                          "name": "002_ElTortuguero3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero3.jpg"
-                        },
-                        {
-                          "name": "002_ElTortuguero3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero3.png"
-                        },
-                        {
-                          "name": "002_ElTortuguero4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero4.jpg"
-                        },
-                        {
-                          "name": "002_ElTortuguero5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/001_El%20Tortuguero/002_ElTortuguero5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheLLegada",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/CocheLLegada/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheSalida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/CocheSalida/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "002_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/002_CostaRica.mp3"
-                    },
-                    {
-                      "name": "002_SanJoseAElTortuguero1.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/002_SanJoseAElTortuguero1.png"
-                    },
-                    {
-                      "name": "CostaRica_2.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/002_San%20Jos%C3%A9%20a%20El%20Tortuguero/CostaRica_2.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": 0.19900000095367432,
-                    "y": -0.039000000804662704,
-                    "z": 0.0020000000949949026
-                  }
-                },
-                {
-                  "name": "003_Parque El Tortuguero",
-                  "children": [
-                    {
-                      "name": "001_Parque Tortuguero",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "003_ParqueTortuguero1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero1.jpg"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero1.png"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero2.jpg"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero2.png"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero3.jpg"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero3.png"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero4.jpg"
-                        },
-                        {
-                          "name": "003_ParqueTortuguero5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/001_Parque%20Tortuguero/003_ParqueTortuguero5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "002_Tortugas",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "003_Tortugas1 .png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas1%20.png"
-                        },
-                        {
-                          "name": "003_Tortugas1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas1.jpg"
-                        },
-                        {
-                          "name": "003_Tortugas2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas2.jpg"
-                        },
-                        {
-                          "name": "003_Tortugas3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas3.jpg"
-                        },
-                        {
-                          "name": "003_Tortugas4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas4.jpg"
-                        },
-                        {
-                          "name": "003_Tortugas5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/002_Tortugas/003_Tortugas5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "003_Cocodrilos",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "003_Cocodrilos1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos1.jpg"
-                        },
-                        {
-                          "name": "003_Cocodrilos1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos1.png"
-                        },
-                        {
-                          "name": "003_Cocodrilos2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos2.jpg"
-                        },
-                        {
-                          "name": "003_Cocodrilos3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos3.jpg"
-                        },
-                        {
-                          "name": "003_Cocodrilos4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos4.jpg"
-                        },
-                        {
-                          "name": "003_Cocodrilos5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_Cocodrilos/003_Cocodrilos5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "004_Barcas por el río",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "004_Barcasporelrio1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio1.jpg"
-                        },
-                        {
-                          "name": "004_BarcasPorElRio1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_BarcasPorElRio1.png"
-                        },
-                        {
-                          "name": "004_Barcasporelrio2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio2.jpg"
-                        },
-                        {
-                          "name": "004_BarcasPorElRio2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_BarcasPorElRio2.png"
-                        },
-                        {
-                          "name": "004_Barcasporelrio3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio3.jpg"
-                        },
-                        {
-                          "name": "004_BarcasPorElRio3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_BarcasPorElRio3.png"
-                        },
-                        {
-                          "name": "004_Barcasporelrio4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio4.jpg"
-                        },
-                        {
-                          "name": "004_Barcasporelrio5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/004_Barcas%20por%20el%20r%C3%ADo/004_Barcasporelrio5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "003_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/003_CostaRica.mp3"
-                    },
-                    {
-                      "name": "CostaRica_3.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/003_Parque%20El%20Tortuguero/CostaRica_3.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": -0.12399999797344208,
-                    "y": -0.13899999856948853,
-                    "z": -0.09799999743700027
-                  }
-                },
-                {
-                  "name": "004_Tortuguero a Volcán Arenal",
-                  "children": [
-                    {
-                      "name": "001_Volcán Arenal",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "004_VolcanArenal1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal1.jpg"
-                        },
-                        {
-                          "name": "004_VolcanArenal1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal1.png"
-                        },
-                        {
-                          "name": "004_VolcanArenal2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal2.jpg"
-                        },
-                        {
-                          "name": "004_VolcanArenal2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal2.png"
-                        },
-                        {
-                          "name": "004_VolcanArenal3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal3.jpg"
-                        },
-                        {
-                          "name": "004_VolcanArenal3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal3.png"
-                        },
-                        {
-                          "name": "004_VolcanArenal4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal4.jpg"
-                        },
-                        {
-                          "name": "004_VolcanArenal5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/004_VolcanArenal5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheLLegada",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/CocheLLegada/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheSalida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/CocheSalida/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "004_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/004_CostaRica.mp3"
-                    },
-                    {
-                      "name": "CostaRica_4.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/004_Tortuguero%20a%20Volc%C3%A1n%20Arenal/CostaRica_4.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": 0.22599999606609344,
-                    "y": -0.1080000028014183,
-                    "z": -0.06700000166893005
-                  }
-                },
-                {
-                  "name": "005_Volcán Arenal",
-                  "children": [
-                    {
-                      "name": "001_Volcán Arenal",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "005_VolcanArenal1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal1.jpg"
-                        },
-                        {
-                          "name": "005_VolcanArenal1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal1.png"
-                        },
-                        {
-                          "name": "005_VolcanArenal2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal2.jpg"
-                        },
-                        {
-                          "name": "005_VolcanArenal2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal2.png"
-                        },
-                        {
-                          "name": "005_VolcanArenal3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal3.jpg"
-                        },
-                        {
-                          "name": "005_VolcanArenal3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal3.png"
-                        },
-                        {
-                          "name": "005_VolcanArenal4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/001_Volc%C3%A1n%20Arenal/005_VolcanArenal4.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "002_La Fortuna",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "005_LaFortuna1.JPG",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna1.JPG"
-                        },
-                        {
-                          "name": "005_LaFortuna1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna1.png"
-                        },
-                        {
-                          "name": "005_LaFortuna2.JPG",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna2.JPG"
-                        },
-                        {
-                          "name": "005_LaFortuna2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna2.png"
-                        },
-                        {
-                          "name": "005_LaFortuna3.JPG",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna3.JPG"
-                        },
-                        {
-                          "name": "005_LaFortuna3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna3.png"
-                        },
-                        {
-                          "name": "005_LaFortuna4.JPG",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna4.JPG"
-                        },
-                        {
-                          "name": "005_LaFortuna5.JPG",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/002_La%20Fortuna/005_LaFortuna5.JPG"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "003_Tirolesas Volcán Arenal",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "005_TirolesasVolcanArenal1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal1.jpg"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal1.png"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal2.jpg"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal2.png"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal3.jpg"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal3.png"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal4.jpg"
-                        },
-                        {
-                          "name": "005_TirolesasVolcanArenal5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/003_Tirolesas%20Volc%C3%A1n%20Arenal/005_TirolesasVolcanArenal5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "005_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/005_CostaRica.mp3"
-                    },
-                    {
-                      "name": "CostaRica_5.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/005_Volc%C3%A1n%20Arenal/CostaRica_5.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": -0.27799999713897705,
-                    "y": 0.10100000351667404,
-                    "z": 0.1420000046491623
-                  }
-                },
-                {
-                  "name": "006_Volcán Arenal a Monteverde",
-                  "children": [
-                    {
-                      "name": "001_Monteverde",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "006_Monteverde1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde1.jpg"
-                        },
-                        {
-                          "name": "006_Monteverde1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde1.png"
-                        },
-                        {
-                          "name": "006_Monteverde2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde2.jpg"
-                        },
-                        {
-                          "name": "006_Monteverde2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde2.png"
-                        },
-                        {
-                          "name": "006_Monteverde3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde3.jpg"
-                        },
-                        {
-                          "name": "006_Monteverde3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde3.png"
-                        },
-                        {
-                          "name": "006_Monteverde4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde4.jpg"
-                        },
-                        {
-                          "name": "006_Monteverde5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/001_Monteverde/006_Monteverde5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheLLegada",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/CocheLLegada/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheSalida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/CocheSalida/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "006_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/006_CostaRica.mp3"
-                    },
-                    {
-                      "name": "006_VolcanArenalAMonteverde1.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/006_VolcanArenalAMonteverde1.png"
-                    },
-                    {
-                      "name": "CostaRica_6.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/006_Volc%C3%A1n%20Arenal%20a%20Monteverde/CostaRica_6.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": 0.06300000101327896,
-                    "y": -0.12399999797344208,
-                    "z": -0.08299999684095383
-                  }
-                },
-                {
-                  "name": "007_Monteverde",
-                  "children": [
-                    {
-                      "name": "001_Biosfera Monteverde",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "007_BiosferaMonteverde1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde1.jpg"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde1.png"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde2.jpg"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde2.png"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde3.jpg"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde3.png"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde4.jpg"
-                        },
-                        {
-                          "name": "007_BiosferaMonteverde5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/001_Biosfera%20Monteverde/007_BiosferaMonteverde5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "007_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/007_CostaRica.mp3"
-                    },
-                    {
-                      "name": "CostaRica_7.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/007_Monteverde/CostaRica_7.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": -0.00800000037997961,
-                    "y": 0.09700000286102295,
-                    "z": 0.1379999965429306
-                  }
-                },
-                {
-                  "name": "008_Monteverde a Playas Guanacaste",
-                  "children": [
-                    {
-                      "name": "001_Playas de Guanacaste",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "008_PlayasDeGuanacaste1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste1.jpg"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste1.png"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste2.jpg"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste2.png"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste3.jpg"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste3.png"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste4.jpg"
-                        },
-                        {
-                          "name": "008_PlayasDeGuanacaste5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/001_Playas%20de%20Guanacaste/008_PlayasDeGuanacaste5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheLLegada",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/CocheLLegada/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "CocheSalida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/CocheSalida/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "008_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/008_CostaRica.mp3"
-                    },
-                    {
-                      "name": "CostaRica_8.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/008_Monteverde%20a%20Playas%20Guanacaste/CostaRica_8.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": 0.1679999977350235,
-                    "y": -0.17100000381469727,
-                    "z": -0.12999999523162842
-                  }
-                },
-                {
-                  "name": "009_Guanacaste",
-                  "children": [
-                    {
-                      "name": "001_Playa de Guanacaste",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "009_PlayaDeGuanacaste1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste1.jpg"
-                        },
-                        {
-                          "name": "009_PlayaDeGuanacaste2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste2.jpg"
-                        },
-                        {
-                          "name": "009_PlayaDeGuanacaste3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste3.jpg"
-                        },
-                        {
-                          "name": "009_PlayaDeGuanacaste4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste4.jpg"
-                        },
-                        {
-                          "name": "009_PlayaDeGuanacaste5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayaDeGuanacaste5.jpg"
-                        },
-                        {
-                          "name": "009_PlayasDeGuanacaste1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayasDeGuanacaste1.png"
-                        },
-                        {
-                          "name": "009_PlayasDeGuanacaste2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayasDeGuanacaste2.png"
-                        },
-                        {
-                          "name": "009_PlayasDeGuanacaste3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/001_Playa%20de%20Guanacaste/009_PlayasDeGuanacaste3.png"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "002_Hotel Secrets Papagayo",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "009_HotelSecretsPapagayo1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo1.jpg"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo1.png"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo2.jpg"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo2.png"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo3.jpg"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo3.png"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo4.jpg"
-                        },
-                        {
-                          "name": "009_HotelSecretsPapagayo5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/002_Hotel%20Secrets%20Papagayo/009_HotelSecretsPapagayo5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "003_Hotel Westin Reserva Conchal",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "009_HotelWestinReservaConchal1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal1.jpg"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal1.png"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal2.jpg"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal2.png"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal3.jpg"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal3.png"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal4.jpg"
-                        },
-                        {
-                          "name": "009_HotelWestinReservaConchal5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/003_Hotel%20Westin%20Reserva%20Conchal/009_HotelWestinReservaConchal5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "009_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/009_CostaRica.mp3"
-                    },
-                    {
-                      "name": "CostaRica_9.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/009_Guanacaste/CostaRica_9.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": -0.13600000739097595,
-                    "y": -0.028999999165534973,
-                    "z": 0.010999999940395355
-                  }
-                },
-                {
-                  "name": "010_Día libre Guanacaste",
-                  "children": [
-                    {
-                      "name": "001_Día libre Guanacaste",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "010_DiaLibreGuanacaste1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste1.jpg"
-                        },
-                        {
-                          "name": "010_DiaLibreGuanacaste1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste1.png"
-                        },
-                        {
-                          "name": "010_DiaLibreGuanacaste2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste2.jpg"
-                        },
-                        {
-                          "name": "010_DiaLibreGuanacaste2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste2.png"
-                        },
-                        {
-                          "name": "010_DiaLibreGuanacaste3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste3.png"
-                        },
-                        {
-                          "name": "010_DiaLibreGuanacaste4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste4.jpg"
-                        },
-                        {
-                          "name": "010_DiaLibreGuanacaste5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/001_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste5.jpg"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "010_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/010_CostaRica.mp3"
-                    },
-                    {
-                      "name": "010_DiaLibreGuanacaste1.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/010_DiaLibreGuanacaste1.png"
-                    },
-                    {
-                      "name": "CostaRica_10.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/010_D%C3%ADa%20libre%20Guanacaste/CostaRica_10.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": 0.1770000010728836,
-                    "y": 0.06300000101327896,
-                    "z": 0.10400000214576721
-                  }
-                },
-                {
-                  "name": "011_Regreso a Barcelona",
-                  "children": [
-                    {
-                      "name": "AvioLLegada",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/011_Regreso%20a%20Barcelona/AvioLLegada/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "AvioSalida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "kk.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/011_Regreso%20a%20Barcelona/AvioSalida/kk.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  ],
-                  "files": [
-                    {
-                      "name": "011_CostaRica.mp3",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/011_Regreso%20a%20Barcelona/011_CostaRica.mp3"
-                    },
-                    {
-                      "name": "011_RegresoABarcelona1.png",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/011_Regreso%20a%20Barcelona/011_RegresoABarcelona1.png"
-                    },
-                    {
-                      "name": "CostaRica_1_11.jpg",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/011_Regreso%20a%20Barcelona/CostaRica_1_11.jpg"
-                    }
-                  ],
-                  "pinPos": {
-                    "x": -0.1420000046491623,
-                    "y": 0.0860000029206276,
-                    "z": 0.12700000405311584
-                  }
-                }
-              ],
-              "files": [
-                {
-                  "name": "CostaRica.jpg",
-                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/CostaRica.jpg"
-                },
-                {
-                  "name": "InfoText_CostaRica.mp3",
-                  "url": "https://foto360.b-cdn.net/Vila_Viatges/Am%C3%A9rica%20Sur/Costa%20Rica/Costa%20rica/InfoText_CostaRica.mp3"
-                }
-              ],
-              "pinPos": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            }
-          ],
-          "files": [],
-          "pinPos": {
-            "x": 0,
-            "y": 0,
-            "z": 0
           }
         }
       ],
