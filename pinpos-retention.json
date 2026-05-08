@@ -11,7 +11,7 @@
         "costarica.jpg",
         "infotext_costarica.mp3"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/001_Llegada a San José/AvioLLegada",
@@ -23,7 +23,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/001_Llegada a San José/AvioSalida",
@@ -35,7 +35,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/002_San José a El Tortuguero/CocheLLegada",
@@ -47,7 +47,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/002_San José a El Tortuguero/CocheSalida",
@@ -59,7 +59,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/004_Tortuguero a Volcán Arenal/CocheLLegada",
@@ -71,7 +71,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/004_Tortuguero a Volcán Arenal/CocheSalida",
@@ -83,7 +83,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/006_Volcán Arenal a Monteverde/CocheLLegada",
@@ -95,7 +95,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/006_Volcán Arenal a Monteverde/CocheSalida",
@@ -107,7 +107,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/008_Monteverde a Playas Guanacaste/CocheLLegada",
@@ -119,7 +119,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/008_Monteverde a Playas Guanacaste/CocheSalida",
@@ -131,7 +131,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/011_Regreso a Barcelona/AvioLLegada",
@@ -143,7 +143,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     },
     {
       "path": "América Sur/Costa Rica/Costa rica/011_Regreso a Barcelona/AvioSalida",
@@ -155,7 +155,7 @@
       "files": [
         "kk.txt"
       ],
-      "remainingAutoRefreshes": 2
+      "remainingAutoRefreshes": 1
     }
   ]
 }
