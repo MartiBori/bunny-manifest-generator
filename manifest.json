@@ -17214,7 +17214,32 @@
                 {
                   "name": "007_Chai Lai Orchid a Chiang Mai",
                   "children": [],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "Bamboo Rafting in Mae Wang_Thailand adventures.mp4",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/007_Chai%20Lai%20Orchid%20a%20Chiang%20Mai/Bamboo%20Rafting%20in%20Mae%20Wang_Thailand%20adventures.mp4"
+                    },
+                    {
+                      "name": "maewangbambooRafting_01.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/007_Chai%20Lai%20Orchid%20a%20Chiang%20Mai/maewangbambooRafting_01.png"
+                    },
+                    {
+                      "name": "maewangbambooRafting_02.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/007_Chai%20Lai%20Orchid%20a%20Chiang%20Mai/maewangbambooRafting_02.jpg"
+                    },
+                    {
+                      "name": "maewangbambooRafting_03.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/007_Chai%20Lai%20Orchid%20a%20Chiang%20Mai/maewangbambooRafting_03.jpg"
+                    },
+                    {
+                      "name": "maewangbambooRafting_04.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/007_Chai%20Lai%20Orchid%20a%20Chiang%20Mai/maewangbambooRafting_04.jpg"
+                    },
+                    {
+                      "name": "maewangbambooRafting.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/007_Chai%20Lai%20Orchid%20a%20Chiang%20Mai/maewangbambooRafting.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -21552,6 +21577,21 @@
       "name": "Usuari",
       "children": [
         {
+          "name": "África",
+          "children": [],
+          "files": []
+        },
+        {
+          "name": "América Norte",
+          "children": [],
+          "files": []
+        },
+        {
+          "name": "América Sur",
+          "children": [],
+          "files": []
+        },
+        {
           "name": "Argentina",
           "children": [
             {
@@ -22119,6 +22159,16 @@
               "files": []
             }
           ],
+          "files": []
+        },
+        {
+          "name": "Asia",
+          "children": [],
+          "files": []
+        },
+        {
+          "name": "Europa",
+          "children": [],
           "files": []
         },
         {
@@ -22755,6 +22805,11 @@
               "files": []
             }
           ],
+          "files": []
+        },
+        {
+          "name": "Oceania",
+          "children": [],
           "files": []
         }
       ],
