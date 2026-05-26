@@ -17259,7 +17259,48 @@
                 {
                   "name": "009_Phuket",
                   "children": [],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "Phuket_01.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_01.jpg"
+                    },
+                    {
+                      "name": "Phuket_01.mp4",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_01.mp4"
+                    },
+                    {
+                      "name": "Phuket_01.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_01.png"
+                    },
+                    {
+                      "name": "Phuket_02.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_02.jpg"
+                    },
+                    {
+                      "name": "Phuket_02.mp4",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_02.mp4"
+                    },
+                    {
+                      "name": "Phuket_02.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_02.png"
+                    },
+                    {
+                      "name": "Phuket_03.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_03.jpg"
+                    },
+                    {
+                      "name": "Phuket_03.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_03.png"
+                    },
+                    {
+                      "name": "Phuket_04.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_04.jpg"
+                    },
+                    {
+                      "name": "Phuket_04.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/009_Phuket/Phuket_04.png"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -22799,6 +22840,11 @@
                   "files": []
                 }
               ],
+              "files": []
+            },
+            {
+              "name": "Uzbekistan",
+              "children": [],
               "files": []
             }
           ],
