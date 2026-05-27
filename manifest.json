@@ -17361,7 +17361,36 @@
                 {
                   "name": "011_Koh Samui",
                   "children": [],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "Koh_Samui_01.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_01.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_01.mp4",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_01.mp4"
+                    },
+                    {
+                      "name": "Koh_Samui_01.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_01.png"
+                    },
+                    {
+                      "name": "Koh_Samui_02.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_02.png"
+                    },
+                    {
+                      "name": "Koh_Samui_03.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_03.png"
+                    },
+                    {
+                      "name": "Koh_Samui_2.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_2.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_3.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_3.jpg"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -17371,7 +17400,20 @@
                 {
                   "name": "012_Playa de Koh Samui",
                   "children": [],
-                  "files": [],
+                  "files": [
+                    {
+                      "name": "Koh_Samui_01.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_01.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_01.mp4",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_01.mp4"
+                    },
+                    {
+                      "name": "Koh_Samui_01.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_01.png"
+                    }
+                  ],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
