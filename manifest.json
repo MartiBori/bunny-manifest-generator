@@ -17080,14 +17080,6 @@
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/001_Chai%20Lai%20Orchid/006_ChaiLaiOrchid3.jpg"
                         },
                         {
-                          "name": "006_ChaiLaiOrchid3.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/001_Chai%20Lai%20Orchid/006_ChaiLaiOrchid3.png"
-                        },
-                        {
-                          "name": "006_ChaiLaiOrchid4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/001_Chai%20Lai%20Orchid/006_ChaiLaiOrchid4.jpg"
-                        },
-                        {
                           "name": "006_ChaiLaiOrchid5.jpg",
                           "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/001_Chai%20Lai%20Orchid/006_ChaiLaiOrchid5.jpg"
                         },
@@ -17136,44 +17128,104 @@
                       ]
                     },
                     {
-                      "name": "003_Karen",
+                      "name": "003_Baño en la cascada o en el río con elefantes",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "baño_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_01.jpg"
+                        },
+                        {
+                          "name": "baño_01.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_01.mp4"
+                        },
+                        {
+                          "name": "baño_01.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_01.png"
+                        },
+                        {
+                          "name": "baño_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_02.jpg"
+                        },
+                        {
+                          "name": "baño_02.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_02.png"
+                        },
+                        {
+                          "name": "baño_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_03.jpg"
+                        },
+                        {
+                          "name": "baño_03.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Ba%C3%B1o%20en%20la%20cascada%20o%20en%20el%20r%C3%ADo%20con%20elefantes/ba%C3%B1o_03.png"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "004_Pueblo Indigena Karen",
                       "children": [],
                       "files": [
                         {
                           "name": "006_KarenVillage.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage.jpg"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage.jpg"
                         },
                         {
                           "name": "006_KarenVillage0.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage0.png"
-                        },
-                        {
-                          "name": "006_KarenVillage1.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage1.jpg"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage0.png"
                         },
                         {
                           "name": "006_KarenVillage1.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage1.png"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage1.png"
                         },
                         {
                           "name": "006_KarenVillage2.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage2.jpg"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage2.jpg"
                         },
                         {
                           "name": "006_KarenVillage2.png",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage2.png"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage2.png"
                         },
                         {
                           "name": "006_KarenVillage3.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage3.jpg"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage3.jpg"
                         },
                         {
                           "name": "006_KarenVillage4.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage4.jpg"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage4.jpg"
                         },
                         {
                           "name": "006_KarenVillage5.jpg",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/003_Karen/006_KarenVillage5.jpg"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/004_Pueblo%20Indigena%20Karen/006_KarenVillage5.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "005_Tribu Pga k’nyau",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "Tribu_01.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/005_Tribu%20Pga%20k%E2%80%99nyau/Tribu_01.jpg"
+                        },
+                        {
+                          "name": "Tribu_01.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/005_Tribu%20Pga%20k%E2%80%99nyau/Tribu_01.mp4"
+                        },
+                        {
+                          "name": "Tribu_02.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/005_Tribu%20Pga%20k%E2%80%99nyau/Tribu_02.jpg"
+                        },
+                        {
+                          "name": "Tribu_03.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/005_Tribu%20Pga%20k%E2%80%99nyau/Tribu_03.jpg"
+                        },
+                        {
+                          "name": "Tribu_04.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/005_Tribu%20Pga%20k%E2%80%99nyau/Tribu_04.jpg"
+                        },
+                        {
+                          "name": "Tribu_05.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/006_Chai%20Lai%20Orchid/005_Tribu%20Pga%20k%E2%80%99nyau/Tribu_05.jpg"
                         }
                       ]
                     },
@@ -17383,6 +17435,14 @@
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_03.png"
                     },
                     {
+                      "name": "Koh_Samui_04.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_04.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_04.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_04.png"
+                    },
+                    {
                       "name": "Koh_Samui_2.jpg",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/011_Koh%20Samui/Koh_Samui_2.jpg"
                     },
@@ -17412,6 +17472,34 @@
                     {
                       "name": "Koh_Samui_01.png",
                       "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_01.png"
+                    },
+                    {
+                      "name": "Koh_Samui_02.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_02.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_02.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_02.png"
+                    },
+                    {
+                      "name": "Koh_Samui_03.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_03.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_03.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_03.png"
+                    },
+                    {
+                      "name": "Koh_Samui_04.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_04.jpg"
+                    },
+                    {
+                      "name": "Koh_Samui_04.png",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_04.png"
+                    },
+                    {
+                      "name": "Koh_Samui_05.jpg",
+                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Tailandia/Tailandia%20aut%C3%A9ntica/012_Playa%20de%20Koh%20Samui/Koh_Samui_05.jpg"
                     }
                   ],
                   "pinPos": {
