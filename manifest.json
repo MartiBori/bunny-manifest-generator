@@ -15608,40 +15608,30 @@
           "name": "Sri Lanka",
           "children": [
             {
-              "name": "Sri Lanka",
+              "name": "Sri lanka",
               "children": [
                 {
                   "name": "001_Llegada a Colombo",
                   "children": [
                     {
-                      "name": "Llegada",
+                      "name": "AvioLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/001_Llegada%20a%20Colombo/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/001_Llegada%20a%20Colombo/AvioLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "AvioSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/001_Llegada%20a%20Colombo/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/001_Llegada%20a%20Colombo/AvioSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
                   "files": [],
@@ -15657,42 +15647,64 @@
                     {
                       "name": "001_Project Pinnawela",
                       "children": [],
-                      "files": [],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      "files": [
+                        {
+                          "name": "002_ProjectPinnawela.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela.mp4"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela1.jpg"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela1.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela1.png"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela2.jpg"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela2.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela2.png"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela3.jpg"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela3.png",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela3.png"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela4.jpg"
+                        },
+                        {
+                          "name": "002_ProjectPinnawela5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/001_Project%20Pinnawela/002_ProjectPinnawela5.jpg"
+                        }
+                      ]
                     },
                     {
-                      "name": "Llegada",
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/002_Colombo%20a%20Dambulla/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/CocheLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "CocheSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/002_Colombo%20a%20Dambulla/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/002_Colombo%20a%20Dambulla/CocheSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
                   "files": [],
@@ -15710,68 +15722,59 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/003_Dambulla/001_Polonnaruwa/KK.txt"
+                          "name": "003_Polonnaruwa.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/001_Polonnaruwa/003_Polonnaruwa.mp4"
+                        },
+                        {
+                          "name": "003_Polonnaruwa1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/001_Polonnaruwa/003_Polonnaruwa1.jpg"
+                        },
+                        {
+                          "name": "003_Polonnaruwa2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/001_Polonnaruwa/003_Polonnaruwa2.jpg"
+                        },
+                        {
+                          "name": "003_Polonnaruwa3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/001_Polonnaruwa/003_Polonnaruwa3.jpg"
+                        },
+                        {
+                          "name": "003_Polonnaruwa4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/001_Polonnaruwa/003_Polonnaruwa4.jpg"
+                        },
+                        {
+                          "name": "003_Polonnaruwa5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/001_Polonnaruwa/003_Polonnaruwa5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
                       "name": "002_Safari Dambulla",
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/003_Dambulla/002_Safari%20Dambulla/KK.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "Llegada",
-                      "children": [],
-                      "files": [
+                          "name": "003_SafariDambulla1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/002_Safari%20Dambulla/003_SafariDambulla1.jpg"
+                        },
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/003_Dambulla/Llegada/KK.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "Salida",
-                      "children": [],
-                      "files": [
+                          "name": "003_SafariDambulla2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/002_Safari%20Dambulla/003_SafariDambulla2.jpg"
+                        },
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/003_Dambulla/Salida/KK.txt"
+                          "name": "003_SafariDambulla3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/002_Safari%20Dambulla/003_SafariDambulla3.jpg"
+                        },
+                        {
+                          "name": "003_SafariDambulla4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/002_Safari%20Dambulla/003_SafariDambulla4.jpg"
+                        },
+                        {
+                          "name": "003_SafariDambulla5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/003_Dambulla/002_Safari%20Dambulla/003_SafariDambulla5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/003_Dambulla/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -15786,83 +15789,113 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/KK.txt"
+                          "name": "004_SigiriyaRock.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/004_SigiriyaRock.mp4"
+                        },
+                        {
+                          "name": "004_SigiriyaRock1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/004_SigiriyaRock1.jpg"
+                        },
+                        {
+                          "name": "004_SigiriyaRock2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/004_SigiriyaRock2.jpg"
+                        },
+                        {
+                          "name": "004_SigiriyaRock3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/004_SigiriyaRock3.jpg"
+                        },
+                        {
+                          "name": "004_SigiriyaRock4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/004_SigiriyaRock4.jpg"
+                        },
+                        {
+                          "name": "004_SigiriyaRock5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/001_Sigiriya%20Rock/004_SigiriyaRock5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
                       "name": "002_Kandy",
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/004_Dambulla%20a%20Kandy/002_Kandy/KK.txt"
+                          "name": "004_Kandy.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/002_Kandy/004_Kandy.mp4"
+                        },
+                        {
+                          "name": "004_Kandy1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/002_Kandy/004_Kandy1.jpg"
+                        },
+                        {
+                          "name": "004_Kandy2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/002_Kandy/004_Kandy2.jpg"
+                        },
+                        {
+                          "name": "004_Kandy3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/002_Kandy/004_Kandy3.jpg"
+                        },
+                        {
+                          "name": "004_Kandy4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/002_Kandy/004_Kandy4.jpg"
+                        },
+                        {
+                          "name": "004_Kandy5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/002_Kandy/004_Kandy5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "003_Templo del Diente",
+                      "name": "003_Templo Diente",
+                      "children": [],
+                      "files": [
+                        {
+                          "name": "004_TemploDiente.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/003_Templo%20Diente/004_TemploDiente.mp4"
+                        },
+                        {
+                          "name": "004_TemploDiente1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/003_Templo%20Diente/004_TemploDiente1.jpg"
+                        },
+                        {
+                          "name": "004_TemploDiente2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/003_Templo%20Diente/004_TemploDiente2.jpg"
+                        },
+                        {
+                          "name": "004_TemploDiente3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/003_Templo%20Diente/004_TemploDiente3.jpg"
+                        },
+                        {
+                          "name": "004_TemploDiente4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/003_Templo%20Diente/004_TemploDiente4.jpg"
+                        },
+                        {
+                          "name": "004_TemploDiente5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/003_Templo%20Diente/004_TemploDiente5.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/004_Dambulla%20a%20Kandy/003_Templo%20del%20Diente/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/CocheLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Llegada",
+                      "name": "CocheSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/004_Dambulla%20a%20Kandy/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/004_Dambulla%20a%20Kandy/CocheSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "Salida",
-                      "children": [],
-                      "files": [
-                        {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/004_Dambulla%20a%20Kandy/Salida/KK.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/004_Dambulla%20a%20Kandy/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -15877,68 +15910,67 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/005_Kandy%20a%20Nuwara%20Eliya/001_Nuwara%20Eliya/KK.txt"
+                          "name": "005_NuwaraEliya.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/001_Nuwara%20Eliya/005_NuwaraEliya.mp4"
+                        },
+                        {
+                          "name": "005_NuwaraEliya2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/001_Nuwara%20Eliya/005_NuwaraEliya2.jpg"
+                        },
+                        {
+                          "name": "005_NuwaraEliya3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/001_Nuwara%20Eliya/005_NuwaraEliya3.jpg"
+                        },
+                        {
+                          "name": "005_NuwaraEliya4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/001_Nuwara%20Eliya/005_NuwaraEliya4.jpg"
+                        },
+                        {
+                          "name": "005_NuwaraEliya5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/001_Nuwara%20Eliya/005_NuwaraEliya5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
                       "name": "002_Tren Azul",
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/005_Kandy%20a%20Nuwara%20Eliya/002_Tren%20Azul/KK.txt"
+                          "name": "005_TrenAzul.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/002_Tren%20Azul/005_TrenAzul.mp4"
+                        },
+                        {
+                          "name": "005_TrenAzul1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/002_Tren%20Azul/005_TrenAzul1.jpg"
+                        },
+                        {
+                          "name": "005_TrenAzul2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/002_Tren%20Azul/005_TrenAzul2.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Llegada",
+                      "name": "TrenLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/005_Kandy%20a%20Nuwara%20Eliya/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/TrenLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "TrenSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/005_Kandy%20a%20Nuwara%20Eliya/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/005_Kandy%20a%20Nuwara%20Eliya/TrenSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/005_Kandy%20a%20Nuwara%20Eliya/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -15953,53 +15985,21 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/006_Nuwara%20Eliya/001_Ella/KK.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "Llegada",
-                      "children": [],
-                      "files": [
+                          "name": "006_Ella.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/006_Nuwara%20Eliya/001_Ella/006_Ella.mp4"
+                        },
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/006_Nuwara%20Eliya/Llegada/KK.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "Salida",
-                      "children": [],
-                      "files": [
+                          "name": "006_Ella1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/006_Nuwara%20Eliya/001_Ella/006_Ella1.jpg"
+                        },
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/006_Nuwara%20Eliya/Salida/KK.txt"
+                          "name": "006_Ella2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/006_Nuwara%20Eliya/001_Ella/006_Ella2.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/006_Nuwara%20Eliya/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16014,53 +16014,33 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/001_Yala/KK.txt"
+                          "name": "007_Yala.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/001_Yala/007_Yala.mp4"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Llegada",
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/CocheLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "CocheSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/CocheSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/007_Nuwara%20Eliya%20a%20Parque%20Yala/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16075,53 +16055,53 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/008_Parque%20Yala%20a%20Galle/001_Galle/KK.txt"
+                          "name": "008_Galle.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/001_Galle/008_Galle.mp4"
+                        },
+                        {
+                          "name": "008_Galle1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/001_Galle/008_Galle1.jpg"
+                        },
+                        {
+                          "name": "008_Galle2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/001_Galle/008_Galle2.jpg"
+                        },
+                        {
+                          "name": "008_Galle3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/001_Galle/008_Galle3.jpg"
+                        },
+                        {
+                          "name": "008_Galle4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/001_Galle/008_Galle4.jpg"
+                        },
+                        {
+                          "name": "008_Galle5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/001_Galle/008_Galle5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Llegada",
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/008_Parque%20Yala%20a%20Galle/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/CocheLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "CocheSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/008_Parque%20Yala%20a%20Galle/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/008_Parque%20Yala%20a%20Galle/CocheSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/008_Parque%20Yala%20a%20Galle/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16136,83 +16116,105 @@
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/009_Galle%20a%20Negombo/001_Colombo/KK.txt"
+                          "name": "009_Colombo.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/001_Colombo/009_Colombo.mp4"
+                        },
+                        {
+                          "name": "009_Colombo1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/001_Colombo/009_Colombo1.jpg"
+                        },
+                        {
+                          "name": "009_Colombo2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/001_Colombo/009_Colombo2.jpg"
+                        },
+                        {
+                          "name": "009_Colombo3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/001_Colombo/009_Colombo3.jpg"
+                        },
+                        {
+                          "name": "009_Colombo4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/001_Colombo/009_Colombo4.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
                       "name": "002_Torre Lotus",
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/009_Galle%20a%20Negombo/002_Torre%20Lotus/KK.txt"
+                          "name": "009_TorreLotus.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/002_Torre%20Lotus/009_TorreLotus.mp4"
+                        },
+                        {
+                          "name": "009_TorreLotus1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/002_Torre%20Lotus/009_TorreLotus1.jpg"
+                        },
+                        {
+                          "name": "009_TorreLotus2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/002_Torre%20Lotus/009_TorreLotus2.jpg"
+                        },
+                        {
+                          "name": "009_TorreLotus3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/002_Torre%20Lotus/009_TorreLotus3.jpg"
+                        },
+                        {
+                          "name": "009_TorreLotus4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/002_Torre%20Lotus/009_TorreLotus4.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
                       "name": "003_Ministry Crab",
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/KK.txt"
+                          "name": "009_MinistryCrab.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/009_MinistryCrab.mp4"
+                        },
+                        {
+                          "name": "009_MinistryCrab1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/009_MinistryCrab1.jpg"
+                        },
+                        {
+                          "name": "009_MinistryCrab2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/009_MinistryCrab2.jpg"
+                        },
+                        {
+                          "name": "009_MinistryCrab3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/009_MinistryCrab3.jpg"
+                        },
+                        {
+                          "name": "009_MinistryCrab4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/009_MinistryCrab4.jpg"
+                        },
+                        {
+                          "name": "009_MinistryCrab5.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/003_Ministry%20Crab/009_MinistryCrab5.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Llegada",
+                      "name": "CocheLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/009_Galle%20a%20Negombo/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/CocheLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "CocheSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/009_Galle%20a%20Negombo/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/009_Galle%20a%20Negombo/CocheSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/009_Galle%20a%20Negombo/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16223,42 +16225,33 @@
                   "name": "010_Negombo",
                   "children": [
                     {
-                      "name": "Llegada",
+                      "name": "001_Negombo",
                       "children": [],
                       "files": [
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/010_Negombo/Llegada/KK.txt"
-                        }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
-                    },
-                    {
-                      "name": "Salida",
-                      "children": [],
-                      "files": [
+                          "name": "010_Negombo.mp4",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/010_Negombo/001_Negombo/010_Negombo.mp4"
+                        },
                         {
-                          "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/010_Negombo/Salida/KK.txt"
+                          "name": "010_Negombo1.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/010_Negombo/001_Negombo/010_Negombo1.jpg"
+                        },
+                        {
+                          "name": "010_Negombo2.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/010_Negombo/001_Negombo/010_Negombo2.jpg"
+                        },
+                        {
+                          "name": "010_Negombo3.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/010_Negombo/001_Negombo/010_Negombo3.jpg"
+                        },
+                        {
+                          "name": "010_Negombo4.jpg",
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/010_Negombo/001_Negombo/010_Negombo4.jpg"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/010_Negombo/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,
@@ -16269,42 +16262,27 @@
                   "name": "011_Regreso a Barcelona",
                   "children": [
                     {
-                      "name": "Llegada",
+                      "name": "AvioLLegada",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/011_Regreso%20a%20Barcelona/Llegada/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/011_Regreso%20a%20Barcelona/AvioLLegada/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     },
                     {
-                      "name": "Salida",
+                      "name": "AvioSalida",
                       "children": [],
                       "files": [
                         {
                           "name": "KK.txt",
-                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/011_Regreso%20a%20Barcelona/Salida/KK.txt"
+                          "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20lanka/011_Regreso%20a%20Barcelona/AvioSalida/KK.txt"
                         }
-                      ],
-                      "pinPos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      }
+                      ]
                     }
                   ],
-                  "files": [
-                    {
-                      "name": "KK.txt",
-                      "url": "https://foto360.b-cdn.net/Vila_Viatges/Asia/Sri%20Lanka/Sri%20Lanka/011_Regreso%20a%20Barcelona/KK.txt"
-                    }
-                  ],
+                  "files": [],
                   "pinPos": {
                     "x": 0,
                     "y": 0,

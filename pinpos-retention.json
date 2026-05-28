@@ -1,3 +1,434 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/001_Llegada a Colombo/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/001_Llegada a Colombo/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/002_Colombo a Dambulla/001_Project Pinnawela",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/002_Colombo a Dambulla/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/002_Colombo a Dambulla/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/003_Dambulla/001_Polonnaruwa",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/003_Dambulla/002_Safari Dambulla",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/003_Dambulla/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/003_Dambulla/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/004_Dambulla a Kandy/001_Sigiriya Rock",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/004_Dambulla a Kandy/002_Kandy",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/004_Dambulla a Kandy/003_Templo del Diente",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/004_Dambulla a Kandy/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/004_Dambulla a Kandy/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/005_Kandy a Nuwara Eliya/001_Nuwara Eliya",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/005_Kandy a Nuwara Eliya/002_Tren Azul",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/005_Kandy a Nuwara Eliya/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/005_Kandy a Nuwara Eliya/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/006_Nuwara Eliya/001_Ella",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/006_Nuwara Eliya/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/006_Nuwara Eliya/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/007_Nuwara Eliya a Parque Yala/001_Yala",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/007_Nuwara Eliya a Parque Yala/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/007_Nuwara Eliya a Parque Yala/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/008_Parque Yala a Galle/001_Galle",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/008_Parque Yala a Galle/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/008_Parque Yala a Galle/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/009_Galle a Negombo/001_Colombo",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/009_Galle a Negombo/002_Torre Lotus",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/009_Galle a Negombo/003_Ministry Crab",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/009_Galle a Negombo/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/009_Galle a Negombo/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/010_Negombo/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/010_Negombo/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/011_Regreso a Barcelona/Llegada",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    },
+    {
+      "path": "Asia/Sri Lanka/Sri Lanka/011_Regreso a Barcelona/Salida",
+      "pinPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "files": [
+        "kk.txt"
+      ],
+      "remainingAutoRefreshes": 2
+    }
+  ]
 }
